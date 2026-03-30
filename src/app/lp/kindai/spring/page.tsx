@@ -169,6 +169,7 @@ export default function SpringLPPage() {
             {/* 右側: スマホスクショ + 浮かぶ結果カード */}
             <div className="md:w-1/2 flex justify-center relative">
               <div className="absolute w-72 h-72 md:w-96 md:h-96 bg-primary/5 rounded-full -top-8 -right-8" />
+              <div className="absolute w-40 h-40 bg-accent/5 rounded-full bottom-4 -left-6" />
 
               <div className="relative z-10">
                 {/* スマホフレーム — 診断結果スクショ */}
