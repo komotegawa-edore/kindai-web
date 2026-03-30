@@ -7,6 +7,11 @@ export const metadata: Metadata = {
   description:
     "近畿大学の英語入試を徹底分析。本番と同じ形式の長文読解を全25回分収録。全問解説・全文和訳付き。無料Web模試も。",
   alternates: { canonical: "https://drilleo.edore-edu.com/kindai" },
+  openGraph: {
+    title: "近大英語 長文読解ドリル｜ドリレオ",
+    description:
+      "近畿大学の英語入試を徹底分析。本番と同じ形式の長文読解を全25回分収録。全問解説・全文和訳付き。無料Web模試も。",
+  },
 };
 
 const faqItems = [
@@ -53,11 +58,22 @@ const jsonLd = [
       "近畿大学の英語入試を徹底分析。本番と同じ形式の長文読解を全25回分収録。",
     brand: { "@type": "Brand", name: "ドリレオ" },
     image: "https://drilleo.edore-edu.com/images/book-preview/cover-front.png",
-    offers: {
-      "@type": "Offer",
-      availability: "https://schema.org/InStock",
-      priceCurrency: "JPY",
-    },
+    offers: [
+      {
+        "@type": "Offer",
+        name: "ペーパーバック版",
+        price: 1580,
+        priceCurrency: "JPY",
+        availability: "https://schema.org/InStock",
+      },
+      {
+        "@type": "Offer",
+        name: "Kindle版",
+        price: 780,
+        priceCurrency: "JPY",
+        availability: "https://schema.org/InStock",
+      },
+    ],
   },
   {
     "@context": "https://schema.org",

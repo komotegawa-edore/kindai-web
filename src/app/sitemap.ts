@@ -5,19 +5,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: "2026-03-30",
       changeFrequency: "monthly",
       priority: 1.0,
     },
     {
       url: `${baseUrl}/kindai`,
-      lastModified: new Date(),
+      lastModified: "2026-03-30",
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: `${baseUrl}/kindai/leaderboard`,
-      lastModified: new Date(),
+      lastModified: "2026-03-30",
       changeFrequency: "daily",
       priority: 0.6,
     },

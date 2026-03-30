@@ -7,6 +7,11 @@ export const metadata: Metadata = {
   description:
     "大学別に特化した問題集と模試で合格をつかみ取ろう。近畿大学の英語入試から対応中。",
   alternates: { canonical: "https://drilleo.edore-edu.com" },
+  openGraph: {
+    title: "ドリレオ — 志望校を狙い撃ち｜大学別特化型 問題集 & 模試",
+    description:
+      "大学別に特化した問題集と模試で合格をつかみ取ろう。近畿大学の英語入試から対応中。",
+  },
 };
 
 const faqItems = [
