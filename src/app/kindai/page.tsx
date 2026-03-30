@@ -577,6 +577,10 @@ export default function Home() {
       {/* フッター */}
       <footer className="bg-primary-dark text-white/60 py-8">
         <div className="max-w-5xl mx-auto px-6 text-center text-sm">
+          <div className="flex justify-center gap-6 mb-4">
+            <Link href="/terms" className="hover:text-white transition">利用規約</Link>
+            <Link href="/privacy" className="hover:text-white transition">プライバシーポリシー</Link>
+          </div>
           <p>&copy; 2026 ドリレオ (Drilleo). All rights reserved.</p>
         </div>
       </footer>

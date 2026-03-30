@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import MobileNav from "@/components/MobileNav";
 
 export const metadata: Metadata = {
   title: "ドリレオ — 志望校を狙い撃ち｜大学別特化型 問題集 & 模試",
@@ -96,6 +97,7 @@ export default function DrilleoTopPage() {
             </svg>
             <span className="font-bold text-primary-dark text-lg">ドリレオ</span>
           </Link>
+          <MobileNav />
         </div>
       </header>
 
@@ -540,6 +542,10 @@ export default function DrilleoTopPage() {
       {/* フッター */}
       <footer className="bg-primary-dark text-white/60 py-8">
         <div className="max-w-5xl mx-auto px-6 text-center text-sm">
+          <div className="flex justify-center gap-6 mb-4">
+            <Link href="/terms" className="hover:text-white transition">利用規約</Link>
+            <Link href="/privacy" className="hover:text-white transition">プライバシーポリシー</Link>
+          </div>
           <p>&copy; 2026 ドリレオ (Drilleo). All rights reserved.</p>
         </div>
       </footer>
