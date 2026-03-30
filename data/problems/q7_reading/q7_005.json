@@ -1,0 +1,143 @@
+{
+  "id": "kindai_english_q7_reading_005",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "Ocean plastic pollution has emerged as one of the most pressing environmental challenges of our time. Every year, millions of tons of plastic waste enter our oceans, creating massive garbage patches and threatening marine ecosystems worldwide. Scientists estimate that by 2050, there could be more plastic than fish in the ocean by weight if current trends continue. This alarming prediction has sparked global efforts to understand and address this growing crisis.\n\nThe sources of ocean plastic are diverse and widespread. Land-based activities account for approximately 80% of marine plastic pollution, with the remaining 20% coming from ocean-based sources such as fishing vessels and cargo ships. Plastic bottles, bags, food packaging, and microplastics from synthetic clothing are among the most common items found in ocean waters. Rivers serve as major pathways, carrying plastic waste from inland areas to the sea. Poor waste management systems in developing countries contribute significantly to this problem, but developed nations are not exempt from responsibility.\n\nThe environmental impact of ocean plastic is devastating and far-reaching. Marine animals often mistake plastic debris for food, leading to internal injuries, malnutrition, and death. Sea turtles confuse plastic bags with jellyfish, while seabirds feed plastic fragments to their chicks. Microplastics, tiny plastic particles less than 5mm in size, are particularly concerning as they can enter the food chain at multiple levels. These particles have been found in fish, shellfish, and even table salt, raising questions about potential human health impacts.\n\nEfforts to combat ocean plastic pollution are gaining momentum worldwide. The Great Pacific Garbage Patch, a massive accumulation of plastic debris in the North Pacific, has become a symbol of the crisis and a focus for cleanup initiatives. Organizations like The Ocean Cleanup have developed innovative technologies to remove plastic from the ocean using wind and current-powered systems. However, experts emphasize that prevention is more important than cleanup, as removing plastic from the ocean is extremely difficult and expensive.\n\nGovernments and industries are implementing various strategies to reduce plastic waste. Many countries have banned single-use plastic bags, and some cities have prohibited plastic straws and utensils. The European Union has introduced legislation requiring member states to reduce single-use plastic consumption by specific targets. Meanwhile, companies are developing biodegradable alternatives and improving recycling technologies. __Consumer behavior change is also crucial, as individuals can make a significant difference through conscious choices about plastic use and disposal.__\n\nLooking toward the future, addressing ocean plastic pollution requires coordinated global action. International cooperation is essential, as ocean currents carry plastic debris across national boundaries. Education and awareness campaigns must continue to inform people about the consequences of plastic pollution and encourage sustainable practices. While the challenge is enormous, recent developments in policy, technology, and public awareness provide hope that meaningful progress can be achieved in protecting our oceans for future generations.",
+  "translation": "海洋プラスチック汚染は、私たちの時代で最も緊急を要する環境問題の一つとして浮上している。毎年何百万トンものプラスチック廃棄物が海洋に流入し、巨大なゴミの集積地を形成し、世界中の海洋生態系を脅かしている。科学者たちは、現在の傾向が続けば、2050年までに海洋中のプラスチックの重量が魚の重量を上回る可能性があると推定している。この憂慮すべき予測は、この拡大する危機を理解し、対処するための世界的な取り組みを促している。\n\n海洋プラスチックの発生源は多様で広範囲にわたっている。陸上活動が海洋プラスチック汚染の約80%を占め、残りの20%は漁船や貨物船などの海上発生源からのものである。ペットボトル、袋、食品包装、合成衣料から出るマイクロプラスチックなどが、海水中で最もよく見つかる物品の中に含まれる。川は主要な経路として機能し、内陸部からプラスチック廃棄物を海へ運んでいる。発展途上国の貧弱な廃棄物管理システムがこの問題に大きく寄与しているが、先進国も責任を免れるわけではない。\n\n海洋プラスチックの環境への影響は壊滅的で広範囲に及んでいる。海洋動物はしばしばプラスチックの破片を食べ物と間違え、内臓の損傷、栄養失調、死に至ることがある。ウミガメはビニール袋をクラゲと混同し、海鳥はプラスチックの破片を雛に与えてしまう。5mm未満の小さなプラスチック粒子であるマイクロプラスチックは、食物連鎖の複数のレベルで侵入する可能性があるため、特に懸念されている。これらの粒子は魚類、貝類、さらには食塩からも発見されており、人間の健康への潜在的影響について疑問を提起している。\n\n海洋プラスチック汚染と闘う取り組みは世界中で勢いを増している。北太平洋の巨大なプラスチック破片の集積地である太平洋ゴミベルトは、この危機の象徴となり、清掃活動の焦点となっている。オーシャンクリーンアップのような組織は、風と海流を利用したシステムを使って海洋からプラスチックを除去する革新的な技術を開発している。しかし、専門家たちは、海洋からプラスチックを除去することは極めて困難で高額であるため、清掃よりも予防が重要であることを強調している。\n\n政府と産業界はプラスチック廃棄物を削減するためのさまざまな戦略を実施している。多くの国が使い捨てプラスチック袋を禁止し、一部の都市ではプラスチックストローや食器を禁止している。欧州連合は、加盟国に使い捨てプラスチック消費を特定の目標値まで削減することを求める法律を導入した。一方、企業は生分解性の代替品を開発し、リサイクル技術を改善している。個人がプラスチックの使用と廃棄について意識的な選択をすることで大きな違いを生むことができるため、消費者の行動変化も重要である。\n\n将来を見据えると、海洋プラスチック汚染への対処には協調的な世界的行動が必要である。海流がプラスチック破片を国境を越えて運ぶため、国際協力が不可欠である。教育と啓発キャンペーンは、プラスチック汚染の結果について人々に情報を提供し、持続可能な実践を奨励するために継続されなければならない。この挑戦は巨大であるが、政策、技術、公共意識における最近の発展は、将来の世代のために海洋を保護することにおいて有意義な進歩を達成できるという希望を提供している。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Ocean plastic pollution is a recent problem that started in the 2000s.",
+        "B": "Scientists predict that plastic could outweigh fish in oceans by 2050.",
+        "C": "The majority of ocean plastic comes from fishing activities.",
+        "D": "Current efforts have successfully reduced plastic pollution levels."
+      },
+      "answer": "B",
+      "explanation": "第1段落に'Scientists estimate that by 2050, there could be more plastic than fish in the ocean by weight if current trends continue'とあり、科学者が2050年までに海洋中のプラスチックが魚を重量で上回る可能性があると予測していることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Ocean-based sources account for 80% of marine plastic pollution.",
+        "B": "Rivers carry plastic waste from inland areas to the ocean.",
+        "C": "Plastic bottles and bags are commonly found in ocean waters.",
+        "D": "Poor waste management in developing countries contributes to the problem."
+      },
+      "answer": "A",
+      "explanation": "第2段落に'Land-based activities account for approximately 80% of marine plastic pollution, with the remaining 20% coming from ocean-based sources'とあり、海上発生源は20%であって80%ではない。陸上活動が80%を占めている。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Marine animals sometimes mistake plastic debris for food.",
+        "B": "Microplastics are tiny particles less than 5mm in size.",
+        "C": "Microplastics have been proven to cause serious human health problems.",
+        "D": "Sea turtles confuse plastic bags with jellyfish."
+      },
+      "answer": "C",
+      "explanation": "第3段落では'raising questions about potential human health impacts'とあり、人間の健康への「潜在的な」影響について疑問を提起していると述べているが、深刻な健康問題が証明されているとは言っていない。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Cleanup efforts are more important than prevention measures.",
+        "B": "The Ocean Cleanup uses fossil fuel-powered systems for plastic removal.",
+        "C": "Removing plastic from oceans is relatively easy and cost-effective.",
+        "D": "The Great Pacific Garbage Patch has become a symbol of the plastic crisis."
+      },
+      "answer": "D",
+      "explanation": "第4段落に'The Great Pacific Garbage Patch, a massive accumulation of plastic debris in the North Pacific, has become a symbol of the crisis'とあり、太平洋ゴミベルトが危機の象徴になったことが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Many countries have implemented bans on single-use plastic items.",
+        "B": "The European Union has completely eliminated single-use plastics.",
+        "C": "Companies have stopped developing biodegradable alternatives.",
+        "D": "Consumer behavior has no impact on plastic pollution reduction."
+      },
+      "answer": "A",
+      "explanation": "第5段落に'Many countries have banned single-use plastic bags, and some cities have prohibited plastic straws and utensils'とあり、多くの国が使い捨てプラスチック製品を禁止していることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Companies should take full responsibility for plastic pollution solutions.",
+        "B": "Individual actions regarding plastic use can contribute to meaningful change.",
+        "C": "Consumer education is less important than government regulations.",
+        "D": "People should only focus on disposal methods, not usage patterns."
+      },
+      "answer": "B",
+      "explanation": "下線部'Consumer behavior change is also crucial, as individuals can make a significant difference through conscious choices about plastic use and disposal'では、個人がプラスチックの使用と廃棄について意識的な選択をすることで大きな違いを生むことができると述べており、個人の行動が意味のある変化に貢献できることを示している。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Ocean plastic pollution only affects marine animals, not human health.",
+        "B": "All plastic in oceans comes from activities on land rather than at sea.",
+        "C": "International cooperation is necessary because ocean currents cross borders.",
+        "D": "The Great Pacific Garbage Patch is located in the Atlantic Ocean.",
+        "E": "Microplastics are larger than 5mm and easily visible to the naked eye.",
+        "F": "Prevention is considered more important than cleanup efforts by experts.",
+        "G": "Developed countries bear no responsibility for ocean plastic pollution."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "Cは第6段落の'International cooperation is essential, as ocean currents carry plastic debris across national boundaries'から正しい。Fは第4段落の'experts emphasize that prevention is more important than cleanup'から正しい。他の選択肢は本文の内容と矛盾している。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "海洋プラスチック問題",
+    "環境問題",
+    "マイクロプラスチック",
+    "海洋汚染",
+    "持続可能性"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T09:50:56.424Z",
+  "vocabulary": [
+    {
+      "word": "debris",
+      "meaning": "破片、がれき"
+    },
+    {
+      "word": "biodegradable",
+      "meaning": "生分解性の"
+    }
+  ]
+}

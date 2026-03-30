@@ -1,0 +1,24 @@
+{
+  "id": "kindai_english_q3_grammar_002",
+  "university": "kindai",
+  "subject": "english",
+  "section": 3,
+  "section_name": "文法・語法",
+  "type": "grammar_cloze",
+  "grammar_point": "仮定法",
+  "difficulty": 2,
+  "question": "If I _____ enough money, I would travel around the world.",
+  "choices": {
+    "A": "have",
+    "B": "had",
+    "C": "have had",
+    "D": "would have"
+  },
+  "answer": "B",
+  "explanation": "主節にwould + 動詞の原形があるため、仮定法過去の文と判断できる。仮定法過去のif節では動詞の過去形を使うため、hadが正解。",
+  "tags": ["仮定法", "仮定法過去"],
+  "target_time_seconds": 25,
+  "is_ai_generated": false,
+  "is_reviewed": true,
+  "created_at": "2026-03-29T00:00:00Z"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "kindai_english_q7_reading_021",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "Traditional crafts represent centuries of human creativity and cultural heritage, yet many are facing extinction in our rapidly modernizing world. From Japanese pottery to Native American weaving, these art forms carry the wisdom and identity of entire communities. The challenge of preserving them has become increasingly urgent as master craftspeople age and fewer young people show interest in learning these time-honored skills.\n\nThe decline of traditional crafts can be attributed to several factors. Industrial mass production has made handmade items seem expensive and unnecessary to many consumers. Young people are often drawn to modern careers in technology and business rather than spending years learning complex manual skills. Additionally, the globalization of markets has reduced demand for locally made products, as cheaper alternatives flood the marketplace.\n\nHowever, some communities have found innovative ways to keep their traditions alive. In rural Japan, pottery masters have begun offering workshops to tourists, combining cultural education with economic sustainability. These programs not only generate income but also create awareness about the value of handmade crafts. Participants leave with a deeper appreciation for the skill and patience required to master these ancient techniques.\n\nGovernment support has also proven crucial in preservation efforts. Many countries now offer grants and subsidies to master craftspeople, helping them establish studios and train apprentices. Museums have expanded their roles beyond display, becoming active centers for craft education and demonstration. These institutions provide platforms where traditional knowledge can be shared with both scholars and the general public.\n\nThe digital age has unexpectedly become an ally in craft preservation. Social media platforms allow artisans to showcase their work to global audiences, attracting customers who value authenticity and craftsmanship. Online marketplaces have made it easier for craftspeople to sell their products directly to consumers, bypassing traditional retail channels. __This technological revolution has breathed new life into ancient traditions.__\n\nLooking ahead, the future of traditional crafts depends on finding the right balance between preservation and adaptation. While maintaining authentic techniques is important, craftspeople must also be willing to innovate and evolve with changing times. The most successful preservation efforts combine respect for tradition with creative approaches to education, marketing, and community engagement. Only through such comprehensive strategies can we ensure that these precious cultural treasures survive for future generations.",
+  "translation": "伝統工芸は何世紀にもわたる人間の創造性と文化遺産を表しているが、急速に近代化する世界において多くの伝統工芸が消滅の危機に直面している。日本の陶芸からアメリカ先住民の織物まで、これらの芸術形式は地域社会全体の知恵とアイデンティティを担っている。熟練した職人の高齢化と、こうした伝統的な技能を学ぼうとする若者の減少により、それらを保存する課題はますます緊急性を増している。\n\n伝統工芸の衰退はいくつかの要因に起因している。工業による大量生産により、手作り品は多くの消費者にとって高価で不要なものに見えるようになった。若者は長年かけて複雑な手工技能を学ぶよりも、テクノロジーやビジネスといった現代的なキャリアに魅力を感じることが多い。さらに、市場のグローバル化により、より安価な代替品が市場にあふれ、地元で作られた製品への需要が減少している。\n\nしかし、一部の地域では伝統を存続させる革新的な方法を見つけている。日本の農村部では、陶芸の名人が観光客向けのワークショップを開催し、文化教育と経済的持続可能性を組み合わせている。これらのプログラムは収入を生み出すだけでなく、手作り工芸品の価値についての認識も創出している。参加者は、これらの古代技術を習得するのに必要な技能と忍耐力に対するより深い理解を持って帰っていく。\n\n政府の支援も保存活動において重要であることが証明されている。多くの国が現在、熟練職人に助成金や補助金を提供し、工房の設立や弟子の訓練を支援している。博物館は展示を超えて役割を拡大し、工芸教育と実演の活発な拠点となっている。これらの機関は、伝統的な知識を学者と一般市民の両方と共有できるプラットフォームを提供している。\n\nデジタル時代は、予想外にも工芸保存の味方となっている。ソーシャルメディアプラットフォームにより、職人は自分の作品を世界中の観客に紹介でき、真正性と職人技を重視する顧客を引き付けている。オンライン市場により、職人は従来の小売チャネルを通さずに消費者に直接製品を販売することが容易になった。この技術革命は古代の伝統に新たな命を吹き込んでいる。\n\n将来を見据えると、伝統工芸の未来は保存と適応の適切なバランスを見つけることにかかっている。本物の技術を維持することは重要だが、職人もまた革新を厭わず、変化する時代とともに進化する意欲を持たなければならない。最も成功した保存活動は、伝統への敬意と教育、マーケティング、地域社会の関与への創造的アプローチを組み合わせている。このような包括的戦略を通じてのみ、これらの貴重な文化的宝物を将来の世代のために生き残らせることができる。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Traditional crafts have become more popular among young people in recent years.",
+        "B": "Many traditional crafts are in danger of disappearing due to lack of interest from younger generations.",
+        "C": "Modern technology has completely replaced the need for traditional handmade crafts.",
+        "D": "Traditional crafts are only found in developing countries where modernization is slow."
+      },
+      "answer": "B",
+      "explanation": "第1段落に'many are facing extinction in our rapidly modernizing world'および'The challenge of preserving them has become increasingly urgent as master craftspeople age and fewer young people show interest in learning these time-honored skills'とあり、伝統工芸が若い世代の関心不足により消滅の危機に直面していることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Mass production has made traditional handmade items appear expensive and unnecessary.",
+        "B": "Young people are more attracted to careers in technology rather than learning craft skills.",
+        "C": "Traditional crafts have completely disappeared from local markets worldwide.",
+        "D": "Globalization has reduced demand for locally made products due to cheaper alternatives."
+      },
+      "answer": "C",
+      "explanation": "第2段落では伝統工芸の衰退要因が述べられているが、'has reduced demand for locally made products'とあり、需要が減少したとは述べられているものの、「完全に消失した」とは言及されていない。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Some communities have found innovative ways to preserve their craft traditions.",
+        "B": "Japanese pottery masters offer workshops that combine education with economic benefits.",
+        "C": "Tourist workshops are only successful in urban areas with large populations.",
+        "D": "Workshop participants gain appreciation for the skill required in traditional crafts."
+      },
+      "answer": "C",
+      "explanation": "第3段落に'In rural Japan, pottery masters have begun offering workshops to tourists'とあり、ワークショップは「農村部」で行われていると明記されており、都市部に限定されるという記述はない。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Only private organizations provide funding for traditional craft preservation.",
+        "B": "Museums have reduced their involvement in craft education programs.",
+        "C": "Government grants are only available to established craftspeople with many years of experience.",
+        "D": "Museums now serve as active centers for craft education beyond just displaying items."
+      },
+      "answer": "D",
+      "explanation": "第4段落に'Museums have expanded their roles beyond display, becoming active centers for craft education and demonstration'とあり、博物館が展示を超えて工芸教育の活発な拠点となっていることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Digital technology has become an unexpected ally in preserving traditional crafts.",
+        "B": "Social media platforms have had a negative impact on traditional craft sales.",
+        "C": "Online marketplaces have made it harder for craftspeople to reach customers directly.",
+        "D": "Traditional crafts cannot be successfully marketed through modern technology."
+      },
+      "answer": "A",
+      "explanation": "第5段落の冒頭に'The digital age has unexpectedly become an ally in craft preservation'とあり、デジタル時代が予想外にも工芸保存の味方となったことが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Modern technology has completely replaced traditional manufacturing methods.",
+        "B": "Digital platforms have provided new opportunities for traditional craftspeople to thrive.",
+        "C": "Ancient traditions have been abandoned in favor of technological innovations.",
+        "D": "The internet has made it impossible for traditional crafts to compete in modern markets."
+      },
+      "answer": "B",
+      "explanation": "下線部の前文で、ソーシャルメディアやオンライン市場が職人に新たな機会を提供していることが述べられており、'This technological revolution has breathed new life into ancient traditions'は、技術革命が古代の伝統に新たな生命を吹き込んだという意味である。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Traditional crafts are only preserved in museums and are no longer practiced by living artisans.",
+        "B": "Government support is unnecessary for the preservation of traditional crafts.",
+        "C": "Social media has helped craftspeople reach global audiences and attract new customers.",
+        "D": "All young people today prefer modern careers and have no interest in traditional skills.",
+        "E": "Industrial mass production has completely eliminated the market for handmade items.",
+        "F": "Successful craft preservation requires balancing tradition with adaptation to modern times.",
+        "G": "Traditional crafts can only survive if they remain completely unchanged from their original forms."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "Cについては第5段落に'Social media platforms allow artisans to showcase their work to global audiences, attracting customers who value authenticity and craftsmanship'とある。Fについては第6段落に'the future of traditional crafts depends on finding the right balance between preservation and adaptation'とあり、伝統の保存と現代への適応のバランスが重要であることが述べられている。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "伝統工芸の継承",
+    "文化保存",
+    "デジタル技術",
+    "政府支援",
+    "グローバル化"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T10:06:12.522Z",
+  "vocabulary": [
+    {
+      "word": "subsidies",
+      "meaning": "補助金"
+    },
+    {
+      "word": "artisans",
+      "meaning": "職人、工芸家"
+    }
+  ]
+}

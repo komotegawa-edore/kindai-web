@@ -1,0 +1,143 @@
+{
+  "id": "kindai_english_q7_reading_007",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "    In today's interconnected world, multilingual societies have become increasingly common, presenting both opportunities and significant challenges. Countries like Switzerland, Canada, and Singapore have successfully managed linguistic diversity, while others struggle with language-related conflicts. The coexistence of multiple languages within a single nation requires careful planning and understanding of the complex social dynamics involved.\n\n    One of the primary challenges in multilingual societies is ensuring equal access to education and government services. When multiple official languages exist, governments must provide documents, websites, and public services in each language, which significantly increases administrative costs. Furthermore, citizens who speak minority languages often face barriers when accessing healthcare, legal assistance, or educational opportunities if these services are not available in their native tongue.\n\n    Economic implications of multilingualism also create substantial concerns for policymakers. Businesses operating in multilingual environments must invest heavily in translation services, multilingual staff training, and culturally appropriate marketing materials. This financial burden can be particularly challenging for small and medium-sized enterprises that lack the resources of larger corporations. Additionally, language barriers can limit job opportunities for individuals who are not fluent in the dominant language of their region.\n\n    Educational systems in multilingual societies face unique difficulties in curriculum development and teacher training. Schools must decide whether to offer instruction in multiple languages, which requires hiring qualified teachers for each language and developing appropriate educational materials. The question of which language should be used for teaching mathematics, science, and other technical subjects becomes particularly complex when students come from diverse linguistic backgrounds.\n\n    Despite these challenges, __multilingual societies can harness linguistic diversity as a valuable resource for economic growth and cultural enrichment__. Countries that effectively manage their linguistic diversity often develop strong translation and interpretation industries, attracting international businesses and organizations. Moreover, multilingual citizens possess cognitive advantages and cultural awareness that can benefit their communities in an increasingly globalized world.\n\n    The key to success in multilingual societies lies in developing inclusive language policies that respect linguistic rights while promoting social cohesion. This requires ongoing dialogue between different language communities, investment in language education programs, and the creation of institutions that can bridge linguistic divides. When properly managed, linguistic diversity becomes a source of strength rather than division, contributing to a richer and more dynamic society.",
+  "translation": "    今日の相互につながった世界において、多言語社会はますます一般的になり、機会と重要な課題の両方をもたらしている。スイス、カナダ、シンガポールなどの国々は言語的多様性をうまく管理してきた一方で、言語に関連する対立に苦しんでいる国もある。一つの国家内での複数言語の共存には、関与する複雑な社会的力学の慎重な計画と理解が必要である。\n\n    多言語社会における主要な課題の一つは、教育と行政サービスへの平等なアクセスを確保することである。複数の公用語が存在する場合、政府は文書、ウェブサイト、公共サービスを各言語で提供しなければならず、これにより管理コストが大幅に増加する。さらに、少数言語を話す市民は、医療、法的支援、教育機会にアクセスする際に、これらのサービスが母語で利用できない場合、障壁に直面することが多い。\n\n    多言語主義の経済的影響も、政策立案者にとって重大な懸念を生み出している。多言語環境で事業を行う企業は、翻訳サービス、多言語スタッフの研修、文化的に適切なマーケティング資料に多額の投資をしなければならない。この財政的負担は、大企業のような資源を持たない中小企業にとって特に困難である。さらに、言語の壁は、地域の支配的言語に流暢でない個人の就職機会を制限する可能性がある。\n\n    多言語社会の教育システムは、カリキュラム開発と教員研修において独特の困難に直面している。学校は複数の言語で指導を提供するかどうかを決定しなければならず、これには各言語の有資格教員を雇用し、適切な教育資料を開発することが必要である。学生が多様な言語的背景を持つ場合、数学、科学、その他の技術系科目をどの言語で教えるかという問題は特に複雑になる。\n\n    これらの課題にもかかわらず、多言語社会は言語的多様性を経済成長と文化的豊かさのための貴重な資源として活用することができる。言語的多様性を効果的に管理する国々は、しばしば強力な翻訳・通訳産業を発展させ、国際的な企業や組織を引き付けている。さらに、多言語を話す市民は、ますますグローバル化する世界において、コミュニティに利益をもたらすことができる認知的優位性と文化的意識を持っている。\n\n    多言語社会における成功の鍵は、社会結束を促進しながら言語権を尊重する包括的言語政策を策定することにある。これには、異なる言語コミュニティ間の継続的な対話、言語教育プログラムへの投資、言語的分裂を橋渡しできる機関の創設が必要である。適切に管理されれば、言語的多様性は分裂ではなく強さの源となり、より豊かで活力のある社会に貢献する。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "All countries with linguistic diversity have experienced serious conflicts between language groups.",
+        "B": "Managing multiple languages within one nation requires understanding of complex social relationships.",
+        "C": "Switzerland, Canada, and Singapore are the only successful multilingual societies in the world.",
+        "D": "Multilingual societies are a recent phenomenon that appeared only in the 21st century."
+      },
+      "answer": "B",
+      "explanation": "第1段落に'The coexistence of multiple languages within a single nation requires careful planning and understanding of the complex social dynamics involved'とあり、一つの国家内での複数言語の共存には複雑な社会的力学の理解が必要であると述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Private companies are required to provide all services in multiple languages by law.",
+        "B": "Citizens speaking minority languages may face barriers when accessing healthcare services.",
+        "C": "Governments must provide public documents in each official language.",
+        "D": "Administrative costs increase significantly when multiple official languages exist."
+      },
+      "answer": "A",
+      "explanation": "第2段落では政府サービスについて言及されているが、民間企業が法律により全てのサービスを多言語で提供することを義務付けられているという記述はない。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Large corporations have more resources to handle multilingual business operations than smaller companies.",
+        "B": "Language barriers can restrict employment opportunities for people not fluent in the dominant language.",
+        "C": "Small businesses receive government subsidies to cover translation and multilingual training costs.",
+        "D": "Companies in multilingual environments must invest in translation services and staff training."
+      },
+      "answer": "C",
+      "explanation": "第3段落では中小企業が多言語対応の財政的負担に苦しんでいることは述べられているが、政府がこれらの費用を補助するという記述はない。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "All technical subjects should be taught only in the dominant language for clarity.",
+        "B": "Teacher training becomes less important in multilingual educational environments.",
+        "C": "Schools must decide whether to offer classes in multiple languages.",
+        "D": "Educational materials are easier to develop when students have diverse linguistic backgrounds."
+      },
+      "answer": "C",
+      "explanation": "第4段落に'Schools must decide whether to offer instruction in multiple languages'とあり、学校は複数の言語で指導を提供するかどうかを決定しなければならないと述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Countries that manage linguistic diversity well often attract international businesses.",
+        "B": "Multilingual citizens have disadvantages compared to monolingual speakers in global markets.",
+        "C": "Translation industries only develop in countries with serious language conflicts.",
+        "D": "Cultural enrichment is impossible to achieve in multilingual societies."
+      },
+      "answer": "A",
+      "explanation": "第5段落に'Countries that effectively manage their linguistic diversity often develop strong translation and interpretation industries, attracting international businesses and organizations'とあり、言語的多様性を効果的に管理する国々は国際的な企業を引き付けると述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Linguistic diversity should be eliminated to focus only on economic development.",
+        "B": "Multiple languages can become a strength for society rather than a source of problems.",
+        "C": "Economic growth is only possible when everyone speaks the same language.",
+        "D": "Cultural enrichment occurs naturally without any special effort or planning."
+      },
+      "answer": "B",
+      "explanation": "下線部は多言語社会が言語的多様性を経済成長と文化的豊かさのための貴重な資源として活用できることを述べており、多様性が問題の源ではなく社会の強みになり得ることを示している。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "All multilingual societies have completely solved their language-related problems.",
+        "B": "Small businesses face greater financial challenges than large corporations in multilingual markets.",
+        "C": "Successful multilingual societies require inclusive language policies and ongoing dialogue.",
+        "D": "Educational systems in multilingual societies have no special difficulties to overcome.",
+        "E": "Language barriers never affect employment opportunities in multilingual societies.",
+        "F": "Citizens speaking minority languages may have difficulty accessing government services.",
+        "G": "Multilingual environments always create economic disadvantages for all businesses."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "選択肢Cは第6段落の'developing inclusive language policies that respect linguistic rights while promoting social cohesion'と'ongoing dialogue between different language communities'に対応している。選択肢Fは第2段落の'citizens who speak minority languages often face barriers when accessing healthcare, legal assistance, or educational opportunities'に対応している。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "多言語社会の課題",
+    "言語政策",
+    "教育システム",
+    "経済的影響",
+    "社会統合"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T09:52:39.630Z",
+  "vocabulary": [
+    {
+      "word": "harness",
+      "meaning": "活用する、利用する"
+    },
+    {
+      "word": "cohesion",
+      "meaning": "結束、団結"
+    }
+  ]
+}

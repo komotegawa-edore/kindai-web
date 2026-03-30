@@ -1,0 +1,24 @@
+{
+  "id": "kindai_english_q4_synonym_001",
+  "university": "kindai",
+  "subject": "english",
+  "section": 4,
+  "section_name": "同意文の選択",
+  "type": "synonym_select",
+  "difficulty": 2,
+  "question": "We need to **address** this problem as soon as possible.",
+  "instruction": "下線部と最も近い意味を持つものを選びなさい。",
+  "choices": {
+    "A": "deal with",
+    "B": "write down",
+    "C": "speak to",
+    "D": "point out"
+  },
+  "answer": "A",
+  "explanation": "addressには「住所」「演説する」以外に「（問題に）取り組む」という意味がある。deal with（〜に対処する）が最も近い。",
+  "tags": ["多義語", "動詞", "address"],
+  "target_time_seconds": 30,
+  "is_ai_generated": false,
+  "is_reviewed": true,
+  "created_at": "2026-03-29T00:00:00Z"
+}

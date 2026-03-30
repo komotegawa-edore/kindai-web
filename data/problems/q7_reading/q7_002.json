@@ -1,0 +1,143 @@
+{
+  "id": "kindai_english_q7_reading_002",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "Space exploration has entered a new era of unprecedented possibilities and technological advancement. Today's missions extend far beyond the Moon landings of the 1960s, as scientists and engineers develop sophisticated spacecraft capable of reaching the outer planets and beyond. Private companies now work alongside government agencies, creating a competitive environment that drives innovation and reduces costs. This collaboration has accelerated the pace of discovery and opened up new opportunities for both scientific research and commercial ventures in space.\n\nThe development of reusable rocket technology has revolutionized how we approach space missions. Companies like SpaceX have demonstrated that rockets can be landed and used multiple times, dramatically cutting the cost of launching satellites and crew into orbit. This breakthrough has made space more accessible than ever before, allowing smaller nations and private organizations to participate in space exploration. The reduced costs have also enabled more frequent missions, leading to faster accumulation of scientific data and technological progress.\n\nRobotic missions continue to serve as the backbone of modern space exploration, providing valuable data about distant worlds without risking human lives. Mars rovers have been particularly successful, analyzing soil samples and searching for signs of past or present life on the Red Planet. These sophisticated machines can operate independently for years, sending back high-resolution images and detailed scientific measurements. Recent discoveries of water ice on Mars and organic compounds in its soil have increased interest in future human missions to the planet.\n\nThe search for life beyond Earth has become one of the most exciting aspects of contemporary space science. Scientists are focusing their attention on the moons of Jupiter and Saturn, particularly Europa and Enceladus, which are believed to harbor liquid oceans beneath their icy surfaces. Advanced telescopes are also detecting thousands of exoplanets orbiting distant stars, some of which may have conditions suitable for life. These discoveries have transformed our understanding of the universe and our place within it.\n\nPreparing for human missions to Mars represents one of the greatest challenges facing space agencies today. Unlike trips to the Moon, a journey to Mars would take several months each way, requiring astronauts to survive in space for extended periods. Scientists must solve complex problems related to life support systems, radiation protection, and psychological well-being during long-duration flights. __The harsh Martian environment presents additional obstacles that must be overcome before humans can safely establish a permanent presence on the planet.__\n\nLooking toward the future, space exploration promises to yield benefits that extend far beyond scientific knowledge. Technologies developed for space missions often find applications in everyday life, from medical devices to communication systems. The establishment of permanent bases on other planets could provide backup locations for human civilization and access to valuable resources. As we continue to push the boundaries of what is possible, space exploration remains humanity's greatest adventure and perhaps our most important investment in the future.",
+  "translation": "宇宙探査は前例のない可能性と技術的進歩の新時代に入った。今日のミッションは1960年代の月面着陸をはるかに超え、科学者とエンジニアは外惑星やその先まで到達できる洗練された宇宙船を開発している。民間企業が政府機関と協力し、革新を推進し、コストを削減する競争環境を作り出している。この協力により発見のペースが加速され、宇宙における科学研究と商業事業の新たな機会が開かれた。\n\n再使用可能なロケット技術の開発により、宇宙ミッションへのアプローチ方法が革命的に変わった。スペースXのような企業は、ロケットを着陸させて複数回使用できることを実証し、衛星や乗組員を軌道に打ち上げるコストを劇的に削減した。この画期的な技術により宇宙はこれまで以上にアクセスしやすくなり、小国や民間組織も宇宙探査に参加できるようになった。コスト削減により、より頻繁なミッションが可能になり、科学データの蓄積と技術進歩が加速されている。\n\nロボットミッションは現代の宇宙探査の中核を担い続けており、人命を危険にさらすことなく遠い世界について貴重なデータを提供している。火星探査車は特に成功しており、土壌サンプルを分析し、赤い惑星での過去または現在の生命の兆候を探している。これらの高度な機械は何年も独立して動作し、高解像度の画像と詳細な科学的測定値を送信できる。火星での氷の発見や土壌中の有機化合物の発見により、将来の火星有人ミッションへの関心が高まっている。\n\n地球外生命の探索は、現代宇宙科学の最も刺激的な側面の一つとなっている。科学者たちは木星と土星の衛星、特に氷の表面の下に液体の海を持つと考えられているエウロパとエンケラドゥスに注目している。高度な望遠鏡は遠い星を周回する数千の系外惑星も発見しており、その中には生命に適した条件を持つものもある。これらの発見は宇宙と宇宙における人類の位置についての理解を変えた。\n\n火星への有人ミッションの準備は、宇宙機関が現在直面している最大の課題の一つである。月への旅行とは異なり、火星への旅は片道数か月かかり、宇宙飛行士は長期間宇宙で生存する必要がある。科学者たちは生命維持システム、放射線防護、長期飛行中の心理的健康に関する複雑な問題を解決しなければならない。厳しい火星環境は、人間が安全に惑星に恒久的な拠点を確立する前に克服しなければならない追加の障害をもたらす。\n\n将来を見据えると、宇宙探査は科学的知識をはるかに超えた利益をもたらすことを約束している。宇宙ミッションのために開発された技術は、医療機器から通信システムまで、日常生活に応用されることが多い。他の惑星への恒久的基地の設立は、人類文明のバックアップ拠点と貴重な資源へのアクセスを提供できる。私たちが可能性の限界を押し続ける中で、宇宙探査は人類最大の冒険であり、おそらく将来への最も重要な投資であり続けている。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Modern space missions are limited to exploring areas near the Moon due to technological constraints.",
+        "B": "Private companies and government agencies now collaborate to advance space exploration capabilities.",
+        "C": "The cost of space exploration has increased significantly due to advanced technology requirements.",
+        "D": "Scientific research in space is no longer considered a priority for most space agencies."
+      },
+      "answer": "B",
+      "explanation": "第1段落に 'Private companies now work alongside government agencies, creating a competitive environment that drives innovation and reduces costs' とあり、民間企業と政府機関が協力して宇宙探査能力を向上させていることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Reusable rocket technology has made space missions more expensive than traditional methods.",
+        "B": "SpaceX has successfully demonstrated the ability to land and reuse rockets multiple times.",
+        "C": "Reduced launch costs have enabled smaller nations to participate in space exploration.",
+        "D": "More frequent missions have become possible due to decreased operational costs."
+      },
+      "answer": "A",
+      "explanation": "第2段落に 'dramatically cutting the cost of launching satellites and crew into orbit' とあり、再使用可能ロケット技術がコストを劇的に削減したことが明記されている。選択肢Aはこれと矛盾する。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Mars rovers have been successful in analyzing soil samples on the Red Planet.",
+        "B": "Robotic missions provide valuable data without endangering human lives.",
+        "C": "Recent discoveries have confirmed the existence of current living organisms on Mars.",
+        "D": "Sophisticated robotic machines can operate independently for extended periods."
+      },
+      "answer": "C",
+      "explanation": "第3段落では 'searching for signs of past or present life on the Red Planet' と述べられているが、生命の兆候を探しているだけで、現在の生物の存在が確認されたとは記されていない。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Scientists have discovered that Jupiter and Saturn have no potential for supporting life.",
+        "B": "Advanced telescopes have detected only a few exoplanets orbiting distant stars.",
+        "C": "The search for life beyond Earth focuses primarily on planets within our solar system.",
+        "D": "Recent discoveries have changed our understanding of the universe and our place in it."
+      },
+      "answer": "D",
+      "explanation": "第4段落の最後に 'These discoveries have transformed our understanding of the universe and our place within it' とあり、最近の発見が宇宙と人類の位置についての理解を変えたことが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Human missions to Mars face significant challenges including extended travel time and harsh conditions.",
+        "B": "Trips to Mars require the same preparation and technology as missions to the Moon.",
+        "C": "Scientists have already solved all the major problems related to Mars exploration.",
+        "D": "The psychological effects of long-duration space travel are not a concern for Mars missions."
+      },
+      "answer": "A",
+      "explanation": "第5段落で 'a journey to Mars would take several months each way' や 'The harsh Martian environment presents additional obstacles' と述べられており、火星への有人ミッションが長期間の移動と厳しい条件という重大な課題に直面していることが説明されている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Mars has a welcoming atmosphere that makes human settlement relatively easy.",
+        "B": "The difficult conditions on Mars create serious challenges for establishing human colonies.",
+        "C": "Scientists have found effective solutions to overcome all Martian environmental problems.",
+        "D": "The Martian environment is similar to Earth and poses no significant threats to humans."
+      },
+      "answer": "B",
+      "explanation": "下線部では 'harsh Martian environment presents additional obstacles that must be overcome before humans can safely establish a permanent presence' とあり、厳しい火星環境が人間の恒久的定住にとって克服すべき追加の障害をもたらすことを示している。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Space exploration is currently limited to government agencies and excludes private companies.",
+        "B": "All robotic missions to Mars have failed to provide useful scientific data.",
+        "C": "Technologies developed for space missions often have practical applications in daily life.",
+        "D": "Human missions to Mars require no additional preparation beyond current Moon mission capabilities.",
+        "E": "Scientists have confirmed the existence of liquid water on Europa and Enceladus.",
+        "F": "Reusable rocket technology has significantly reduced the cost of space missions.",
+        "G": "Space exploration provides no benefits beyond pure scientific knowledge."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "選択肢Cについて、第6段落に 'Technologies developed for space missions often find applications in everyday life' とあり、宇宙ミッション技術の日常生活への応用が述べられている。選択肢Fについて、第2段落に 'dramatically cutting the cost of launching satellites and crew into orbit' とあり、再使用可能ロケット技術がコストを大幅に削減したことが記されている。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "宇宙探査の最前線",
+    "科学技術",
+    "火星探査",
+    "ロボットミッション",
+    "系外惑星"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T09:44:44.934Z",
+  "vocabulary": [
+    {
+      "word": "unprecedented",
+      "meaning": "前例のない、未曾有の"
+    },
+    {
+      "word": "harbor",
+      "meaning": "蓄える、抱く"
+    }
+  ]
+}

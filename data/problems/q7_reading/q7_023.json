@@ -1,0 +1,143 @@
+{
+  "id": "kindai_english_q7_reading_023",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "Photography, which literally means \"light writing,\" has fundamentally transformed the way humans document and perceive the world around them. The invention of photography in the early 19th century represented a revolutionary breakthrough in visual communication, allowing people to capture and preserve moments in time with unprecedented accuracy. Before photography existed, visual records depended entirely on paintings, drawings, and other artistic interpretations, which were often subjective and time-consuming to create.\n\nThe development of photographic technology began with the work of French inventor Nicéphore Niépce, who created the world's first permanent photograph in 1826. His process, called heliography, required an exposure time of approximately eight hours and produced a crude but recognizable image. Building upon Niépce's foundation, Louis Daguerre later developed the daguerreotype process in 1839, which significantly reduced exposure times and improved image quality. These early photographic methods were expensive and required specialized knowledge, making photography accessible only to wealthy individuals and professional practitioners.\n\nAs photographic techniques continued to evolve throughout the 19th century, several key innovations made photography more practical and widespread. The introduction of flexible film by George Eastman in the 1880s replaced heavy glass plates and made cameras more portable. Eastman's Kodak company also popularized photography among ordinary people with their slogan \"You press the button, we do the rest.\" This democratization of photography meant that families could now document their daily lives, travels, and special occasions without requiring technical expertise.\n\nThe 20th century brought dramatic advances in photographic technology that expanded its applications far beyond personal documentation. Color photography became commercially viable, allowing photographers to capture the world in its full spectrum of hues. High-speed photography enabled scientists to study rapid movements and phenomena that were invisible to the naked eye. Meanwhile, photojournalism emerged as a powerful medium for reporting news events, with photographs providing compelling visual evidence of historical moments, social conditions, and human experiences.\n\nThe transition from analog to digital photography in the late 20th and early 21st centuries marked another revolutionary shift in the medium's history. Digital cameras eliminated the need for chemical processing and allowed photographers to __instantly view and edit their images__. This technological advancement dramatically reduced the cost of taking photographs and enabled people to experiment freely without worrying about wasting expensive film. Social media platforms further transformed photography by creating new venues for sharing images and building communities around visual storytelling.\n\nToday, photography continues to evolve at an unprecedented pace, with smartphone cameras putting high-quality photographic capabilities in the hands of billions of people worldwide. Artificial intelligence and computational photography are pushing the boundaries of what cameras can achieve, from automatic scene recognition to advanced image enhancement. As photography becomes increasingly integrated into our daily communication and self-expression, it remains one of humanity's most powerful tools for capturing, sharing, and understanding our collective experience.",
+  "translation": "文字通り「光の文字」を意味する写真は、人類が周囲の世界を記録し認識する方法を根本的に変革しました。19世紀初頭の写真の発明は、視覚的コミュニケーションにおける革命的な躍進を表しており、人々は前例のない正確さで時間の瞬間を捉え保存することができるようになりました。写真が存在する以前は、視覚的記録は完全に絵画、素描、その他の芸術的解釈に依存しており、これらはしばしば主観的で制作に時間がかかるものでした。\n\n写真技術の発展は、1826年に世界初の永続的な写真を作成したフランスの発明家ニセフォール・ニエプスの研究から始まりました。ヘリオグラフィーと呼ばれる彼の手法は、約8時間の露光時間を必要とし、粗いながらも認識可能な画像を生み出しました。ニエプスの基盤を発展させて、ルイ・ダゲールは後に1839年にダゲレオタイプ手法を開発し、露光時間を大幅に短縮し画質を向上させました。これらの初期の写真手法は高価で専門知識を必要としたため、写真は裕福な個人と専門の実践者のみがアクセスできるものでした。\n\n19世紀を通じて写真技術が進歩し続ける中で、いくつかの重要な革新により写真はより実用的で広く普及するものとなりました。1880年代にジョージ・イーストマンによって導入された柔軟なフィルムは、重いガラス板に取って代わりカメラをより携帯可能にしました。イーストマンのコダック社はまた、「あなたはボタンを押すだけ、後は私たちがします」というスローガンで一般の人々の間で写真を普及させました。この写真の民主化により、家族は技術的専門知識を必要とせずに日常生活、旅行、特別な行事を記録できるようになりました。\n\n20世紀は、個人的な記録をはるかに超えて写真の応用範囲を拡大した劇的な写真技術の進歩をもたらしました。カラー写真が商業的に実現可能となり、写真家は世界を色彩の全スペクトラムで捉えることができるようになりました。高速度写真により、科学者は肉眼では見えない急速な動きや現象を研究できるようになりました。一方、報道写真は、写真が歴史的瞬間、社会状況、人間の体験の説得力のある視覚的証拠を提供し、ニュース事件を報道する強力な媒体として登場しました。\n\n20世紀後期から21世紀初頭にかけてのアナログからデジタル写真への移行は、この媒体の歴史におけるもう一つの革命的変化を示しました。デジタルカメラは化学処理の必要性を排除し、写真家は画像を即座に見て編集することができるようになりました。この技術的進歩により写真撮影のコストが劇的に削減され、人々は高価なフィルムを無駄にすることを心配せずに自由に実験できるようになりました。ソーシャルメディアプラットフォームは、画像を共有し視覚的ストーリーテリングを中心としたコミュニティを構築する新しい場を作り出すことで、写真をさらに変貌させました。\n\n今日、写真は前例のないペースで進歩し続けており、スマートフォンカメラが世界中の数十億人の手に高品質な写真撮影能力をもたらしています。人工知能と計算写真は、自動シーン認識から高度な画像強化まで、カメラが達成できることの境界を押し広げています。写真が私たちの日常的なコミュニケーションと自己表現にますます統合されるにつれ、それは私たちの集合的体験を捉え、共有し、理解するための人類の最も強力なツールの一つであり続けています。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Photography was initially developed as an artistic medium to compete with traditional painting methods.",
+        "B": "The invention of photography allowed people to create visual records with greater accuracy than previous methods.",
+        "C": "Before photography, visual documentation was primarily used for scientific research rather than artistic expression.",
+        "D": "Photography's literal meaning reflects its dependence on electrical technology rather than natural light sources."
+      },
+      "answer": "B",
+      "explanation": "第1段落に'allowing people to capture and preserve moments in time with unprecedented accuracy'とあり、写真が従来の方法よりも正確な視覚記録を可能にしたことが述べられている。また、'visual records depended entirely on paintings, drawings, and other artistic interpretations, which were often subjective and time-consuming to create'とあり、以前の方法が主観的で時間がかかったのに対し、写真は客観的で正確だったことが示されている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Daguerre's photographic process was developed before Niépce created his first permanent photograph.",
+        "B": "The earliest photographic methods required significant financial resources and technical knowledge.",
+        "C": "Niépce's heliography process produced images that could be recognized despite their crude quality.",
+        "D": "Louis Daguerre improved upon Niépce's work by reducing exposure times and enhancing image quality."
+      },
+      "answer": "A",
+      "explanation": "第2段落では、ニエプスが1826年に世界初の永続的な写真を作成し、その後ダゲールが1839年にダゲレオタイプ手法を開発したと述べられている。'Nicéphore Niépce, who created the world's first permanent photograph in 1826'と'Louis Daguerre later developed the daguerreotype process in 1839'から、ダゲールの手法がニエプスの後に開発されたことが明らかである。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "George Eastman's flexible film technology made cameras more convenient to transport and use.",
+        "B": "The Kodak company's marketing slogan encouraged ordinary people to try photography without technical training.",
+        "C": "Families began documenting their experiences only after professional photography studios became widely available.",
+        "D": "The democratization of photography occurred through innovations that made the medium more accessible to common people."
+      },
+      "answer": "C",
+      "explanation": "第3段落では、イーストマンのフィルム技術とコダック社のマーケティングにより、一般の人々が技術的専門知識なしに写真を楽しめるようになったと述べられている。'families could now document their daily lives, travels, and special occasions without requiring technical expertise'とあり、プロの写真スタジオが広く普及したからではなく、技術革新により家族が自分で撮影できるようになったことが示されている。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Color photography was developed primarily to enhance the artistic value of personal family photographs.",
+        "B": "High-speed photography was invented specifically to improve the quality of news reporting and journalism.",
+        "C": "The 20th century saw photography expand into new fields including science, journalism, and color imaging.",
+        "D": "Photojournalism replaced traditional written news reports as the primary method of conveying information."
+      },
+      "answer": "C",
+      "explanation": "第4段落に'The 20th century brought dramatic advances in photographic technology that expanded its applications far beyond personal documentation'とあり、20世紀に写真技術の劇的な進歩により個人的記録を超えて応用範囲が拡大したと述べられている。具体的に'Color photography became commercially viable'、'High-speed photography enabled scientists'、'photojournalism emerged'として、カラー写真、科学分野、報道写真への発展が挙げられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Digital photography eliminated chemical processing and enabled immediate image viewing and editing capabilities.",
+        "B": "The transition to digital photography occurred gradually over several decades during the 19th century.",
+        "C": "Social media platforms were developed primarily to support professional photographers rather than amateur users.",
+        "D": "Digital cameras increased the cost of photography by requiring expensive software for image processing."
+      },
+      "answer": "A",
+      "explanation": "第5段落に'Digital cameras eliminated the need for chemical processing and allowed photographers to instantly view and edit their images'とあり、デジタルカメラが化学処理の必要性を排除し、写真家が即座に画像を見て編集できるようになったと述べられている。また'dramatically reduced the cost of taking photographs'とあり、コストが削減されたことも示されている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "The ability to capture and display photographs immediately without waiting for film development.",
+        "B": "The process of transferring digital images from cameras to computers for storage purposes.",
+        "C": "The technology that allows cameras to automatically adjust settings based on lighting conditions.",
+        "D": "The feature that enables photographers to share their work directly through wireless internet connections."
+      },
+      "answer": "A",
+      "explanation": "下線部'instantly view and edit their images'は、デジタルカメラの導入により写真家が撮影した画像を即座に見て編集できるようになったことを表している。第5段落の文脈から、これはフィルムの現像を待つ必要がなくなったことを意味しており、'eliminated the need for chemical processing'という前の部分と対応している。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Photography was initially accessible only to wealthy individuals and professional practitioners due to its complexity and cost.",
+        "B": "The daguerreotype process developed by Louis Daguerre required longer exposure times than Niépce's original method.",
+        "C": "George Eastman's innovations made photography more democratic by allowing ordinary families to document their lives.",
+        "D": "High-speed photography was primarily developed to improve the quality of color images in commercial applications.",
+        "E": "Digital photography increased the overall cost of taking pictures compared to traditional film-based methods.",
+        "F": "Smartphone cameras have made high-quality photographic capabilities available to billions of people worldwide.",
+        "G": "Artificial intelligence in photography is mainly used to replace human photographers in professional settings."
+      },
+      "answer": [
+        "A",
+        "F"
+      ],
+      "explanation": "選択肢Aは第2段落の'These early photographic methods were expensive and required specialized knowledge, making photography accessible only to wealthy individuals and professional practitioners'に対応している。選択肢Fは第6段落の'smartphone cameras putting high-quality photographic capabilities in the hands of billions of people worldwide'に対応している。選択肢Bはダゲレオタイプが露光時間を短縮したという記述に反し、Cは本文に合うが、Dは高速度写真が科学研究用だったという記述に反し、Eはデジタル写真がコストを削減したという記述に反し、Gは人工知能が写真家を置き換えるという記述は本文にない。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "写真技術の歴史と影響",
+    "技術革新",
+    "視覚的コミュニケーション",
+    "デジタル化",
+    "社会変化"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T10:08:15.659Z",
+  "vocabulary": [
+    {
+      "word": "unprecedented",
+      "meaning": "前例のない、未曾有の"
+    },
+    {
+      "word": "democratization",
+      "meaning": "民主化、大衆化"
+    }
+  ]
+}

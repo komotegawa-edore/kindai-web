@@ -1,0 +1,144 @@
+{
+  "id": "kindai_english_q7_reading_003",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "    The world is facing an urgent need to transition from fossil fuels to renewable energy sources. As concerns about climate change intensify and environmental regulations become stricter, countries worldwide are investing heavily in clean energy technologies. Renewable energy, which includes solar, wind, hydroelectric, and geothermal power, offers a sustainable solution to meet our growing energy demands while reducing greenhouse gas emissions. The shift toward renewable energy is not just an environmental necessity but also an economic opportunity that could reshape global energy markets.\n\n    Solar power has emerged as one of the most promising renewable energy technologies. Photovoltaic panels convert sunlight directly into electricity, making it possible to generate clean energy even in residential areas. The cost of solar panels has decreased dramatically over the past decade, making solar installations more affordable for both homeowners and businesses. Many countries have implemented feed-in tariffs and tax incentives to encourage solar adoption. However, solar power faces challenges such as intermittency, as energy production depends on weather conditions and daylight hours.\n\n    Wind energy represents another rapidly growing sector in renewable power generation. Modern wind turbines are highly efficient and can generate substantial amounts of electricity when placed in areas with consistent wind patterns. Offshore wind farms have become particularly attractive because ocean winds are typically stronger and more consistent than those on land. The technology has advanced significantly, with turbines becoming larger and more powerful. Nevertheless, wind energy also faces obstacles including noise concerns from nearby communities and potential impacts on bird migration patterns.\n\n    Hydroelectric power has been utilized for over a century and remains one of the most reliable forms of renewable energy. Large dams can generate massive amounts of electricity and provide consistent power output regardless of weather conditions. Small-scale hydroelectric systems, known as micro-hydro, offer solutions for rural communities that lack access to traditional power grids. The infrastructure for hydroelectric power tends to be long-lasting, with many dams operating effectively for decades. Despite these advantages, hydroelectric projects can have significant environmental impacts, including effects on river ecosystems and fish populations.\n\n    Energy storage technology plays a crucial role in making renewable energy more practical and reliable. Battery systems allow excess energy generated during peak production periods to be stored and used when renewable sources are not producing electricity. Advanced battery technologies, such as lithium-ion and emerging solid-state batteries, are becoming more efficient and cost-effective. Grid-scale storage facilities are being developed to help balance supply and demand across entire electrical networks. __The integration of storage solutions is essential for creating a stable renewable energy infrastructure__ that can compete with traditional fossil fuel-based power systems.\n\n    The transition to renewable energy requires coordinated efforts from governments, businesses, and individuals. Policy support through subsidies, research funding, and regulatory frameworks is crucial for accelerating the adoption of clean energy technologies. International cooperation is also vital, as sharing knowledge and resources can help developing countries build their renewable energy capabilities. While challenges remain, including initial investment costs and technological limitations, the long-term benefits of renewable energy—environmental sustainability, energy independence, and job creation—make it a worthwhile investment for our planet's future.",
+  "translation": "    世界は化石燃料から再生可能エネルギー源への移行が急務に迫られている。気候変動への懸念が高まり、環境規制がより厳しくなる中、世界各国はクリーンエネルギー技術に多額の投資を行っている。太陽光、風力、水力、地熱発電を含む再生可能エネルギーは、温室効果ガス排出量を削減しながら増大するエネルギー需要を満たす持続可能な解決策を提供している。再生可能エネルギーへの転換は環境面での必要性というだけでなく、世界のエネルギー市場を再編する可能性のある経済的機会でもある。\n\n    太陽光発電は最も有望な再生可能エネルギー技術の一つとして浮上している。太陽電池パネルは太陽光を直接電気に変換するため、住宅地でもクリーンエネルギーを生成することが可能である。太陽電池パネルのコストは過去10年間で劇的に下がり、家庭や企業にとって太陽光発電設備がより手頃な価格になった。多くの国が太陽光発電の普及を促進するために固定価格買取制度や税制優遇措置を実施している。しかし、太陽光発電は天候条件や日照時間に依存するため、エネルギー生産が断続的になるという課題に直面している。\n\n    風力エネルギーは再生可能エネルギー発電において急速に成長しているもう一つの分野である。現代の風力タービンは非常に効率的で、一定の風のパターンがある地域に設置されると大量の電力を生成できる。海上風力発電所は、海上の風が通常陸上の風よりも強く一定しているため、特に魅力的になっている。技術は大幅に進歩し、タービンはより大型で強力になっている。それにもかかわらず、風力エネルギーも近隣住民からの騒音への懸念や鳥の渡りのパターンへの潜在的な影響を含む障害に直面している。\n\n    水力発電は1世紀以上にわたって利用されており、最も信頼性の高い再生可能エネルギーの形態の一つであり続けている。大規模ダムは大量の電力を生成でき、天候条件に関係なく一定した電力出力を提供できる。マイクロ水力として知られる小規模な水力発電システムは、従来の電力網へのアクセスがない農村地域に解決策を提供している。水力発電のインフラは長持ちする傾向があり、多くのダムが数十年間効果的に稼働している。これらの利点にもかかわらず、水力発電プロジェクトは河川生態系や魚類個体数への影響を含む重大な環境への影響を与える可能性がある。\n\n    エネルギー貯蔵技術は、再生可能エネルギーをより実用的で信頼性の高いものにする上で重要な役割を果たしている。バッテリーシステムにより、ピーク生産期間中に生成された余剰エネルギーを貯蔵し、再生可能エネルギー源が電力を生産していない時に使用することができる。リチウムイオンや新興の全固体電池などの先進的なバッテリー技術は、より効率的で費用対効果が高くなっている。電力網全体にわたる供給と需要のバランスを取るために、グリッド規模の貯蔵施設が開発されている。従来の化石燃料ベースの電力システムと競争できる安定した再生可能エネルギーインフラを構築するために、貯蔵ソリューションの統合は不可欠である。\n\n    再生可能エネルギーへの移行には、政府、企業、個人からの協調的な努力が必要である。補助金、研究資金、規制枠組みを通じた政策支援は、クリーンエネルギー技術の採用を加速するために不可欠である。知識と資源の共有により発展途上国が再生可能エネルギー能力を構築するのを支援できるため、国際協力も極めて重要である。初期投資コストや技術的制約を含む課題は残っているが、再生可能エネルギーの長期的な利益である環境の持続可能性、エネルギー自給、雇用創出は、私たちの地球の未来にとって価値ある投資となっている。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Renewable energy is only beneficial for environmental protection and has no economic value.",
+        "B": "The transition to renewable energy is both environmentally necessary and economically beneficial.",
+        "C": "Climate change concerns have decreased the need for renewable energy investments.",
+        "D": "Fossil fuels remain the primary focus of global energy market development."
+      },
+      "answer": "B",
+      "explanation": "第1段落に'The shift toward renewable energy is not just an environmental necessity but also an economic opportunity that could reshape global energy markets'とあり、再生可能エネルギーへの転換が環境面での必要性だけでなく経済的機会でもあることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Solar power can only be generated in large industrial facilities, not in residential areas.",
+        "B": "The cost of solar panels has decreased significantly over the past decade.",
+        "C": "Many countries offer financial incentives to encourage solar energy adoption.",
+        "D": "Solar energy production is affected by weather conditions and daylight availability."
+      },
+      "answer": "A",
+      "explanation": "第2段落に'making it possible to generate clean energy even in residential areas'とあり、住宅地でもクリーンエネルギーを生成することが可能であると述べられているため、Aの内容は本文に合わない。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Modern wind turbines have become more efficient and powerful over time.",
+        "B": "Offshore wind farms benefit from stronger and more consistent ocean winds.",
+        "C": "Wind energy technology has remained largely unchanged in recent decades.",
+        "D": "Wind energy faces challenges including noise concerns and bird migration impacts."
+      },
+      "answer": "C",
+      "explanation": "第3段落に'The technology has advanced significantly, with turbines becoming larger and more powerful'とあり、技術が大幅に進歩したことが述べられているため、Cの「技術が変わらない」という内容は本文に合わない。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Hydroelectric power is a newly developed technology with limited applications.",
+        "B": "Small-scale hydroelectric systems are only suitable for urban environments.",
+        "C": "Hydroelectric projects have no negative environmental consequences whatsoever.",
+        "D": "Hydroelectric infrastructure can operate effectively for many decades."
+      },
+      "answer": "D",
+      "explanation": "第4段落に'The infrastructure for hydroelectric power tends to be long-lasting, with many dams operating effectively for decades'とあり、水力発電のインフラが長持ちし、多くのダムが数十年間効果的に稼働していることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Battery technologies are becoming more efficient and cost-effective for energy storage.",
+        "B": "Energy storage is unnecessary for renewable energy systems to function properly.",
+        "C": "Grid-scale storage facilities have been completely abandoned due to technical problems.",
+        "D": "Renewable energy can easily compete with fossil fuels without any storage solutions."
+      },
+      "answer": "A",
+      "explanation": "第5段落に'Advanced battery technologies, such as lithium-ion and emerging solid-state batteries, are becoming more efficient and cost-effective'とあり、先進的なバッテリー技術がより効率的で費用対効果が高くなっていることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Storage systems are helpful but not necessary for renewable energy development.",
+        "B": "Combining storage technology with renewable energy is crucial for creating reliable power systems.",
+        "C": "Storage solutions should only be used with traditional fossil fuel power systems.",
+        "D": "The integration of storage technology is too expensive to be practical for most countries."
+      },
+      "answer": "B",
+      "explanation": "下線部では、貯蔵ソリューションの統合が従来の化石燃料ベースの電力システムと競争できる安定した再生可能エネルギーインフラを構築するために不可欠であると述べており、Bが最も適切な内容を表している。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Solar panels can only generate electricity during perfect weather conditions.",
+        "B": "Wind energy technology has shown no significant improvements in recent years.",
+        "C": "Hydroelectric power provides consistent energy output regardless of weather conditions.",
+        "D": "Energy storage technology is completely unnecessary for renewable energy systems.",
+        "E": "Offshore wind farms are less effective than land-based wind installations.",
+        "F": "International cooperation is important for helping developing countries build renewable energy capabilities.",
+        "G": "The initial costs of renewable energy make it an impractical investment for the future."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "Cは第4段落の'provide consistent power output regardless of weather conditions'に対応し、Fは第6段落の'International cooperation is also vital, as sharing knowledge and resources can help developing countries build their renewable energy capabilities'に対応している。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "再生可能エネルギー",
+    "太陽光発電",
+    "風力発電",
+    "水力発電",
+    "エネルギー貯蔵",
+    "環境技術"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T09:47:20.397Z",
+  "vocabulary": [
+    {
+      "word": "intermittency",
+      "meaning": "断続性、間欠性"
+    },
+    {
+      "word": "subsidies",
+      "meaning": "補助金"
+    }
+  ]
+}

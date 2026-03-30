@@ -1,0 +1,145 @@
+{
+  "id": "kindai_english_q7_reading_010",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "    Sports have long served as a universal language that transcends cultural and national boundaries. In recent decades, international sporting events have become increasingly important platforms for promoting cross-cultural understanding and diplomatic relations. The Olympic Games, World Cup, and other major competitions bring together athletes from diverse backgrounds, creating opportunities for meaningful exchanges that extend far beyond the playing field.\n\n    The concept of sports diplomacy has gained significant recognition among governments and international organizations. Countries often use sporting events to improve their international image and foster positive relationships with other nations. For instance, when South Korea and Japan co-hosted the 2002 FIFA World Cup, the event helped strengthen ties between the two countries despite their complex historical relationship. Similarly, the presence of North Korean athletes at the 2018 Winter Olympics in South Korea created a temporary thaw in tensions on the Korean Peninsula.\n\n    Athletes themselves play a crucial role as cultural ambassadors during international competitions. When competing abroad, they not only represent their countries but also serve as living examples of their national values and traditions. Many athletes take advantage of their travels to learn about different cultures, taste local foods, and form friendships with competitors from other nations. These personal connections often continue long after the competitions end, creating lasting bonds that contribute to international understanding.\n\n    The media coverage of international sporting events also significantly impacts global awareness and cultural exchange. Television broadcasts and online streaming platforms allow billions of viewers to witness competitions and learn about participating countries. Commentary often includes information about the history, culture, and customs of various nations, educating audiences about the diversity of the world. This exposure helps break down stereotypes and promotes appreciation for different cultures.\n\n    However, the relationship between sports and international exchange is not without challenges. __The commercialization of sports has sometimes overshadowed its potential for genuine cultural connection__, with corporate sponsors and profit-driven motives taking precedence over diplomatic goals. Additionally, political tensions can spill over into sporting events, as seen in various boycotts throughout Olympic history. Despite these obstacles, many organizations continue to emphasize the importance of maintaining the spirit of fair play and mutual respect in international competitions.\n\n    Looking toward the future, technology is opening new avenues for sports-related international exchange. Virtual reality experiences allow fans to feel as though they are attending events in person, while social media platforms enable direct communication between athletes and supporters worldwide. These innovations are making it easier for people to connect across borders through their shared love of sports, suggesting that the role of athletics in promoting international understanding will only continue to grow in the digital age.",
+  "translation": "    スポーツは長らく、文化的・国家的境界を超越する普遍的な言語としての役割を果たしてきた。近年、国際的なスポーツイベントは、異文化理解と外交関係を促進する重要なプラットフォームとしてますます重要になっている。オリンピック、ワールドカップ、その他の主要な大会は、多様な背景を持つアスリートを一堂に集め、競技場をはるかに超えた意義深い交流の機会を生み出している。\n\n    スポーツ外交という概念は、政府や国際機関の間で大きな認知を得ている。各国はしばしばスポーツイベントを利用して国際的なイメージを向上させ、他国との良好な関係を築いている。例えば、韓国と日本が2002年のFIFAワールドカップを共催した際、複雑な歴史的関係にもかかわらず、このイベントは両国の絆を強化する助けとなった。同様に、2018年の韓国での冬季オリンピックに北朝鮮の選手が参加したことで、朝鮮半島の緊張に一時的な緩和がもたらされた。\n\n    アスリート自身も、国際大会において文化の親善大使として重要な役割を果たしている。海外で競技をするとき、彼らは自国を代表するだけでなく、自国の価値観や伝統の生きた例としても機能する。多くのアスリートは、旅行の機会を利用して異文化について学び、地元の料理を味わい、他国の競技者と友情を育んでいる。これらの個人的なつながりは競技終了後も長く続き、国際理解に貢献する永続的な絆を生み出している。\n\n    国際スポーツイベントのメディア報道も、世界的な認識と文化交流に大きな影響を与えている。テレビ放送やオンライン配信プラットフォームにより、数十億人の視聴者が競技を目撃し、参加国について学ぶことができる。解説には、さまざまな国の歴史、文化、習慣に関する情報が含まれることが多く、世界の多様性について視聴者を教育している。この露出は固定観念を打破し、異文化への理解を促進するのに役立っている。\n\n    しかし、スポーツと国際交流の関係は課題がないわけではない。スポーツの商業化は時として真の文化的つながりの可能性を覆い隠し、企業スポンサーと利益追求の動機が外交目標より優先されることがある。さらに、オリンピック史上のさまざまなボイコットに見られるように、政治的緊張がスポーツイベントに波及することもある。こうした障害にもかかわらず、多くの組織が国際競技においてフェアプレーと相互尊重の精神を維持することの重要性を強調し続けている。\n\n    将来を見据えると、テクノロジーはスポーツ関連の国際交流に新たな道筋を開いている。バーチャルリアリティ体験により、ファンは実際にイベントに参加しているかのような感覚を得ることができ、ソーシャルメディアプラットフォームは世界中のアスリートとサポーター間の直接的なコミュニケーションを可能にしている。これらの革新により、スポーツへの共通の愛を通じて国境を越えた人々の結びつきが容易になっており、国際理解の促進におけるスポーツの役割はデジタル時代においてさらに発展し続けることを示唆している。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "International sporting events have only recently begun to promote cultural understanding between nations.",
+        "B": "Sports serve as a common language that helps people from different cultures communicate and understand each other.",
+        "C": "The Olympic Games are the only major sporting event that brings together athletes from diverse backgrounds.",
+        "D": "Cross-cultural understanding through sports is limited to interactions that occur during actual competitions."
+      },
+      "answer": "B",
+      "explanation": "第1段落に'Sports have long served as a universal language that transcends cultural and national boundaries'とあり、スポーツが異なる文化の人々が意思疎通し理解し合うための共通言語として機能することが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Sports diplomacy is primarily used by small countries to gain international recognition and support.",
+        "B": "Countries use sporting events as tools to improve their international image and relationships with other nations.",
+        "C": "The 2002 FIFA World Cup helped strengthen relations between South Korea and Japan despite their historical tensions.",
+        "D": "North Korean participation in the 2018 Winter Olympics contributed to reducing tensions on the Korean Peninsula."
+      },
+      "answer": "A",
+      "explanation": "第2段落では'The concept of sports diplomacy has gained significant recognition among governments and international organizations'とあり、スポーツ外交が政府や国際機関に広く認知されていることが述べられているが、小国が主に利用するという限定的な記述はない。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Athletes represent their countries and serve as examples of their national values during international competitions.",
+        "B": "Many athletes use their travel opportunities to learn about different cultures and form friendships with foreign competitors.",
+        "C": "Personal connections between athletes are usually temporary and end immediately after competitions finish.",
+        "D": "Athletes act as cultural ambassadors when they compete in international sporting events abroad."
+      },
+      "answer": "C",
+      "explanation": "第3段落に'These personal connections often continue long after the competitions end, creating lasting bonds'とあり、アスリート間の個人的なつながりは競技終了後も長く続くと明記されているため、選択肢Cの「一時的で競技終了とともに即座に終わる」という内容は本文に合わない。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Media coverage of sports focuses only on the competitive aspects without providing cultural information.",
+        "B": "Television and online platforms have limited impact on international awareness compared to live attendance.",
+        "C": "Commentary during sports broadcasts rarely includes information about participating countries' cultures.",
+        "D": "Media exposure of international sporting events helps reduce stereotypes and promotes cultural appreciation."
+      },
+      "answer": "D",
+      "explanation": "第4段落に'This exposure helps break down stereotypes and promotes appreciation for different cultures'とあり、メディアによる国際スポーツイベントの露出が固定観念を打破し、異文化への理解を促進することが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Despite challenges like commercialization and political tensions, organizations continue to emphasize fair play and mutual respect.",
+        "B": "Corporate sponsors have completely eliminated the diplomatic potential of international sporting events.",
+        "C": "Political tensions have never affected international sporting competitions throughout Olympic history.",
+        "D": "The commercialization of sports has had no impact on genuine cultural connections between athletes."
+      },
+      "answer": "A",
+      "explanation": "第5段落に'Despite these obstacles, many organizations continue to emphasize the importance of maintaining the spirit of fair play and mutual respect'とあり、商業化や政治的緊張などの課題があるにもかかわらず、多くの組織がフェアプレーと相互尊重の精神を維持することの重要性を強調し続けていることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Business interests in sports have enhanced opportunities for meaningful cultural exchange between nations.",
+        "B": "Commercial motives and profit-seeking have reduced the focus on sports as a tool for international understanding.",
+        "C": "Corporate sponsorship has completely replaced government funding for international sporting events.",
+        "D": "The financial success of sports has made cultural diplomacy more effective and widespread."
+      },
+      "answer": "B",
+      "explanation": "下線部'The commercialization of sports has sometimes overshadowed its potential for genuine cultural connection'は、スポーツの商業化が真の文化的つながりの可能性を覆い隠すことがあると述べており、商業的動機や利益追求が国際理解のツールとしてのスポーツへの焦点を減少させていることを意味している。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Sports diplomacy is a new concept that has only recently been recognized by international organizations.",
+        "B": "The 2002 FIFA World Cup was hosted solely by Japan and did not involve South Korea.",
+        "C": "Athletes often form lasting friendships with competitors from other countries that continue after competitions end.",
+        "D": "Media coverage of international sports focuses exclusively on competition results without cultural information.",
+        "E": "Political tensions have never influenced international sporting events throughout history.",
+        "F": "Technology is creating new opportunities for sports-related international exchange through virtual reality and social media.",
+        "G": "Corporate sponsorship has completely eliminated all diplomatic benefits of international sporting events."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "選択肢Cは第3段落の'These personal connections often continue long after the competitions end, creating lasting bonds'に対応し、選択肢Fは第6段落の'technology is opening new avenues for sports-related international exchange'および'Virtual reality experiences'と'social media platforms'の記述に対応している。他の選択肢は本文の内容に矛盾するか、記載されていない情報である。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "スポーツと国際交流",
+    "文化交流",
+    "スポーツ外交",
+    "オリンピック",
+    "国際理解",
+    "メディアの影響",
+    "テクノロジーと交流"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T09:55:28.683Z",
+  "vocabulary": [
+    {
+      "word": "thaw",
+      "meaning": "緊張緩和、関係改善"
+    },
+    {
+      "word": "overshadowed",
+      "meaning": "影を落とす、かすませる"
+    }
+  ]
+}

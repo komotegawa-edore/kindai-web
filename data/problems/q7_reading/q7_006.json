@@ -1,0 +1,139 @@
+{
+  "id": "kindai_english_q7_reading_006",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "    Volunteering has become an increasingly important part of modern society, with millions of people around the world dedicating their time and energy to help others without expecting financial reward. This selfless act of service not only benefits the recipients but also creates profound personal growth opportunities for the volunteers themselves. Many people discover that volunteering provides a sense of purpose and fulfillment that is often missing from their daily routines.\n\n    Research has consistently shown that volunteers experience significant improvements in both physical and mental health. Regular volunteering activities can reduce stress levels, lower blood pressure, and strengthen the immune system. Additionally, the social connections formed through volunteer work help combat loneliness and depression, particularly among older adults. Many volunteers report feeling more energetic and optimistic about life after engaging in community service activities.\n\n    The skills and experiences gained through volunteering can be invaluable for personal and professional development. Volunteers often develop leadership abilities, communication skills, and problem-solving capabilities that enhance their career prospects. Working with diverse groups of people also broadens cultural understanding and empathy. However, it is important to note that volunteering requires commitment and dedication, and not all volunteer experiences are equally rewarding or suitable for every individual.\n\n    Organizations that rely on volunteers face unique challenges in managing their human resources effectively. They must carefully match volunteers with appropriate tasks based on their skills, interests, and availability. Training programs are essential to ensure that volunteers can perform their duties safely and effectively. Furthermore, organizations need to provide ongoing support and recognition to maintain volunteer motivation and prevent burnout.\n\n    The impact of volunteering extends far beyond individual benefits, creating __ripple effects that strengthen entire communities__. When people volunteer regularly, they build stronger social networks and increase civic engagement within their neighborhoods. This enhanced community spirit often leads to improved local services, reduced crime rates, and greater cooperation among residents in addressing common challenges. Successful volunteer programs can inspire others to get involved, creating a positive cycle of community involvement.\n\n    Despite its many advantages, volunteering is not without potential drawbacks. Some volunteers may experience emotional exhaustion when dealing with difficult situations or witnessing human suffering. Additionally, poorly organized volunteer programs can waste time and resources, leading to frustration among participants. However, these challenges can be minimized through proper training, realistic expectations, and adequate support systems. When managed effectively, volunteering remains one of the most powerful tools for creating positive social change.",
+  "translation": "    ボランティア活動は現代社会においてますます重要な一部となっており、世界中で何百万もの人々が金銭的な報酬を期待することなく、他者を助けるために時間とエネルギーを捧げている。この無私の奉仕行為は受益者に利益をもたらすだけでなく、ボランティア自身にとっても深い個人的成長の機会を創り出している。多くの人々は、ボランティア活動が日常生活でしばしば欠けている目的意識と充実感を提供することを発見している。\n\n    研究では、ボランティアが身体的・精神的健康の両面で大幅な改善を経験することが一貫して示されている。定期的なボランティア活動はストレスレベルを下げ、血圧を下げ、免疫システムを強化することができる。さらに、ボランティア活動を通じて形成される社会的つながりは、特に高齢者における孤独感やうつ病と戦うのに役立つ。多くのボランティアは、コミュニティサービス活動に参加した後、より活力があり、人生に対してより楽観的になったと報告している。\n\n    ボランティア活動を通じて得られるスキルや経験は、個人的・職業的発達にとって非常に貴重なものとなり得る。ボランティアはしばしばリーダーシップ能力、コミュニケーションスキル、問題解決能力を身につけ、これらがキャリアの見通しを向上させる。多様な人々のグループと働くことは、文化的理解と共感も広げる。しかし、ボランティア活動は献身と責任を必要とし、すべてのボランティア経験がすべての個人にとって等しくやりがいがあったり適したりするわけではないことに注意することが重要である。\n\n    ボランティアに依存する組織は、人的資源を効果的に管理する上で独特の課題に直面している。彼らはボランティアのスキル、興味、都合に基づいて、適切な任務にボランティアを慎重に配置しなければならない。ボランティアが安全かつ効果的に職務を遂行できるようにするために、研修プログラムは不可欠である。さらに、組織はボランティアのモチベーションを維持し、燃え尽きを防ぐために、継続的な支援と認識を提供する必要がある。\n\n    ボランティア活動の影響は個人の利益をはるかに超えて広がり、コミュニティ全体を強化する波及効果を生み出している。人々が定期的にボランティア活動を行うとき、彼らはより強い社会的ネットワークを構築し、近隣でのシビックエンゲージメントを増加させる。この強化されたコミュニティ精神は、しばしば地域サービスの改善、犯罪率の減少、そして共通の課題に取り組む際の住民間のより大きな協力につながる。成功したボランティアプログラムは他の人々の参加を促し、コミュニティ参加の好循環を生み出すことができる。\n\n    多くの利点があるにもかかわらず、ボランティア活動には潜在的な欠点がないわけではない。一部のボランティアは、困難な状況に対処したり人間の苦しみを目撃したりする際に、感情的な疲労を経験するかもしれない。さらに、組織が不十分なボランティアプログラムは時間と資源を無駄にし、参加者の間で欲求不満を引き起こす可能性がある。しかし、これらの課題は適切な研修、現実的な期待、そして十分な支援システムを通じて最小限に抑えることができる。効果的に管理されるとき、ボランティア活動は積極的な社会変化を創り出すための最も強力なツールの一つであり続けている。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Volunteering is primarily motivated by financial rewards and career advancement opportunities.",
+        "B": "Many people find that volunteering gives them a sense of purpose that may be lacking in their daily lives.",
+        "C": "The number of volunteers worldwide has been decreasing due to busy modern lifestyles.",
+        "D": "Volunteering benefits only the people who receive help, not the volunteers themselves."
+      },
+      "answer": "B",
+      "explanation": "第1段落に 'Many people discover that volunteering provides a sense of purpose and fulfillment that is often missing from their daily routines.' とあり、多くの人々がボランティア活動によって日常生活で不足しがちな目的意識を得ることを発見していると述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Volunteering activities are beneficial only for mental health, not physical health.",
+        "B": "Regular volunteering can help reduce stress levels and strengthen the immune system.",
+        "C": "Social connections formed through volunteer work help prevent loneliness and depression.",
+        "D": "Many volunteers feel more energetic and positive about life after community service activities."
+      },
+      "answer": "A",
+      "explanation": "第2段落では 'Regular volunteering activities can reduce stress levels, lower blood pressure, and strengthen the immune system.' とあり、ボランティア活動は身体的健康にも効果があると明記されているため、身体的健康には効果がないとする選択肢Aは内容に合わない。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Volunteering helps develop leadership abilities and communication skills that benefit careers.",
+        "B": "Working with diverse groups through volunteering increases cultural understanding and empathy.",
+        "C": "All volunteer experiences are equally rewarding and suitable for every person.",
+        "D": "Volunteering requires commitment and dedication from those who participate."
+      },
+      "answer": "C",
+      "explanation": "第3段落の最後に 'not all volunteer experiences are equally rewarding or suitable for every individual.' とあり、すべてのボランティア経験がすべての人にとって等しくやりがいがあったり適したりするわけではないと明記されているため、選択肢Cは内容に合わない。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Organizations should assign any available task to volunteers regardless of their skills.",
+        "B": "Training programs are unnecessary since volunteers already have the required skills.",
+        "C": "Recognition and support are not important for maintaining volunteer motivation.",
+        "D": "Organizations need to match volunteers with suitable tasks based on their abilities and interests."
+      },
+      "answer": "D",
+      "explanation": "第4段落に 'They must carefully match volunteers with appropriate tasks based on their skills, interests, and availability.' とあり、組織はボランティアのスキル、興味、都合に基づいて適切な任務に配置する必要があると述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Regular volunteering creates stronger social networks and increases civic engagement in communities.",
+        "B": "Volunteering has no significant impact on crime rates or community cooperation.",
+        "C": "Successful volunteer programs discourage others from getting involved in community activities.",
+        "D": "The benefits of volunteering are limited to individual volunteers and do not affect communities."
+      },
+      "answer": "A",
+      "explanation": "第5段落に 'When people volunteer regularly, they build stronger social networks and increase civic engagement within their neighborhoods.' とあり、定期的なボランティア活動がより強い社会的ネットワークを構築し、地域でのシビックエンゲージメントを増加させると述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Individual volunteers create small changes that remain isolated within their personal lives.",
+        "B": "The positive effects of volunteering spread throughout communities, strengthening them as a whole.",
+        "C": "Volunteering creates conflicts between different community groups and weakens social bonds.",
+        "D": "The impact of volunteering is limited to the specific organizations where people volunteer."
+      },
+      "answer": "B",
+      "explanation": "下線部 'ripple effects that strengthen entire communities' は、ボランティア活動の積極的な効果がコミュニティ全体に広がり、それを強化することを意味している。第5段落では、この波及効果により地域サービスの改善、犯罪率の減少、住民間の協力の増大が起こると説明されている。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Volunteering always provides equal benefits to all participants regardless of the program quality.",
+        "B": "Organizations face no challenges in managing volunteers since they work without pay.",
+        "C": "Research shows that volunteering can improve both physical and mental health of volunteers.",
+        "D": "Volunteering experiences never involve any emotional difficulties or negative aspects.",
+        "E": "Proper training and support systems can help minimize the potential drawbacks of volunteering.",
+        "F": "Skills gained through volunteering can enhance career prospects and professional development.",
+        "G": "The impact of volunteering is limited to helping individual recipients and has no community-wide effects."
+      },
+      "answer": [
+        "C",
+        "E"
+      ],
+      "explanation": "選択肢Cは第2段落の 'Research has consistently shown that volunteers experience significant improvements in both physical and mental health.' に対応している。選択肢Eは第6段落の 'these challenges can be minimized through proper training, realistic expectations, and adequate support systems.' に対応している。その他の選択肢は本文の内容に矛盾するか、本文に記載されていない内容である。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "ボランティア活動の意義",
+    "社会貢献",
+    "個人の成長",
+    "コミュニティ",
+    "健康効果"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T09:51:50.654Z",
+  "vocabulary": [
+    {
+      "word": "civic",
+      "meaning": "市民の、公民の"
+    }
+  ]
+}

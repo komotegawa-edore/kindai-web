@@ -1,0 +1,142 @@
+{
+  "id": "kindai_english_q7_reading_004",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "Sleep is one of the most fundamental biological processes, yet it remains one of the least understood aspects of human health. For centuries, scientists have been fascinated by the mysterious nature of sleep and its profound impact on our physical and mental well-being. Recent advances in sleep research have revealed that sleep is far from being a passive state of rest, but rather an active and complex process that is essential for maintaining optimal health.\n\nDuring sleep, our bodies undergo numerous critical processes that help repair and restore various systems. The immune system becomes particularly active, producing infection-fighting cells and antibodies that protect us from diseases. Additionally, sleep plays a crucial role in memory consolidation, as the brain processes and organizes information gathered during the day. Growth hormone is also released in higher quantities during deep sleep, promoting tissue repair and cellular regeneration throughout the body.\n\nThe consequences of sleep deprivation are both immediate and long-lasting. In the short term, lack of adequate sleep impairs cognitive function, reduces attention span, and weakens decision-making abilities. People who consistently get less than seven hours of sleep per night often experience mood swings, irritability, and decreased productivity at work or school. Furthermore, sleep-deprived individuals are more prone to accidents, as their reaction times become significantly slower.\n\nLong-term sleep deficiency poses even more serious health risks. Chronic sleep loss has been linked to various medical conditions, including obesity, diabetes, cardiovascular disease, and certain types of cancer. Research has shown that people who regularly sleep fewer than six hours per night have a 30% higher risk of developing heart disease compared to those who maintain healthy sleep patterns. The relationship between sleep and weight management is particularly striking, as insufficient sleep disrupts hormones that regulate hunger and satiety.\n\nFortunately, there are several evidence-based strategies that can significantly improve sleep quality and duration. Maintaining a consistent sleep schedule by going to bed and waking up at the same time every day helps regulate the body's internal clock. Creating an optimal sleep environment involves keeping the bedroom cool, dark, and quiet, while avoiding electronic devices at least one hour before bedtime. Regular physical exercise, when performed earlier in the day, can promote deeper and more restorative sleep. __These lifestyle modifications have proven to be remarkably effective in addressing common sleep disorders.__\n\nAs our understanding of sleep science continues to evolve, it becomes increasingly clear that prioritizing sleep is not a luxury but a necessity for maintaining good health. Medical professionals now recognize sleep as the third pillar of health, alongside proper nutrition and regular exercise. By acknowledging the critical importance of sleep and implementing healthy sleep habits, individuals can dramatically improve their overall quality of life and reduce their risk of developing serious health conditions in the future.",
+  "translation": "睡眠は最も基本的な生物学的プロセスの一つであるが、人間の健康において最も理解されていない側面の一つでもある。何世紀もの間、科学者たちは睡眠の神秘的な性質と、それが私たちの身体的・精神的健康に与える深い影響に魅力を感じてきた。睡眠研究の最近の進歩により、睡眠は受動的な休息状態ではなく、最適な健康状態を維持するために不可欠な能動的で複雑なプロセスであることが明らかになった。\n\n睡眠中、私たちの体は様々なシステムの修復と回復を助ける多くの重要なプロセスを経る。免疫システムが特に活発になり、病気から身を守る感染対抗細胞や抗体を産生する。さらに、睡眠は記憶の定着において重要な役割を果たし、脳が日中に集めた情報を処理し整理する。成長ホルモンも深い眠りの間により多く分泌され、体全体の組織修復と細胞再生を促進する。\n\n睡眠不足の影響は即座に現れ、かつ長期間続く。短期的には、十分な睡眠の不足は認知機能を損ない、集中力を低下させ、意思決定能力を弱める。一晩に7時間未満の睡眠しか取らない人は、しばしば気分の変動、イライラ、職場や学校での生産性の低下を経験する。さらに、睡眠不足の人は反応時間が著しく遅くなるため、事故を起こしやすくなる。\n\n長期的な睡眠不足はさらに深刻な健康リスクをもたらす。慢性的な睡眠不足は、肥満、糖尿病、心血管疾患、特定の種類のがんなど、様々な医学的状態と関連している。研究によると、定期的に一晩6時間未満しか眠らない人は、健康的な睡眠パターンを維持している人と比べて、心疾患を発症するリスクが30％高いことが示されている。睡眠と体重管理の関係は特に顕著で、睡眠不足は空腹感と満腹感を調節するホルモンを混乱させる。\n\n幸い、睡眠の質と持続時間を大幅に改善できる科学的根拠に基づいたいくつかの戦略がある。毎日同じ時間に就寝し起床することで一貫した睡眠スケジュールを維持することは、体内時計の調節に役立つ。最適な睡眠環境を作ることには、寝室を涼しく、暗く、静かに保ち、就寝の少なくとも1時間前は電子機器を避けることが含まれる。日中の早い時間に行う定期的な運動は、より深く回復力のある睡眠を促進することができる。これらの生活習慣の修正は、一般的な睡眠障害に対処する上で非常に効果的であることが証明されている。\n\n睡眠科学に対する私たちの理解が進歩し続ける中で、睡眠を優先することは贅沢ではなく、良好な健康状態を維持するための必要不可欠なものであることがますます明らかになっている。医療従事者は現在、適切な栄養と定期的な運動と並んで、睡眠を健康の第三の柱として認識している。睡眠の重要性を認識し、健康的な睡眠習慣を実践することで、個人は生活の質を劇的に改善し、将来深刻な健康状態を発症するリスクを軽減することができる。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Sleep research has been completely understood by modern scientists.",
+        "B": "Sleep is an active biological process essential for optimal health.",
+        "C": "Scientists have lost interest in studying the nature of sleep.",
+        "D": "Sleep is primarily a passive state with no significant health benefits."
+      },
+      "answer": "B",
+      "explanation": "第1段落に'sleep is far from being a passive state of rest, but rather an active and complex process that is essential for maintaining optimal health'とあり、睡眠が最適な健康状態を維持するために不可欠な能動的なプロセスであることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "The immune system becomes less active during sleep periods.",
+        "B": "Memory consolidation occurs as the brain processes daily information.",
+        "C": "Growth hormone is released in higher quantities during deep sleep.",
+        "D": "Sleep helps repair and restore various body systems."
+      },
+      "answer": "A",
+      "explanation": "第2段落に'The immune system becomes particularly active, producing infection-fighting cells and antibodies'とあり、睡眠中に免疫システムが特に活発になると述べられているため、選択肢Aは本文の内容と矛盾している。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Sleep deprivation impairs cognitive function and attention span.",
+        "B": "People need less than seven hours of sleep to maintain productivity.",
+        "C": "Lack of sleep can cause mood swings and irritability.",
+        "D": "Sleep-deprived individuals have slower reaction times."
+      },
+      "answer": "B",
+      "explanation": "第3段落に'People who consistently get less than seven hours of sleep per night often experience mood swings, irritability, and decreased productivity'とあり、7時間未満の睡眠は生産性の低下を招くとされているため、選択肢Bは本文の内容に合わない。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Short-term sleep loss is more dangerous than chronic sleep deficiency.",
+        "B": "Sleep duration has no significant impact on weight management.",
+        "C": "Regular sleep of six hours per night is sufficient for heart health.",
+        "D": "Chronic sleep loss increases the risk of developing serious diseases."
+      },
+      "answer": "D",
+      "explanation": "第4段落に'Chronic sleep loss has been linked to various medical conditions, including obesity, diabetes, cardiovascular disease, and certain types of cancer'とあり、慢性的な睡眠不足が深刻な疾患のリスクを高めることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Maintaining consistent sleep schedules helps regulate the body's internal clock.",
+        "B": "Electronic devices should be used immediately before bedtime for relaxation.",
+        "C": "Physical exercise should be performed right before going to sleep.",
+        "D": "Bright and warm bedroom environments promote better sleep quality."
+      },
+      "answer": "A",
+      "explanation": "第5段落に'Maintaining a consistent sleep schedule by going to bed and waking up at the same time every day helps regulate the body's internal clock'とあり、一貫した睡眠スケジュールが体内時計の調節に役立つことが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Sleep disorders can only be treated with expensive medical procedures.",
+        "B": "Simple changes in daily habits can effectively improve sleep problems.",
+        "C": "Lifestyle changes are completely ineffective for treating sleep issues.",
+        "D": "Common sleep disorders require immediate surgical intervention."
+      },
+      "answer": "B",
+      "explanation": "下線部'These lifestyle modifications have proven to be remarkably effective in addressing common sleep disorders'は、前文で述べられた生活習慣の修正（一貫した睡眠スケジュール、適切な睡眠環境、運動など）が睡眠障害に対して非常に効果的であることを示している。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Sleep is considered a luxury rather than a necessity for health.",
+        "B": "People who sleep less than six hours have no increased health risks.",
+        "C": "Sleep is now recognized as the third pillar of health alongside nutrition and exercise.",
+        "D": "Electronic devices should be used within one hour before bedtime.",
+        "E": "Sleep deprivation only affects cognitive function temporarily.",
+        "F": "The immune system produces infection-fighting cells more actively during sleep.",
+        "G": "Physical exercise should be avoided completely to improve sleep quality."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "選択肢Cは最終段落の'Medical professionals now recognize sleep as the third pillar of health, alongside proper nutrition and regular exercise'に基づく。選択肢Fは第2段落の'The immune system becomes particularly active, producing infection-fighting cells and antibodies'に基づく。他の選択肢は本文の内容に矛盾または記載されていない。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "睡眠と健康の科学",
+    "生物学的プロセス",
+    "健康管理",
+    "生活習慣"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T09:50:00.759Z",
+  "vocabulary": [
+    {
+      "word": "satiety",
+      "meaning": "満腹感"
+    },
+    {
+      "word": "restorative",
+      "meaning": "回復力のある"
+    }
+  ]
+}

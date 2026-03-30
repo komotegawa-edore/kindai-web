@@ -1,0 +1,143 @@
+{
+  "id": "kindai_english_q7_reading_008",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "Food waste has become one of the most pressing environmental and economic challenges of our time. Every year, approximately one-third of all food produced for human consumption is lost or wasted, amounting to roughly 1.3 billion tons globally. This staggering figure represents not only a tremendous loss of resources but also a significant contributor to greenhouse gas emissions, as rotting food in landfills produces methane, a gas far more potent than carbon dioxide.\n\nThe causes of food waste vary significantly between developed and developing countries. In wealthier nations, much of the waste occurs at the consumer level, where people buy more than they can consume and discard food that is still perfectly edible. Supermarkets also contribute by removing products from shelves before their expiration dates to maintain freshness standards. Additionally, consumers often misunderstand date labels, throwing away food that is safe to eat but past its \"best by\" date.\n\nIn contrast, developing countries face different challenges that lead to food loss earlier in the supply chain. Poor infrastructure, inadequate storage facilities, and limited transportation networks cause significant losses during harvesting, processing, and distribution. Farmers in these regions often lack access to proper refrigeration and modern preservation techniques. Weather conditions and pest infestations can also destroy crops before they reach consumers, creating substantial economic losses for agricultural communities.\n\nThe environmental impact of food waste extends far beyond the methane emissions from landfills. Wasted food represents a misuse of valuable natural resources including water, soil, and energy that were used in its production. For example, producing one kilogram of beef requires approximately 15,000 liters of water, making wasted meat particularly environmentally costly. The transportation and packaging of food that ultimately goes to waste also contribute unnecessary carbon emissions to the atmosphere.\n\nFortunately, innovative solutions are emerging worldwide to address this crisis. Many countries have implemented policies to reduce food waste, such as tax incentives for companies that donate surplus food to charities. __Technology is playing an increasingly important role__, with apps connecting consumers to discounted food nearing expiration and smart sensors monitoring food freshness in real-time. Some restaurants have begun offering smaller portion sizes and allowing customers to take home leftovers without stigma.\n\nThe path forward requires coordinated efforts from governments, businesses, and individuals. Educational campaigns can help consumers better understand food labels and storage techniques. Investment in infrastructure improvements, particularly in developing countries, could dramatically reduce losses in the supply chain. Perhaps most importantly, changing cultural attitudes toward food consumption and waste can create lasting behavioral changes. By working together, we can transform our relationship with food and build a more sustainable future for generations to come.",
+  "translation": "食品ロスは、現代における最も緊急性の高い環境・経済問題の一つとなっている。毎年、人間が消費するために生産される食品の約3分の1が失われたり廃棄されたりしており、その量は世界全体でおよそ13億トンにのぼる。この驚くべき数字は、膨大な資源の損失を表すだけでなく、温室効果ガス排出の重要な要因でもある。埋立地で腐敗する食品はメタンを発生させ、これは二酸化炭素よりもはるかに強力なガスである。\n\n食品ロスの原因は、先進国と発展途上国で大きく異なる。豊かな国では、ロスの多くが消費者レベルで発生し、人々は消費できる量以上に購入し、まだ完全に食べられる食品を廃棄している。スーパーマーケットも、新鮮さの基準を維持するために賞味期限前に商品を棚から撤去することで貢献している。さらに、消費者はしばしば日付ラベルを誤解し、食べても安全だが「賞味期限」を過ぎた食品を捨てている。\n\n対照的に、発展途上国では、サプライチェーンのより早い段階で食品ロスにつながる異なる課題に直面している。インフラの不備、不十分な貯蔵施設、限られた輸送ネットワークが、収穫、加工、流通段階で重大な損失を引き起こしている。これらの地域の農家は、適切な冷蔵設備や現代的な保存技術にアクセスできないことが多い。気象条件や害虫の被害も、食品が消費者に届く前に作物を破壊し、農業コミュニティに大きな経済的損失をもたらすことがある。\n\n食品ロスの環境への影響は、埋立地からのメタン排出をはるかに超えている。廃棄される食品は、その生産に使用された水、土壌、エネルギーという貴重な天然資源の誤用を表している。例えば、牛肉1キログラムの生産には約15,000リットルの水が必要で、廃棄される肉は特に環境に負荷をかける。最終的に廃棄される食品の輸送と包装も、大気中に不必要な炭素排出を追加している。\n\n幸い、この危機に対処するための革新的な解決策が世界中で生まれている。多くの国が、余剰食品を慈善団体に寄付する企業への税制優遇措置など、食品ロスを減らすための政策を実施している。技術が重要な役割を果たすようになっており、期限が近づいた食品を割引価格で消費者につなげるアプリや、食品の鮮度をリアルタイムで監視するスマートセンサーなどが登場している。一部のレストランでは、より小さな分量を提供し、顧客が恥ずかしがることなく残り物を持ち帰ることを可能にしている。\n\n前進の道のりには、政府、企業、個人の連携した努力が必要である。教育キャンペーンは、消費者が食品ラベルと保存技術をよりよく理解するのに役立つ。特に発展途上国でのインフラ改善への投資は、サプライチェーンでの損失を劇的に減らすことができる。おそらく最も重要なのは、食品消費と廃棄に対する文化的態度を変えることで、持続的な行動変化を生み出すことである。協力することで、私たちは食品との関係を変革し、将来の世代のためにより持続可能な未来を築くことができる。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Food waste produces carbon dioxide, which is more dangerous than methane gas.",
+        "B": "Approximately one-third of food produced globally is wasted, creating environmental problems.",
+        "C": "Food waste affects only developed countries and their economic systems.",
+        "D": "The total amount of global food waste is decreasing due to environmental awareness."
+      },
+      "answer": "B",
+      "explanation": "第1段落に 'approximately one-third of all food produced for human consumption is lost or wasted' および 'a significant contributor to greenhouse gas emissions' とあり、世界の食品生産の約3分の1が廃棄され、環境問題を引き起こしていることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Wealthy nations waste most food during the manufacturing and processing stages.",
+        "B": "Consumers in developed countries often buy more food than they can consume.",
+        "C": "Supermarkets remove products from shelves before expiration dates for freshness.",
+        "D": "People often misunderstand food labels and throw away safe food."
+      },
+      "answer": "A",
+      "explanation": "第2段落では 'In wealthier nations, much of the waste occurs at the consumer level' とあり、豊かな国では消費者レベルでの廃棄が多いと述べられている。製造・加工段階での廃棄が多いという選択肢Aは本文の内容に合わない。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Developing countries face challenges related to poor infrastructure and storage.",
+        "B": "Limited transportation networks contribute to food loss in these regions.",
+        "C": "Farmers in developing countries have access to modern refrigeration technology.",
+        "D": "Weather conditions and pests can destroy crops before reaching consumers."
+      },
+      "answer": "C",
+      "explanation": "第3段落に 'Farmers in these regions often lack access to proper refrigeration and modern preservation techniques' とあり、発展途上国の農家は適切な冷蔵設備や現代的な保存技術にアクセスできないことが多いと述べられている。選択肢Cは本文の内容と矛盾する。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Food waste only affects methane emissions and has no other environmental impact.",
+        "B": "Water usage for food production is not a major concern in food waste discussions.",
+        "C": "Transportation of food contributes minimal carbon emissions to the environment.",
+        "D": "Wasted food represents misuse of water, soil, and energy used in production."
+      },
+      "answer": "D",
+      "explanation": "第4段落に 'Wasted food represents a misuse of valuable natural resources including water, soil, and energy that were used in its production' とあり、廃棄される食品は生産に使用された水、土壌、エネルギーという貴重な天然資源の誤用を表すと述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Innovative solutions include apps, smart sensors, and smaller restaurant portions.",
+        "B": "Only government policies can effectively address the food waste crisis.",
+        "C": "Technology has no significant role in solving food waste problems.",
+        "D": "Restaurants refuse to allow customers to take home leftover food."
+      },
+      "answer": "A",
+      "explanation": "第5段落に 'apps connecting consumers to discounted food', 'smart sensors monitoring food freshness', 'restaurants have begun offering smaller portion sizes' などの革新的解決策が述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Digital devices are becoming less useful in addressing environmental issues.",
+        "B": "Modern tools and applications are contributing significantly to waste reduction efforts.",
+        "C": "Traditional methods are more effective than technological approaches for food preservation.",
+        "D": "Computer systems are only helpful for tracking food production statistics."
+      },
+      "answer": "B",
+      "explanation": "下線部の直後に 'with apps connecting consumers to discounted food nearing expiration and smart sensors monitoring food freshness in real-time' とあり、技術が食品ロス削減において重要な役割を果たしていることが具体例とともに説明されている。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Food waste problems are identical across all countries regardless of development level.",
+        "B": "Methane gas produced by rotting food is less harmful than carbon dioxide emissions.",
+        "C": "Poor infrastructure in developing countries causes food loss during supply chain processes.",
+        "D": "Educational campaigns are unnecessary because people already understand food labels correctly.",
+        "E": "Beef production requires significantly more water resources than other types of food.",
+        "F": "Changing cultural attitudes toward food consumption can create lasting behavioral improvements.",
+        "G": "Individual consumers have no role to play in reducing global food waste problems."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "選択肢Cは第3段落の 'Poor infrastructure, inadequate storage facilities, and limited transportation networks cause significant losses during harvesting, processing, and distribution' に対応している。選択肢Fは第6段落の 'changing cultural attitudes toward food consumption and waste can create lasting behavioral changes' に対応している。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "フードロスと持続可能な食",
+    "環境問題",
+    "サプライチェーン",
+    "技術革新",
+    "文化的変化"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T09:53:33.798Z",
+  "vocabulary": [
+    {
+      "word": "staggering",
+      "meaning": "驚くほど大きな、途方もない"
+    },
+    {
+      "word": "infestations",
+      "meaning": "害虫などの大量発生"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kindai_english_q6_reorder_001",
+  "university": "kindai",
+  "subject": "english",
+  "section": 6,
+  "section_name": "整序英作文",
+  "type": "sentence_reorder",
+  "difficulty": 2,
+  "question": "次の語句を並び替えて、意味の通る英文を完成させなさい。",
+  "sentence_frame": "I ( ___ ___ ___ ___ ___ ) yesterday.",
+  "fragments": ["my", "had", "repair", "computer", "a technician"],
+  "choices": {
+    "A": "had — a technician — repair — my — computer",
+    "B": "had — my — computer — repair — a technician",
+    "C": "had — a technician — my — computer — repair",
+    "D": "a technician — had — repair — my — computer"
+  },
+  "answer": "A",
+  "explanation": "使役動詞haveの「have + 人 + 動詞の原形」の構文。I had a technician repair my computer yesterday.（技術者にパソコンを修理してもらった）が正しい語順。had + a technician（人）+ repair（原形）+ my computer（目的語）の順に並べる。",
+  "completed_sentence": "I had a technician repair my computer yesterday.",
+  "tags": ["使役動詞", "have"],
+  "target_time_seconds": 40,
+  "is_ai_generated": false,
+  "is_reviewed": true,
+  "created_at": "2026-03-29T00:00:00Z"
+}

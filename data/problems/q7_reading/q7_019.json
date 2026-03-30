@@ -1,0 +1,143 @@
+{
+  "id": "kindai_english_q7_reading_019",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "Music education has long been valued for its cultural and artistic benefits, but recent scientific research has revealed that learning music can have profound effects on brain development. Studies using brain imaging technology have shown that musicians' brains are structurally different from those of non-musicians, with enhanced connections between different brain regions. These findings suggest that musical training may be one of the most powerful tools for promoting cognitive development in children and adults alike.\n\nThe brain changes associated with musical training begin early and continue throughout life. When children start learning to play an instrument, their brains must coordinate multiple complex processes simultaneously. They need to read musical notation, control their fingers or breathing, listen to the sounds they produce, and adjust their performance accordingly. This multi-sensory experience creates new neural pathways and strengthens existing ones. Research has shown that children who receive music lessons for at least two years demonstrate increased activity in areas of the brain responsible for language processing, spatial reasoning, and executive function.\n\nOne of the most remarkable discoveries in neuroscience research is the concept of neuroplasticity - the brain's ability to reorganize and adapt throughout life. Musical training appears to be particularly effective at promoting neuroplasticity. Studies have found that professional musicians have enlarged areas in their brains that correspond to the specific demands of their instruments. For example, string players show greater development in brain regions that control finger movements, while wind instrument players have enhanced areas related to breath control. These adaptations occur not only during childhood but can continue well into adulthood.\n\nThe cognitive benefits of music education extend far beyond musical ability itself. Students who participate in school music programs consistently show improved performance in mathematics, reading, and standardized tests compared to their peers who do not receive musical training. This phenomenon, sometimes called the \"Mozart effect,\" has been observed across different cultures and educational systems. Researchers believe that the discipline and focus required for musical practice transfer to other academic subjects, creating a positive cycle of learning and achievement.\n\nMoreover, music education has been shown to enhance social and emotional development. Group music activities, such as choir singing or orchestra performances, require students to listen carefully to others, coordinate their actions, and work toward common goals. These experiences __build important social skills and emotional intelligence that serve students well throughout their lives__. Additionally, the sense of accomplishment that comes from mastering a musical piece or performing in public can boost self-confidence and motivation in other areas of life.\n\nGiven these research findings, many educators and policymakers are advocating for stronger support of music education in schools. However, budget constraints and emphasis on standardized testing often lead to cuts in arts programs. This is particularly unfortunate because the benefits of musical training appear to be most pronounced when instruction begins early and continues consistently over time. Communities that maintain robust music education programs are investing not only in their children's artistic development but also in their overall cognitive, social, and emotional growth.",
+  "translation": "音楽教育は長い間、その文化的・芸術的な恩恵で評価されてきたが、最近の科学的研究により、音楽を学ぶことが脳の発達に深い影響を与えることが明らかになった。脳画像技術を使った研究では、音楽家の脳は非音楽家の脳と構造的に異なり、脳の異なる領域間の結合が強化されていることが示されている。これらの発見は、音楽の訓練が子どもから大人まで認知発達を促進する最も強力なツールの一つである可能性を示唆している。\n\n音楽訓練に関連する脳の変化は早期に始まり、生涯にわたって続く。子どもたちが楽器の演奏を始めると、脳は複数の複雑なプロセスを同時に調整しなければならない。楽譜を読み、指や呼吸をコントロールし、自分が出す音を聞き、それに応じて演奏を調整する必要がある。この多感覚的な体験は新しい神経経路を作り、既存の経路を強化する。研究によると、少なくとも2年間音楽のレッスンを受けた子どもたちは、言語処理、空間推理、実行機能を司る脳の領域で活動が増加することが示されている。\n\n神経科学研究における最も注目すべき発見の一つは、神経可塑性という概念である。これは脳が生涯にわたって再編成し適応する能力のことである。音楽訓練は特に神経可塑性を促進するのに効果的であるようだ。研究によると、プロの音楽家は楽器の特定の要求に対応する脳の領域が拡大している。例えば、弦楽器演奏者は指の動きを制御する脳領域がより発達しており、管楽器演奏者は呼吸制御に関連する領域が強化されている。これらの適応は幼児期だけでなく、成人期に入ってからも続く可能性がある。\n\n音楽教育の認知的恩恵は、音楽能力そのものをはるかに超えて広がっている。学校の音楽プログラムに参加する生徒は、音楽訓練を受けない同級生と比較して、数学、読解、標準テストで一貫して向上した成績を示す。この現象は時に「モーツァルト効果」と呼ばれ、異なる文化や教育制度にわたって観察されている。研究者たちは、音楽の練習に必要な規律と集中力が他の学習科目に転移し、学習と達成の好循環を生み出すと考えている。\n\nさらに、音楽教育は社会的・情緒的発達を促進することが示されている。合唱やオーケストラの演奏などのグループ音楽活動では、生徒は他の人の音によく耳を傾け、自分の行動を調整し、共通の目標に向かって取り組む必要がある。これらの体験は、生徒たちの人生を通じて役に立つ重要な社会的スキルと情緒的知性を育む。さらに、楽曲を習得したり公の場で演奏したりすることから得られる達成感は、人生の他の分野での自信と意欲を高めることができる。\n\nこれらの研究結果を踏まえ、多くの教育者や政策立案者が学校における音楽教育のより強力な支援を提唱している。しかし、予算の制約や標準テストへの重点により、しばしば芸術プログラムが削減される。これは特に残念なことである。なぜなら、音楽訓練の恩恵は早期に指導が始まり、長期間一貫して継続されたときに最も顕著に現れるからである。充実した音楽教育プログラムを維持するコミュニティは、子どもたちの芸術的発達だけでなく、全体的な認知的、社会的、情緒的成長にも投資しているのである。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Musical education is primarily valued for developing professional musicians in society.",
+        "B": "Brain imaging studies reveal structural differences between musicians' and non-musicians' brains.",
+        "C": "The benefits of music education are limited to children and cannot extend to adults.",
+        "D": "Recent research focuses mainly on the cultural aspects rather than cognitive effects of music."
+      },
+      "answer": "B",
+      "explanation": "第1段落に 'Studies using brain imaging technology have shown that musicians' brains are structurally different from those of non-musicians, with enhanced connections between different brain regions.' とあり、脳画像技術を使った研究で音楽家と非音楽家の脳に構造的違いがあることが示されたと述べている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Learning music requires coordination of reading, physical control, listening, and adjustment.",
+        "B": "Musical training creates new neural pathways and strengthens existing brain connections.",
+        "C": "Children need at least five years of music lessons to show significant brain improvements.",
+        "D": "Brain areas for language processing and spatial reasoning are enhanced through music education."
+      },
+      "answer": "C",
+      "explanation": "第2段落に 'Research has shown that children who receive music lessons for at least two years demonstrate increased activity...' とあり、少なくとも2年間（5年間ではない）のレッスンで効果が示されると述べている。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Neuroplasticity refers to the brain's ability to reorganize throughout life.",
+        "B": "String players show enhanced brain regions that control finger movements.",
+        "C": "Brain adaptations from musical training occur only during childhood development.",
+        "D": "Different instruments lead to development of different brain areas in musicians."
+      },
+      "answer": "C",
+      "explanation": "第3段落に 'These adaptations occur not only during childhood but can continue well into adulthood.' とあり、脳の適応は幼児期だけでなく成人期まで続くと述べており、選択肢Cの「幼児期のみ」という内容に合わない。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "The Mozart effect has been observed only in Western educational systems.",
+        "B": "Music students perform worse in mathematics compared to their non-musical peers.",
+        "C": "Musical training benefits are limited to improved musical abilities alone.",
+        "D": "Students in music programs show better performance in academic subjects like math and reading."
+      },
+      "answer": "D",
+      "explanation": "第4段落に 'Students who participate in school music programs consistently show improved performance in mathematics, reading, and standardized tests compared to their peers who do not receive musical training.' とあり、音楽プログラムに参加する生徒は数学や読解で向上した成績を示すと述べている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Group music activities help students develop social skills and emotional intelligence.",
+        "B": "Individual music practice is more beneficial than group musical performances.",
+        "C": "Musical accomplishments have no impact on students' confidence in other areas.",
+        "D": "Choir singing requires less coordination skills compared to orchestra performances."
+      },
+      "answer": "A",
+      "explanation": "第5段落に 'Group music activities, such as choir singing or orchestra performances, require students to listen carefully to others, coordinate their actions, and work toward common goals. These experiences build important social skills and emotional intelligence...' とあり、グループ音楽活動が社会的スキルと情緒的知性を育むと述べている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Create physical strength and musical techniques needed for future careers.",
+        "B": "Develop interpersonal abilities and emotional understanding valuable throughout life.",
+        "C": "Form competitive attitudes and individual excellence in academic performance.",
+        "D": "Establish professional networks and business connections for future opportunities."
+      },
+      "answer": "B",
+      "explanation": "下線部の前文で 'These experiences' がグループ音楽活動を指し、それが 'important social skills and emotional intelligence that serve students well throughout their lives' を築くと述べている。つまり、人生を通じて価値のある対人能力と感情的理解を発達させることを意味している。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Professional musicians' brains show no significant differences from amateur players' brains.",
+        "B": "The benefits of musical training are most effective when started in late adolescence.",
+        "C": "Musical training promotes neuroplasticity and creates new neural pathways in the brain.",
+        "D": "Budget constraints often lead to the expansion of music education programs in schools.",
+        "E": "Children require exactly two years of music lessons to achieve cognitive improvements.",
+        "F": "Group musical activities help develop coordination skills and common goal achievement abilities.",
+        "G": "The Mozart effect has been observed only in specific cultural and educational contexts."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "選択肢Cについて：第2段落に 'This multi-sensory experience creates new neural pathways and strengthens existing ones.' とあり、音楽訓練が神経可塑性を促進し新しい神経経路を作ることが述べられている。選択肢Fについて：第5段落に 'Group music activities...require students to listen carefully to others, coordinate their actions, and work toward common goals.' とあり、グループ音楽活動が協調スキルと共通目標達成能力を発達させることが述べられている。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "音楽教育と脳の発達",
+    "神経可塑性",
+    "認知発達",
+    "社会的スキル",
+    "学習効果"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T10:04:17.384Z",
+  "vocabulary": [
+    {
+      "word": "neuroplasticity",
+      "meaning": "神経可塑性、脳の再編成能力"
+    },
+    {
+      "word": "robust",
+      "meaning": "堅実な、充実した"
+    }
+  ]
+}

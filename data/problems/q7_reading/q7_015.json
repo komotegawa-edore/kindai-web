@@ -1,0 +1,144 @@
+{
+  "id": "kindai_english_q7_reading_015",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "Water is one of the most precious resources on Earth, yet billions of people around the world lack access to clean, safe drinking water. The global water crisis has become one of the most pressing challenges of the 21st century, affecting not only human health but also economic development and political stability. According to the United Nations, approximately 2.2 billion people currently live without safely managed drinking water at home, and this number is expected to grow as populations increase and climate patterns change.\n\nClimate change plays a significant role in worsening the water crisis. Rising temperatures lead to increased evaporation of surface water, while changing precipitation patterns create more frequent and severe droughts in some regions and devastating floods in others. These extreme weather events make it difficult for communities to maintain reliable water supplies. Additionally, melting glaciers and snowpacks, which serve as natural water reservoirs for millions of people, are disappearing at an alarming rate, threatening long-term water security.\n\nRapid population growth and urbanization have put enormous pressure on existing water resources. As cities expand, the demand for water increases exponentially, often exceeding the capacity of local water systems. Poor urban planning frequently results in inadequate infrastructure, making it difficult to distribute clean water efficiently. Furthermore, industrial activities and agriculture consume vast amounts of water, with agriculture alone accounting for approximately 70% of global freshwater use. This competition for water resources creates conflicts between different sectors of society.\n\nThe consequences of water scarcity extend far beyond simple inconvenience. Lack of access to clean water leads to serious health problems, including waterborne diseases such as cholera, typhoid, and diarrhea, which cause millions of deaths annually, particularly among children under five years old. Women and girls in water-scarce regions often spend hours each day walking long distances to collect water, preventing them from attending school or engaging in income-generating activities. This perpetuates cycles of poverty and limits opportunities for social and economic advancement.\n\nDespite these challenges, innovative solutions are emerging to address the water crisis. Technological advances have made water treatment and desalination more efficient and affordable than ever before. __Smart water management systems__ use sensors and data analytics to monitor water quality and distribution, reducing waste and improving efficiency. Countries like Israel and Singapore have become leaders in water conservation and recycling, demonstrating that even water-scarce nations can achieve water security through proper planning and investment in technology.\n\nThe path forward requires coordinated global action involving governments, international organizations, and local communities. Investment in water infrastructure must be prioritized, particularly in developing countries where the need is greatest. Education programs can teach people about water conservation and hygiene practices, while policy reforms can ensure sustainable water management. Only through collective effort and commitment can we hope to solve the global water crisis and ensure that future generations have access to this vital resource for survival and prosperity.",
+  "translation": "水は地球上で最も貴重な資源の一つであるが、世界中で数十億人もの人々が安全で清潔な飲料水を利用できずにいる。世界的な水資源の危機は21世紀の最も緊急性の高い課題の一つとなっており、人々の健康だけでなく経済発展や政治的安定にも影響を与えている。国連によると、現在およそ22億人が家庭で安全に管理された飲料水なしで生活しており、人口増加と気候パターンの変化に伴い、この数は増加すると予想されている。\n\n気候変動は水危機の悪化に重要な役割を果たしている。気温の上昇により地表水の蒸発が増加し、降水パターンの変化により一部の地域ではより頻繁で深刻な干ばつが起こり、他の地域では破壊的な洪水が発生している。これらの異常気象により、地域社会が信頼できる水の供給を維持することが困難になっている。さらに、何百万人もの人々にとって天然の貯水池の役割を果たしている氷河や積雪が驚くべき速度で消失しており、長期的な水の安全保障を脅かしている。\n\n急激な人口増加と都市化により、既存の水資源に巨大な圧力がかかっている。都市が拡大するにつれて水の需要が指数関数的に増加し、しばしば地域の水システムの能力を上回っている。貧弱な都市計画により不適切なインフラがもたらされることが多く、清潔な水を効率的に配布することが困難になっている。さらに、産業活動と農業は膨大な量の水を消費しており、農業だけで世界の淡水使用量の約70％を占めている。この水資源の競争が社会の異なる部門間で対立を生み出している。\n\n水不足の影響は単なる不便を遙かに超えている。清潔な水へのアクセスの欠如は、コレラ、腸チフス、下痢などの水系感染症を含む深刻な健康問題を引き起こし、これらは年間数百万人の死者、特に5歳未満の子どもたちの死を引き起こしている。水の乏しい地域の女性や少女たちは、しばしば水を集めるために長距離を歩いて1日数時間を費やし、学校に通ったり収入を得る活動に従事したりすることができない。これにより貧困の循環が永続化し、社会的・経済的発展の機会が制限される。\n\nこれらの課題にもかかわらず、水危機に対処する革新的な解決策が登場している。技術の進歩により、水処理と海水淡水化がこれまで以上に効率的で手頃な価格になった。スマート水管理システムはセンサーとデータ分析を使用して水質と配給を監視し、無駄を減らし効率を向上させている。イスラエルやシンガポールなどの国々は水の保全とリサイクルの分野でリーダーとなっており、水の乏しい国であっても適切な計画と技術への投資により水の安全保障を達成できることを実証している。\n\n今後の道筋には、政府、国際機関、地域社会を巻き込んだ協調的な世界的行動が必要である。特に必要性が最も高い発展途上国において、水インフラへの投資が優先されなければならない。教育プログラムは人々に水の節約と衛生習慣について教えることができ、政策改革は持続可能な水管理を確保することができる。集団的な努力と決意を通してのみ、私たちは世界的な水危機を解決し、将来の世代がこの生存と繁栄に不可欠な資源にアクセスできることを保証できるのである。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "The global water crisis primarily affects economic development rather than human health.",
+        "B": "Approximately 2.2 billion people worldwide lack access to safely managed drinking water at home.",
+        "C": "The water crisis is expected to be solved by the end of the 21st century.",
+        "D": "Population decrease is the main cause of the current global water shortage."
+      },
+      "answer": "B",
+      "explanation": "第1段落に'According to the United Nations, approximately 2.2 billion people currently live without safely managed drinking water at home'とあり、選択肢Bが正確に本文の内容を表している。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Climate change has helped stabilize water supplies in most regions around the world.",
+        "B": "Rising temperatures increase the evaporation of surface water sources.",
+        "C": "Changing precipitation patterns create both droughts and floods in different regions.",
+        "D": "Melting glaciers and snowpacks threaten long-term water security for millions of people."
+      },
+      "answer": "A",
+      "explanation": "第2段落では気候変動が水危機を悪化させていると述べられており、'These extreme weather events make it difficult for communities to maintain reliable water supplies'とある。選択肢Aは気候変動が水の供給を安定化させたとしているが、これは本文の内容に矛盾している。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Urban expansion leads to exponentially increased demand for water resources.",
+        "B": "Poor urban planning often results in inadequate water distribution infrastructure.",
+        "C": "Industrial activities consume more water than agriculture on a global scale.",
+        "D": "Competition for water resources creates conflicts between different sectors of society."
+      },
+      "answer": "C",
+      "explanation": "第3段落に'agriculture alone accounting for approximately 70% of global freshwater use'とあり、農業が工業よりもはるかに多くの水を消費していることが明記されている。選択肢Cは工業の方が農業より多く水を消費するとしているため、本文に合わない。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Water scarcity mainly affects adult men in developing countries.",
+        "B": "Waterborne diseases cause few deaths compared to other health problems.",
+        "C": "Women and girls benefit economically from collecting water in water-scarce regions.",
+        "D": "Lack of clean water prevents women and girls from attending school or earning income."
+      },
+      "answer": "D",
+      "explanation": "第4段落に'Women and girls in water-scarce regions often spend hours each day walking long distances to collect water, preventing them from attending school or engaging in income-generating activities'とあり、選択肢Dが正確に本文の内容を表している。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Technological advances have made water treatment and desalination more efficient and affordable.",
+        "B": "Smart water management systems have proven to be ineffective in reducing water waste.",
+        "C": "Israel and Singapore have failed to achieve water security despite their investments.",
+        "D": "Water conservation technology is only available to wealthy developed countries."
+      },
+      "answer": "A",
+      "explanation": "第5段落に'Technological advances have made water treatment and desalination more efficient and affordable than ever before'とあり、選択肢Aが本文の内容と一致している。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Traditional water systems that have been used for centuries in rural areas.",
+        "B": "Advanced technology that monitors water quality and distribution using sensors and data.",
+        "C": "Simple water conservation methods that require no technological investment.",
+        "D": "Emergency water supply systems used only during natural disasters."
+      },
+      "answer": "B",
+      "explanation": "下線部に続いて'use sensors and data analytics to monitor water quality and distribution, reducing waste and improving efficiency'とあり、センサーとデータ分析を使用した先進的な水管理技術について説明している。選択肢Bが最も適切である。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "The global water crisis affects only developing countries in Africa and Asia.",
+        "B": "Climate change has no significant impact on global water availability.",
+        "C": "Agriculture consumes approximately 70% of global freshwater resources.",
+        "D": "Waterborne diseases primarily affect elderly people rather than children.",
+        "E": "All technological solutions for water treatment are too expensive for practical use.",
+        "F": "Israel and Singapore have successfully demonstrated water security in water-scarce conditions.",
+        "G": "The water crisis can be solved by individual efforts alone without government involvement."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "選択肢Cは第3段落の'agriculture alone accounting for approximately 70% of global freshwater use'に対応している。選択肢Fは第5段落の'Countries like Israel and Singapore have become leaders in water conservation and recycling, demonstrating that even water-scarce nations can achieve water security'に対応している。他の選択肢は本文の内容に矛盾するか、本文に記載されていない情報である。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "水資源の危機",
+    "気候変動",
+    "都市化",
+    "技術革新",
+    "国際協力",
+    "持続可能な発展"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T10:00:18.015Z",
+  "vocabulary": [
+    {
+      "word": "exponentially",
+      "meaning": "急激に、指数関数的に"
+    },
+    {
+      "word": "desalination",
+      "meaning": "海水淡水化"
+    }
+  ]
+}

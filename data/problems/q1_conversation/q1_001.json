@@ -1,0 +1,49 @@
+{
+  "id": "kindai_english_q1_conversation_001",
+  "university": "kindai",
+  "subject": "english",
+  "section": 1,
+  "section_name": "会話文・空所補充",
+  "type": "conversation_cloze",
+  "difficulty": 2,
+  "conversation": [
+    { "speaker": "A", "text": "Excuse me. I'm looking for a birthday present for my sister. Could you recommend something?" },
+    { "speaker": "B", "text": "Sure! What kind of things does she like?" },
+    { "speaker": "A", "text": "She loves reading, and she's been interested in cooking lately." },
+    { "speaker": "B", "text": "Then how about this cookbook? It just came out last week and it's been very popular." },
+    { "speaker": "A", "text": "( 1 )" },
+    { "speaker": "B", "text": "It's 2,500 yen. Would you like me to gift-wrap it?" },
+    { "speaker": "A", "text": "( 2 )" }
+  ],
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "空所( 1 )に入る最も適切なものを選びなさい。",
+      "choices": {
+        "A": "That sounds perfect. How much is it?",
+        "B": "I don't think she would like that.",
+        "C": "Can I return it if she doesn't like it?",
+        "D": "I'd rather get something else."
+      },
+      "answer": "A",
+      "explanation": "直後にBが価格を答えていることから、(1)では価格を尋ねる内容が入る。料理に興味がある妹へのプレゼントとしてcookbookは適切で、'That sounds perfect.'と肯定した上で値段を聞くAが正解。"
+    },
+    {
+      "question_number": 2,
+      "question": "空所( 2 )に入る最も適切なものを選びなさい。",
+      "choices": {
+        "A": "No, I'll come back later.",
+        "B": "Yes, please. That would be great.",
+        "C": "I think I'll look around some more.",
+        "D": "Could you show me something cheaper?"
+      },
+      "answer": "B",
+      "explanation": "Bがギフト包装を提案しており、誕生日プレゼントとして購入する流れなので、包装を依頼するBが自然。"
+    }
+  ],
+  "tags": ["日常会話", "買い物", "提案・依頼"],
+  "target_time_seconds": 120,
+  "is_ai_generated": false,
+  "is_reviewed": true,
+  "created_at": "2026-03-29T00:00:00Z"
+}

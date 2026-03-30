@@ -1,0 +1,23 @@
+{
+  "id": "kindai_english_q5_vocabulary_001",
+  "university": "kindai",
+  "subject": "english",
+  "section": 5,
+  "section_name": "語彙力",
+  "type": "vocabulary_select",
+  "difficulty": 2,
+  "question": "The company decided to _____ the old building and construct a new one.",
+  "choices": {
+    "A": "demolish",
+    "B": "establish",
+    "C": "renovate",
+    "D": "preserve"
+  },
+  "answer": "A",
+  "explanation": "「古い建物を___して新しいものを建設する」という文脈から、demolish（取り壊す）が正解。establish（設立する）、renovate（改装する）、preserve（保存する）はいずれも文脈に合わない。",
+  "tags": ["動詞", "語彙"],
+  "target_time_seconds": 25,
+  "is_ai_generated": false,
+  "is_reviewed": true,
+  "created_at": "2026-03-29T00:00:00Z"
+}

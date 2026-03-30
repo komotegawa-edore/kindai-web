@@ -1,0 +1,143 @@
+{
+  "id": "kindai_english_q7_reading_001",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "    Artificial intelligence has become one of the most transformative technologies of our time, revolutionizing industries from healthcare to transportation. As AI systems become increasingly sophisticated, they are capable of performing tasks that were once thought to require human intelligence, such as recognizing patterns, making decisions, and even creating art. This rapid advancement has sparked intense debate about the role of AI in society and its potential impact on human life.\n\n    The integration of AI into various sectors has brought remarkable benefits. In healthcare, AI algorithms can analyze medical images with greater accuracy than human doctors, helping to detect diseases like cancer in their early stages. In transportation, self-driving cars promise to reduce traffic accidents caused by human error. Educational technology powered by AI can provide personalized learning experiences for students, adapting to their individual needs and learning styles. These applications demonstrate AI's potential to improve quality of life and solve complex societal problems.\n\n    However, the widespread adoption of AI also raises significant concerns. One of the most pressing issues is job displacement. As AI systems become more capable, they may replace human workers in various fields, from manufacturing to customer service. This could lead to increased unemployment and social inequality. Additionally, there are concerns about privacy and data security, as AI systems often require vast amounts of personal data to function effectively. The concentration of this data in the hands of a few large technology companies has raised questions about power and control in the digital age.\n\n    Another critical challenge is ensuring that AI systems are fair and unbiased. Machine learning algorithms learn from data, and if this data contains historical biases, the AI system may perpetuate or even amplify these prejudices. For example, facial recognition systems have been shown to have higher error rates for people with darker skin tones, and hiring algorithms may discriminate against certain demographic groups. These biases can have serious consequences for individuals and communities, reinforcing existing inequalities in society.\n\n    To address these challenges, governments and organizations worldwide are working to develop ethical guidelines and regulations for AI development and deployment. The European Union has proposed comprehensive AI legislation, while companies are investing in research on __explainable AI and bias detection__. Educational initiatives are also being launched to help people understand AI technology and its implications. These efforts aim to ensure that AI development benefits all members of society while minimizing potential harm.\n\n    Looking toward the future, the key to successful AI integration lies in striking a balance between innovation and responsibility. We must continue to harness AI's potential to solve pressing global challenges like climate change and disease, while simultaneously addressing the ethical and social concerns it raises. This requires collaboration between technologists, policymakers, educators, and citizens. Only through such collective effort can we ensure that artificial intelligence serves as a force for positive change in society, enhancing human capabilities rather than replacing them entirely.",
+  "translation": "人工知能は現代において最も変革的な技術の一つとなり、医療から交通まで様々な産業に革命をもたらしている。AIシステムがますます高度になるにつれ、パターン認識、意思決定、さらには芸術創作など、かつては人間の知能が必要だと考えられていた作業を実行できるようになっている。この急速な発展により、社会におけるAIの役割とそれが人間の生活に与える潜在的な影響について激しい議論が巻き起こっている。\n\n様々な分野へのAI統合は、目覚ましい利益をもたらしている。医療分野では、AIアルゴリズムが人間の医師よりも高い精度で医療画像を分析し、がんなどの疾患を早期段階で発見することを支援している。交通分野では、自動運転車が人間のエラーによる交通事故を減らすことを約束している。AIを搭載した教育技術は、学生の個別のニーズや学習スタイルに適応し、個人化された学習体験を提供できる。これらの応用例は、生活の質を向上させ、複雑な社会問題を解決するAIの可能性を実証している。\n\nしかし、AIの広範囲な採用は重大な懸念も提起している。最も差し迫った問題の一つは雇用の置き換えである。AIシステムがより有能になるにつれ、製造業から顧客サービスまで様々な分野で人間の労働者を置き換える可能性がある。これは失業の増加と社会格差につながる可能性がある。さらに、AIシステムが効果的に機能するために大量の個人データを必要とすることが多いため、プライバシーとデータセキュリティに関する懸念もある。このデータが少数の大手テクノロジー企業の手に集中することで、デジタル時代における権力と支配に関する疑問が提起されている。\n\nもう一つの重要な課題は、AIシステムが公平で偏見のないものであることを保証することである。機械学習アルゴリズムはデータから学習するため、このデータに歴史的な偏見が含まれていると、AIシステムがこれらの偏見を永続化したり、さらには増幅したりする可能性がある。例えば、顔認識システムは肌の色が濃い人に対してより高いエラー率を示すことが明らかになっており、採用アルゴリズムは特定の人口統計学的グループに対して差別を行う可能性がある。これらの偏見は個人やコミュニティに深刻な結果をもたらし、社会における既存の不平等を強化する可能性がある。\n\nこれらの課題に対処するため、世界中の政府や組織がAI開発と展開のための倫理的ガイドラインと規制の開発に取り組んでいる。欧州連合は包括的なAI法案を提案し、企業は説明可能なAIと偏見検出の研究に投資している。また、人々がAI技術とその影響を理解できるよう支援する教育イニシアチブも開始されている。これらの取り組みは、潜在的な害を最小限に抑えながら、AI開発が社会のすべてのメンバーに利益をもたらすことを確実にすることを目的としている。\n\n将来を見据えると、AIの成功的な統合の鍵は、革新と責任のバランスを取ることにある。私たちは、気候変動や疾病などの差し迫った地球規模の課題を解決するためにAIの潜在能力を活用し続ける一方で、それが提起する倫理的・社会的懸念に同時に対処しなければならない。これには、技術者、政策立案者、教育者、市民の間の協力が必要である。このような集合的な努力によってのみ、人工知能が社会における積極的な変化の力として機能し、人間を完全に置き換えるのではなく、人間の能力を向上させることができるのである。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "AI systems are now capable of performing only simple computational tasks that do not require human-like intelligence.",
+        "B": "The advancement of AI technology has led to widespread discussions about its societal role and potential impact on human life.",
+        "C": "Artificial intelligence has failed to revolutionize any major industries despite significant investment in research and development.",
+        "D": "The debate about AI's role in society has been resolved through recent technological breakthroughs and policy decisions."
+      },
+      "answer": "B",
+      "explanation": "第1段落に 'This rapid advancement has sparked intense debate about the role of AI in society and its potential impact on human life' とあり、AI技術の進歩が社会における役割や人間生活への潜在的影響について広範囲な議論を引き起こしていることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "AI algorithms in healthcare can only provide basic diagnostic support and cannot surpass human doctors in accuracy.",
+        "B": "Self-driving cars have the potential to reduce traffic accidents that result from human error.",
+        "C": "Educational technology powered by AI can adapt to individual students' learning needs and styles.",
+        "D": "AI applications demonstrate the technology's potential to improve quality of life and address complex societal issues."
+      },
+      "answer": "A",
+      "explanation": "第2段落に 'AI algorithms can analyze medical images with greater accuracy than human doctors' とあり、AIアルゴリズムは人間の医師よりも高い精度で医療画像を分析できると述べられているため、選択肢Aの内容は本文に合わない。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Job displacement is one of the most pressing concerns related to widespread AI adoption.",
+        "B": "AI systems may replace human workers in various fields including manufacturing and customer service.",
+        "C": "The concentration of personal data in large technology companies has eliminated concerns about privacy and security.",
+        "D": "AI systems often require vast amounts of personal data to function effectively."
+      },
+      "answer": "C",
+      "explanation": "第3段落に 'The concentration of this data in the hands of a few large technology companies has raised questions about power and control in the digital age' とあり、大手テクノロジー企業へのデータ集中が権力と支配に関する疑問を提起していると述べられているため、選択肢Cの「懸念を排除した」という内容は本文に合わない。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Machine learning algorithms automatically eliminate any biases present in training data through advanced filtering techniques.",
+        "B": "Facial recognition systems perform equally well across all demographic groups without any variation in accuracy.",
+        "C": "AI systems trained on biased data may perpetuate or amplify existing prejudices and discrimination in society.",
+        "D": "Hiring algorithms have been proven to be completely free from demographic bias and discrimination."
+      },
+      "answer": "C",
+      "explanation": "第4段落に 'if this data contains historical biases, the AI system may perpetuate or even amplify these prejudices' とあり、偏見を含むデータでトレーニングされたAIシステムが既存の偏見を永続化または増幅する可能性があることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Governments and organizations worldwide are developing ethical guidelines and regulations for AI development and deployment.",
+        "B": "The European Union has completely rejected any legislation related to artificial intelligence regulation.",
+        "C": "Companies have stopped investing in research on AI bias detection due to high costs and limited benefits.",
+        "D": "Educational initiatives about AI technology have been deemed unnecessary by most policymakers."
+      },
+      "answer": "A",
+      "explanation": "第5段落に 'governments and organizations worldwide are working to develop ethical guidelines and regulations for AI development and deployment' とあり、世界中の政府や組織がAI開発と展開のための倫理的ガイドラインと規制の開発に取り組んでいることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Technologies that make AI decision-making processes transparent and methods to identify unfair treatment in AI systems.",
+        "B": "Advanced computational methods that can completely eliminate all forms of bias from machine learning algorithms.",
+        "C": "Simple programming techniques that allow AI systems to operate without any human oversight or intervention.",
+        "D": "Basic software tools that help companies reduce their investment costs in artificial intelligence research projects."
+      },
+      "answer": "A",
+      "explanation": "下線部 'explainable AI and bias detection' は、AIの意思決定プロセスを説明可能にする技術と偏見を検出する手法を指している。選択肢Aが「AIの意思決定プロセスを透明にし、AIシステムにおける不公正な扱いを特定する方法」として最も適切に内容を表している。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "AI technology has completely solved all major healthcare problems and eliminated the need for human doctors.",
+        "B": "The widespread adoption of AI has created no significant concerns about job displacement or social inequality.",
+        "C": "Facial recognition systems have been shown to have higher error rates for people with darker skin tones.",
+        "D": "All governments worldwide have already implemented comprehensive AI regulations based on the European Union model.",
+        "E": "AI systems require no personal data to function effectively, ensuring complete privacy protection for users.",
+        "F": "Successful AI integration requires collaboration between technologists, policymakers, educators, and citizens.",
+        "G": "Machine learning algorithms always produce completely unbiased results regardless of their training data quality."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "選択肢Cは第4段落の 'facial recognition systems have been shown to have higher error rates for people with darker skin tones' に対応している。選択肢Fは第6段落の 'This requires collaboration between technologists, policymakers, educators, and citizens' に対応している。他の選択肢は本文の内容に矛盾するか、本文に書かれていない情報を含んでいる。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "人工知能と社会",
+    "技術と倫理",
+    "AI の影響",
+    "社会問題",
+    "未来社会"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T09:42:56.984Z",
+  "vocabulary": [
+    {
+      "word": "perpetuate",
+      "meaning": "永続させる、持続させる"
+    },
+    {
+      "word": "deployment",
+      "meaning": "展開、配置"
+    }
+  ]
+}

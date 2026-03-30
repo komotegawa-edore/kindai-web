@@ -1,0 +1,143 @@
+{
+  "id": "kindai_english_q7_reading_025",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "    Modern architectural design has evolved far beyond simply creating functional spaces. Today's architects recognize that the physical environment profoundly influences how people live, work, and interact with one another. This understanding has led to a revolutionary approach where buildings are designed not just as shelters, but as active participants in shaping human behavior and well-being. The relationship between architectural design and daily life has become a central focus in contemporary urban planning and residential development.\n\n    One of the most significant ways architecture affects daily life is through the concept of spatial flow. Well-designed buildings create natural pathways that guide people through spaces efficiently while promoting social interaction. For example, open-plan offices with strategically placed common areas encourage collaboration among employees, while residential buildings with central courtyards foster community relationships among neighbors. The arrangement of rooms, corridors, and public spaces directly impacts how residents and users experience their environment on a daily basis.\n\n    Natural light and ventilation represent another crucial aspect of architectural design that dramatically affects quality of life. Buildings that maximize daylight exposure and provide adequate air circulation contribute to both physical and mental health. Research has consistently shown that people living or working in well-lit, naturally ventilated spaces experience reduced stress levels, improved productivity, and better sleep patterns. However, many urban developments still prioritize cost-effectiveness over these essential design elements, resulting in buildings that negatively impact their occupants' well-being.\n\n    The integration of green spaces within architectural design has become increasingly important in urban environments. Rooftop gardens, vertical walls covered with plants, and indoor courtyards with vegetation help combat air pollution while providing psychological benefits to residents. These green elements create micro-climates that regulate temperature and humidity, reducing the need for artificial climate control systems. Additionally, the presence of nature within built environments has been proven to reduce anxiety and improve cognitive function among building occupants.\n\n    Smart technology integration represents the newest frontier in architectural design that enhances daily living experiences. Modern buildings now incorporate automated lighting systems, intelligent climate control, and integrated home management systems that adapt to residents' daily routines. __These technological innovations not only improve convenience but also contribute to energy efficiency and environmental sustainability.__ Sensors can detect occupancy patterns and adjust lighting and temperature accordingly, while smart appliances can be programmed to operate during off-peak energy hours.\n\n    Looking toward the future, architects are increasingly focusing on creating adaptive spaces that can evolve with changing needs and lifestyles. Flexible room configurations, modular furniture systems, and multipurpose areas allow residents to customize their living spaces according to their specific requirements. This approach recognizes that modern life is dynamic and that buildings must be capable of accommodating various activities throughout different periods of the day, week, or even years. The ultimate goal is to create environments that support and enhance human potential rather than limiting it through rigid structural constraints.",
+  "translation": "    現代の建築デザインは、単に機能的な空間を創造することをはるかに超えて発展してきた。今日の建築家は、物理的環境が人々の生活、仕事、そして互いとの関わり方に深く影響することを理解している。この理解により、建物は単なる避難所としてではなく、人間の行動と幸福を形作る積極的な参加者として設計されるという革命的なアプローチが生まれた。建築デザインと日常生活の関係は、現代の都市計画と住宅開発における中心的な焦点となっている。\n\n    建築が日常生活に影響を与える最も重要な方法の一つは、空間の流れという概念を通してである。よく設計された建物は、人々を効率的に空間に導きながら社会的交流を促進する自然な経路を作り出す。例えば、戦略的に配置された共用エリアを持つオープンプランのオフィスは従業員間の協働を促進し、中央の中庭を持つ住宅建物は近隣住民間の共同体関係を育む。部屋、廊下、公共空間の配置は、居住者や利用者が日常的に環境を体験する方法に直接的な影響を与える。\n\n    自然光と換気は、生活の質に劇的な影響を与える建築デザインのもう一つの重要な側面である。昼光の露出を最大化し、適切な空気循環を提供する建物は、身体的健康と精神的健康の両方に貢献する。研究では、十分に照らされ、自然換気された空間で生活または働く人々は、ストレスレベルの軽減、生産性の向上、睡眠パターンの改善を経験することが一貫して示されている。しかし、多くの都市開発では、これらの重要なデザイン要素よりも費用対効果が優先され、その結果、居住者の幸福に悪影響を与える建物が生まれている。\n\n    建築デザインにおける緑地空間の統合は、都市環境においてますます重要になっている。屋上庭園、植物で覆われた垂直壁、植生のある屋内中庭は、大気汚染と戦いながら居住者に心理的利益を提供する。これらの緑の要素は、温度と湿度を調整する微気候を作り出し、人工的な気候制御システムの必要性を減らす。さらに、建築環境内での自然の存在は、建物の居住者の不安を軽減し、認知機能を改善することが証明されている。\n\n    スマート技術の統合は、日常の生活体験を向上させる建築デザインの最新のフロンティアである。現代の建物には、自動照明システム、インテリジェント気候制御、居住者の日常ルーチンに適応する統合ホーム管理システムが組み込まれている。これらの技術革新は、利便性を向上させるだけでなく、エネルギー効率と環境持続可能性にも貢献する。センサーは居住パターンを検知し、それに応じて照明と温度を調整でき、スマート家電はオフピーク時間に動作するようにプログラムできる。\n\n    将来を見据えて、建築家は変化するニーズとライフスタイルに進化できる適応性のある空間の創造にますます注力している。柔軟な部屋構成、モジュラー家具システム、多目的エリアにより、居住者は特定の要件に応じて生活空間をカスタマイズできる。このアプローチは、現代の生活が動的であり、建物が日、週、さらには年の異なる期間を通じて様々な活動に対応できる必要があることを認識している。最終的な目標は、硬直した構造的制約によって制限するのではなく、人間の可能性を支援し向上させる環境を創造することである。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Modern architects focus primarily on creating cost-effective buildings rather than considering human behavior.",
+        "B": "Contemporary architectural design considers buildings as active elements that influence human behavior and well-being.",
+        "C": "Traditional building design methods are still the most effective approach in modern urban development.",
+        "D": "The relationship between architecture and daily life has become less important in recent urban planning."
+      },
+      "answer": "B",
+      "explanation": "第1段落に'buildings are designed not just as shelters, but as active participants in shaping human behavior and well-being'とあり、現代の建築デザインが人間の行動と幸福を形作る積極的な要素として建物を考えていることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Spatial flow in buildings is designed to prevent social interaction and maintain privacy.",
+        "B": "Well-designed buildings create natural pathways that guide people through spaces efficiently.",
+        "C": "Open-plan offices with common areas can encourage collaboration among employees.",
+        "D": "The arrangement of rooms and corridors directly impacts how people experience their environment."
+      },
+      "answer": "A",
+      "explanation": "第2段落では'Well-designed buildings create natural pathways that guide people through spaces efficiently while promoting social interaction'とあり、よく設計された建物は社会的交流を促進すると述べられているため、Aの「社会的交流を防ぐ」という内容は矛盾している。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Natural light and ventilation have significant effects on the quality of life.",
+        "B": "People in well-lit spaces experience reduced stress levels and improved productivity.",
+        "C": "Most urban developments successfully prioritize natural lighting and ventilation over cost considerations.",
+        "D": "Buildings with adequate air circulation contribute to both physical and mental health."
+      },
+      "answer": "C",
+      "explanation": "第3段落に'many urban developments still prioritize cost-effectiveness over these essential design elements'とあり、多くの都市開発では費用対効果が自然光や換気よりも優先されていると述べられているため、Cの内容は事実と反対である。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Green spaces in buildings are primarily decorative and provide no functional benefits.",
+        "B": "Rooftop gardens and vertical plant walls increase the need for artificial climate control systems.",
+        "C": "The presence of nature in built environments has no measurable effect on cognitive function.",
+        "D": "Green elements within buildings help regulate temperature and humidity while providing psychological benefits."
+      },
+      "answer": "D",
+      "explanation": "第4段落に'These green elements create micro-climates that regulate temperature and humidity, reducing the need for artificial climate control systems'と'the presence of nature within built environments has been proven to reduce anxiety and improve cognitive function'とあり、緑の要素が温度・湿度調整と心理的利益の両方を提供することが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Smart technology in buildings adapts to residents' daily routines and improves energy efficiency.",
+        "B": "Automated systems in modern buildings consume more energy than traditional building methods.",
+        "C": "Smart appliances operate continuously throughout the day regardless of energy costs.",
+        "D": "Technological innovations in buildings focus only on convenience without considering sustainability."
+      },
+      "answer": "A",
+      "explanation": "第5段落に'Modern buildings now incorporate automated lighting systems, intelligent climate control, and integrated home management systems that adapt to residents' daily routines'と'These technological innovations not only improve convenience but also contribute to energy efficiency'とあり、スマート技術が日常ルーチンに適応し、エネルギー効率を向上させることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Advanced building systems are expensive to install but have no real benefits for residents.",
+        "B": "Modern building technology enhances both daily convenience and environmental conservation efforts.",
+        "C": "Smart home systems are too complicated for most people to use effectively in their daily lives.",
+        "D": "Technological features in buildings are designed primarily for entertainment rather than practical use."
+      },
+      "answer": "B",
+      "explanation": "下線部'These technological innovations not only improve convenience but also contribute to energy efficiency and environmental sustainability'は、技術革新が利便性の向上だけでなく、エネルギー効率と環境持続可能性にも貢献することを表している。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Traditional architectural design methods are more effective than modern approaches for urban development.",
+        "B": "Smart technology in buildings increases energy consumption and environmental impact significantly.",
+        "C": "Well-designed spatial flow in buildings can promote both efficiency and social interaction among users.",
+        "D": "Natural light and ventilation in buildings have been proven to reduce stress and improve productivity.",
+        "E": "Most urban developments successfully prioritize natural design elements over cost-effectiveness considerations.",
+        "F": "Future architectural design focuses on creating flexible spaces that can adapt to changing lifestyle needs.",
+        "G": "Green spaces in buildings serve only decorative purposes without providing any functional benefits."
+      },
+      "answer": [
+        "C",
+        "D"
+      ],
+      "explanation": "Cは第2段落の'Well-designed buildings create natural pathways that guide people through spaces efficiently while promoting social interaction'、Dは第3段落の'people living or working in well-lit, naturally ventilated spaces experience reduced stress levels, improved productivity'の内容と一致している。他の選択肢は本文の内容と矛盾するか、本文に書かれていない情報を含んでいる。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "建築デザインと暮らし",
+    "都市計画",
+    "住環境",
+    "スマート技術",
+    "持続可能性"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T10:10:21.910Z",
+  "vocabulary": [
+    {
+      "word": "micro-climates",
+      "meaning": "局所気候"
+    },
+    {
+      "word": "modular",
+      "meaning": "組み立て式の"
+    }
+  ]
+}

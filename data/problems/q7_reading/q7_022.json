@@ -1,0 +1,143 @@
+{
+  "id": "kindai_english_q7_reading_022",
+  "university": "kindai",
+  "subject": "english",
+  "section": 7,
+  "section_name": "長文読解",
+  "type": "reading_comprehension",
+  "difficulty": 2,
+  "passage": "Museums have long been regarded as silent repositories of human knowledge and cultural heritage. However, in recent decades, these institutions have undergone a remarkable transformation, evolving from static display cases to dynamic centers of learning and community engagement. This shift reflects a broader understanding of the museum's role in society, moving beyond mere preservation to active participation in education and cultural dialogue.\n\nTraditionally, museums operated under a curatorial model that emphasized the authority of experts and the passive consumption of knowledge by visitors. Collections were displayed behind glass, accompanied by formal labels that provided basic information. Visitors were expected to observe quietly and respectfully, much like students in a traditional classroom. This approach, while effective for preservation, often created barriers between the institution and its audience, making museums seem intimidating or irrelevant to many potential visitors.\n\nThe digital revolution has fundamentally altered how museums present their collections and interact with audiences. Interactive displays, virtual reality experiences, and multimedia presentations have replaced many static exhibits. Visitors can now manipulate digital artifacts, take virtual tours of distant locations, and access detailed information through smartphone applications. These technological innovations have made museum experiences more engaging and accessible, particularly for younger generations who grew up in the digital age.\n\nModern museums have also embraced their role as community spaces, hosting diverse programs that extend far beyond their permanent collections. Art workshops, lectures, cultural festivals, and educational programs for schools have become integral parts of museum operations. Many institutions now collaborate with local communities to ensure their exhibitions reflect diverse perspectives and address contemporary social issues. This community-centered approach has helped museums become more inclusive and relevant to their local populations.\n\nThe concept of participatory museology has gained significant momentum in recent years. Rather than simply presenting predetermined narratives, museums now encourage visitors to contribute their own stories and interpretations. __Digital platforms allow people to share personal memories related to historical events or cultural artifacts__, creating a more democratic and inclusive understanding of history and culture. This collaborative approach recognizes that knowledge is not solely the domain of academic experts but emerges from the collective experiences of communities.\n\nLooking toward the future, museums face both exciting opportunities and significant challenges. Climate change, political instability, and economic pressures threaten many cultural artifacts and institutions worldwide. However, advances in digital preservation, virtual accessibility, and global connectivity offer new possibilities for sharing knowledge across borders and generations. The most successful museums will be those that balance their traditional role as guardians of cultural heritage with their emerging function as catalysts for social change and community development.",
+  "translation": "博物館は長い間、人類の知識と文化遺産の静かな保管庫と考えられてきた。しかし近年、これらの機関は目覚ましい変革を遂げ、静的な展示ケースから学習とコミュニティ参加の動的な拠点へと発展している。この変化は、単なる保存を超えて教育と文化的対話への積極的な参加へと向かう、社会における博物館の役割についてのより広範な理解を反映している。\n\n従来、博物館は専門家の権威と来館者による知識の受動的消費を重視する学芸員モデルの下で運営されていた。コレクションはガラスの向こうに展示され、基本的な情報を提供する正式なラベルが添えられていた。来館者は、従来の教室の生徒のように、静かに敬意を持って観察することが期待されていた。このアプローチは保存には効果的であったが、しばしば機関と観客との間に障壁を作り、博物館を多くの潜在的な来館者にとって威圧的または無関係に見せていた。\n\nデジタル革命は、博物館がコレクションを提示し、観客と交流する方法を根本的に変えた。インタラクティブ・ディスプレイ、バーチャルリアリティ体験、マルチメディア・プレゼンテーションが多くの静的な展示に取って代わった。来館者は今やデジタル工芸品を操作し、遠隔地のバーチャルツアーを行い、スマートフォン・アプリケーションを通じて詳細な情報にアクセスできる。これらの技術革新は、特にデジタル時代に育った若い世代にとって、博物館体験をより魅力的でアクセスしやすいものにした。\n\n現代の博物館はまた、コミュニティ空間としての役割を受け入れ、常設コレクションをはるかに超えた多様なプログラムを主催している。アート・ワークショップ、講演、文化祭、学校向け教育プログラムが博物館運営の不可欠な部分となった。多くの機関は今や地元コミュニティと協力して、展示が多様な視点を反映し、現代の社会問題に取り組むことを確実にしている。このコミュニティ中心のアプローチは、博物館をより包括的で地域住民にとって関連性の高いものにするのに役立った。\n\n参加型博物館学の概念は近年大きな勢いを得ている。単に事前に決められた物語を提示するのではなく、博物館は今や来館者が自分自身の物語や解釈を寄与することを奨励している。デジタル・プラットフォームは人々が歴史的出来事や文化的工芸品に関連する個人的な記憶を共有することを可能にし、歴史と文化のより民主的で包括的な理解を創造している。この協働的アプローチは、知識が学術的専門家の専有物ではなく、コミュニティの集合的経験から生まれることを認識している。\n\n未来を見据えると、博物館はエキサイティングな機会と重大な課題の両方に直面している。気候変動、政治的不安定、経済的圧力が世界中の多くの文化的工芸品や機関を脅かしている。しかし、デジタル保存、仮想アクセス、グローバル接続性の進歩は、国境と世代を越えて知識を共有する新たな可能性を提供している。最も成功する博物館は、文化遺産の守護者としての伝統的役割と、社会変化とコミュニティ開発の触媒としての新たな機能のバランスを取る博物館となるであろう。",
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "paragraph_match",
+      "paragraph": 1,
+      "question": "本文の第1段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Museums have always been dynamic centers of community engagement throughout history.",
+        "B": "Museums have transformed from static repositories to active centers of learning and engagement.",
+        "C": "Museums primarily serve as entertainment venues for the general public today.",
+        "D": "Museums have maintained their traditional role without any significant changes in recent years."
+      },
+      "answer": "B",
+      "explanation": "第1段落に'these institutions have undergone a remarkable transformation, evolving from static display cases to dynamic centers of learning and community engagement'とあり、博物館が静的な展示ケースから学習とコミュニティ参加の動的な拠点へと変革したことが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 2,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 2,
+      "question": "本文の第2段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Traditional museums encouraged active visitor participation and interaction with exhibits.",
+        "B": "The curatorial model emphasized the authority of experts over visitors.",
+        "C": "Collections were typically displayed behind glass with formal information labels.",
+        "D": "The traditional approach often created barriers between museums and their audiences."
+      },
+      "answer": "A",
+      "explanation": "第2段落では'Visitors were expected to observe quietly and respectfully'とあり、従来の博物館では来館者の積極的な参加は奨励されていなかったことが明記されている。選択肢Aは本文の内容に反している。",
+      "points": 3
+    },
+    {
+      "question_number": 3,
+      "question_type": "paragraph_mismatch",
+      "paragraph": 3,
+      "question": "本文の第3段落の内容に合わないものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Digital technology has changed how museums present their collections to visitors.",
+        "B": "Virtual reality experiences have become part of modern museum exhibitions.",
+        "C": "Older generations have adapted to digital museum innovations more easily than younger ones.",
+        "D": "Interactive displays and multimedia presentations have replaced many static exhibits."
+      },
+      "answer": "C",
+      "explanation": "第3段落に'These technological innovations have made museum experiences more engaging and accessible, particularly for younger generations who grew up in the digital age'とあり、デジタル革新は特に若い世代にとってより魅力的であることが述べられている。選択肢Cは本文の内容と逆である。",
+      "points": 3
+    },
+    {
+      "question_number": 4,
+      "question_type": "paragraph_match",
+      "paragraph": 4,
+      "question": "本文の第4段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Museums focus exclusively on displaying their permanent collections without additional programs.",
+        "B": "Community collaboration has made museums less academic and more commercial in nature.",
+        "C": "Museums avoid addressing controversial social issues to maintain their neutral status.",
+        "D": "Museums now offer diverse programs and collaborate with communities to reflect various perspectives."
+      },
+      "answer": "D",
+      "explanation": "第4段落に'Many institutions now collaborate with local communities to ensure their exhibitions reflect diverse perspectives and address contemporary social issues'とあり、博物館が地域コミュニティと協力して多様な視点を反映していることが述べられている。",
+      "points": 3
+    },
+    {
+      "question_number": 5,
+      "question_type": "paragraph_match",
+      "paragraph": 5,
+      "question": "本文の第5段落の内容に合うものとして最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Participatory museology encourages visitors to contribute their own stories and interpretations.",
+        "B": "Academic experts remain the sole authority for determining museum narratives and content.",
+        "C": "Digital platforms are used primarily for one-way communication from museums to visitors.",
+        "D": "Knowledge in museums should be limited to professionally curated and verified information."
+      },
+      "answer": "A",
+      "explanation": "第5段落に'museums now encourage visitors to contribute their own stories and interpretations'とあり、参加型博物館学では来館者が自分の物語や解釈を寄与することが奨励されていることが明記されている。",
+      "points": 3
+    },
+    {
+      "question_number": 6,
+      "question_type": "underline_meaning",
+      "question": "下線部の内容として最も適当なものを，ア〜エから一つ選べ。",
+      "choices": {
+        "A": "Technology allows museums to control what visitors can share about their experiences.",
+        "B": "Online systems enable people to share personal connections to historical items and events.",
+        "C": "Digital tools help professional historians verify the accuracy of public contributions.",
+        "D": "Computer programs automatically generate stories about cultural artifacts for museum displays."
+      },
+      "answer": "B",
+      "explanation": "下線部'Digital platforms allow people to share personal memories related to historical events or cultural artifacts'は、デジタル・プラットフォームが人々に歴史的出来事や文化的工芸品に関連する個人的な記憶を共有することを可能にすることを意味している。",
+      "points": 3
+    },
+    {
+      "question_number": 7,
+      "question_type": "full_text_select",
+      "question": "本文の内容に合うものを，ア〜キから二つ選べ。",
+      "choices": {
+        "A": "Traditional museums were designed primarily for entertainment rather than education.",
+        "B": "Digital technology has made museums less accessible to most visitors than before.",
+        "C": "Modern museums serve as community spaces hosting various educational and cultural programs.",
+        "D": "Museum collections are now entirely digital with no physical artifacts on display.",
+        "E": "Climate change poses no significant threat to cultural artifacts and museum institutions.",
+        "F": "Successful future museums will balance their role as heritage guardians with community development.",
+        "G": "Participatory museology limits visitor involvement to predetermined museum narratives."
+      },
+      "answer": [
+        "C",
+        "F"
+      ],
+      "explanation": "選択肢Cは第4段落の'Modern museums have also embraced their role as community spaces, hosting diverse programs'に対応し、選択肢Fは最終段落の'The most successful museums will be those that balance their traditional role as guardians of cultural heritage with their emerging function as catalysts for social change and community development'に対応している。",
+      "points": 4
+    }
+  ],
+  "tags": [
+    "博物館の役割と進化",
+    "デジタル革命",
+    "コミュニティ参加",
+    "参加型博物館学",
+    "文化遺産保存"
+  ],
+  "target_time_seconds": 600,
+  "is_ai_generated": true,
+  "is_reviewed": false,
+  "created_at": "2026-03-29T10:07:07.634Z",
+  "vocabulary": [
+    {
+      "word": "curatorial",
+      "meaning": "学芸員の、キュレーターの"
+    },
+    {
+      "word": "catalysts",
+      "meaning": "触媒、きっかけとなるもの"
+    }
+  ]
+}

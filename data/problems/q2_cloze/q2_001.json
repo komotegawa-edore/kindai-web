@@ -1,0 +1,53 @@
+{
+  "id": "kindai_english_q2_cloze_001",
+  "university": "kindai",
+  "subject": "english",
+  "section": 2,
+  "section_name": "中文の空所補充",
+  "type": "passage_cloze",
+  "difficulty": 2,
+  "passage": "Sleep is essential for good health, yet many people do not get enough of it. According to recent studies, adults need at least seven hours of sleep per night. However, busy schedules and the use of electronic devices often ( 1 ) people from getting adequate rest. The blue light emitted by smartphones and computers can ( 2 ) the production of melatonin, a hormone that helps us fall asleep. Experts recommend turning off all screens at least one hour before bedtime. In ( 3 ) to this, regular exercise and a consistent sleep schedule can greatly improve the quality of sleep.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "空所( 1 )に入る最も適切なものを選びなさい。",
+      "choices": {
+        "A": "prevent",
+        "B": "protect",
+        "C": "provide",
+        "D": "prepare"
+      },
+      "answer": "A",
+      "explanation": "prevent A from doing（Aが〜するのを妨げる）の形。忙しいスケジュールや電子機器の使用が十分な休息を「妨げる」という文脈に合う。"
+    },
+    {
+      "question_number": 2,
+      "question": "空所( 2 )に入る最も適切なものを選びなさい。",
+      "choices": {
+        "A": "increase",
+        "B": "reduce",
+        "C": "maintain",
+        "D": "produce"
+      },
+      "answer": "B",
+      "explanation": "ブルーライトがメラトニンの生成を「減少させる」という意味。睡眠を妨げる文脈なのでreduceが正解。"
+    },
+    {
+      "question_number": 3,
+      "question": "空所( 3 )に入る最も適切なものを選びなさい。",
+      "choices": {
+        "A": "spite",
+        "B": "terms",
+        "C": "addition",
+        "D": "place"
+      },
+      "answer": "C",
+      "explanation": "in addition to〜（〜に加えて）の熟語表現。前文の「画面を消す」という提案に加えて、別の提案を述べている。"
+    }
+  ],
+  "tags": ["健康", "睡眠", "熟語", "前置詞"],
+  "target_time_seconds": 150,
+  "is_ai_generated": false,
+  "is_reviewed": true,
+  "created_at": "2026-03-29T00:00:00Z"
+}
