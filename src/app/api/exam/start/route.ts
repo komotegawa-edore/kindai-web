@@ -6,7 +6,7 @@ import { getAllReadingProblems } from "@/lib/problems";
 
 export async function POST(request: Request) {
   try {
-    ensureTables();
+    await ensureTables();
 
     const body = await request.json();
     const nickname = body.nickname?.trim();
@@ -28,23 +28,21 @@ export async function POST(request: Request) {
     const problem = problems[Math.floor(Math.random() * problems.length)];
 
     // ユーザー作成
-    const userResult = db
+    const [userResult] = await db
       .insert(users)
       .values({ nickname })
-      .returning()
-      .get();
+      .returning();
 
     // セッション作成
-    const maxScore = problem.questions.reduce((sum, q) => sum + q.points, 0);
-    const session = db
+    const maxScore = problem.questions.reduce((sum: number, q: { points: number }) => sum + q.points, 0);
+    const [session] = await db
       .insert(examSessions)
       .values({
         userId: userResult.id,
         problemId: problem.id,
         maxScore,
       })
-      .returning()
-      .get();
+      .returning();
 
     return NextResponse.json({
       sessionId: session.id,

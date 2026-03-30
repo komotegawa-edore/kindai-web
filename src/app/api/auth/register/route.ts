@@ -7,7 +7,7 @@ import { eq } from "drizzle-orm";
 
 export async function POST(request: Request) {
   try {
-    ensureTables();
+    await ensureTables();
 
     const body = await request.json();
     const { userId, email, password } = body as {
@@ -31,11 +31,10 @@ export async function POST(request: Request) {
     }
 
     // メールアドレス重複チェック
-    const existing = db
+    const [existing] = await db
       .select()
       .from(users)
-      .where(eq(users.email, email))
-      .get();
+      .where(eq(users.email, email));
 
     if (existing) {
       return NextResponse.json(
@@ -47,14 +46,13 @@ export async function POST(request: Request) {
     // ユーザー更新（ゲストユーザー → 登録ユーザーに昇格）
     const passwordHash = hashPassword(password);
 
-    db.update(users)
+    await db.update(users)
       .set({
         email,
         passwordHash,
         isRegistered: true,
       })
-      .where(eq(users.id, userId))
-      .run();
+      .where(eq(users.id, userId));
 
     return NextResponse.json({ success: true });
   } catch (error) {

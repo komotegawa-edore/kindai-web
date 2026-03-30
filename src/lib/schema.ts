@@ -1,18 +1,16 @@
-import { sqliteTable, text, integer } from "drizzle-orm/sqlite-core";
+import { pgTable, serial, text, integer, boolean, timestamp } from "drizzle-orm/pg-core";
 
-export const users = sqliteTable("users", {
-  id: integer("id").primaryKey({ autoIncrement: true }),
+export const users = pgTable("users", {
+  id: serial("id").primaryKey(),
   nickname: text("nickname").notNull(),
   email: text("email"),
   passwordHash: text("password_hash"),
-  isRegistered: integer("is_registered", { mode: "boolean" }).notNull().default(false),
-  createdAt: text("created_at")
-    .notNull()
-    .$defaultFn(() => new Date().toISOString()),
+  isRegistered: boolean("is_registered").notNull().default(false),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
 });
 
-export const examSessions = sqliteTable("exam_sessions", {
-  id: integer("id").primaryKey({ autoIncrement: true }),
+export const examSessions = pgTable("exam_sessions", {
+  id: serial("id").primaryKey(),
   userId: integer("user_id")
     .notNull()
     .references(() => users.id),
@@ -20,18 +18,16 @@ export const examSessions = sqliteTable("exam_sessions", {
   score: integer("score"),
   maxScore: integer("max_score"),
   timeSeconds: integer("time_seconds"),
-  startedAt: text("started_at")
-    .notNull()
-    .$defaultFn(() => new Date().toISOString()),
-  finishedAt: text("finished_at"),
+  startedAt: timestamp("started_at").notNull().defaultNow(),
+  finishedAt: timestamp("finished_at"),
 });
 
-export const answers = sqliteTable("answers", {
-  id: integer("id").primaryKey({ autoIncrement: true }),
+export const answers = pgTable("answers", {
+  id: serial("id").primaryKey(),
   sessionId: integer("session_id")
     .notNull()
     .references(() => examSessions.id),
   questionNumber: integer("question_number").notNull(),
   selectedAnswer: text("selected_answer").notNull(),
-  isCorrect: integer("is_correct", { mode: "boolean" }).notNull(),
+  isCorrect: boolean("is_correct").notNull(),
 });

@@ -12,7 +12,7 @@ interface SubmittedAnswer {
 
 export async function POST(request: Request) {
   try {
-    ensureTables();
+    await ensureTables();
 
     const body = await request.json();
     const { sessionId, answers: submitted, timeSeconds } = body as {
@@ -22,11 +22,10 @@ export async function POST(request: Request) {
     };
 
     // セッション取得
-    const session = db
+    const [session] = await db
       .select()
       .from(examSessions)
-      .where(eq(examSessions.id, sessionId))
-      .get();
+      .where(eq(examSessions.id, sessionId));
 
     if (!session) {
       return NextResponse.json(
@@ -73,7 +72,7 @@ export async function POST(request: Request) {
         const selectedArr = Array.isArray(selected) ? selected : [selected];
         isCorrect =
           selectedArr.length === q.answer.length &&
-          selectedArr.every((s) => q.answer.includes(s));
+          selectedArr.every((s: string) => q.answer.includes(s));
       } else {
         isCorrect = selected === q.answer;
       }
@@ -89,7 +88,7 @@ export async function POST(request: Request) {
       });
 
       // DB保存
-      db.insert(answers)
+      await db.insert(answers)
         .values({
           sessionId,
           questionNumber: q.question_number,
@@ -97,19 +96,17 @@ export async function POST(request: Request) {
             ? selected.join(",")
             : (selected as string),
           isCorrect,
-        })
-        .run();
+        });
     }
 
     // セッション更新
-    db.update(examSessions)
+    await db.update(examSessions)
       .set({
         score: totalScore,
         timeSeconds,
-        finishedAt: new Date().toISOString(),
+        finishedAt: new Date(),
       })
-      .where(eq(examSessions.id, sessionId))
-      .run();
+      .where(eq(examSessions.id, sessionId));
 
     return NextResponse.json({
       score: totalScore,

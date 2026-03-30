@@ -6,9 +6,9 @@ import { eq, desc, asc, isNotNull } from "drizzle-orm";
 
 export async function GET() {
   try {
-    ensureTables();
+    await ensureTables();
 
-    const results = db
+    const results = await db
       .select({
         id: examSessions.id,
         nickname: users.nickname,
@@ -22,8 +22,7 @@ export async function GET() {
       .innerJoin(users, eq(examSessions.userId, users.id))
       .where(isNotNull(examSessions.finishedAt))
       .orderBy(desc(examSessions.score), asc(examSessions.timeSeconds))
-      .limit(100)
-      .all();
+      .limit(100);
 
     return NextResponse.json({ results });
   } catch (error) {

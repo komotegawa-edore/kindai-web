@@ -1,36 +1,37 @@
-import { db } from "./db";
-import { sql } from "drizzle-orm";
+import { neon } from "@neondatabase/serverless";
 
-export function ensureTables() {
-  db.run(sql`
+export async function ensureTables() {
+  const sql = neon(process.env.DATABASE_URL!);
+
+  await sql`
     CREATE TABLE IF NOT EXISTS users (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      id SERIAL PRIMARY KEY,
       nickname TEXT NOT NULL,
       email TEXT,
       password_hash TEXT,
-      is_registered INTEGER NOT NULL DEFAULT 0,
-      created_at TEXT NOT NULL DEFAULT (datetime('now'))
+      is_registered BOOLEAN NOT NULL DEFAULT false,
+      created_at TIMESTAMP NOT NULL DEFAULT NOW()
     )
-  `);
-  db.run(sql`
+  `;
+  await sql`
     CREATE TABLE IF NOT EXISTS exam_sessions (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      id SERIAL PRIMARY KEY,
       user_id INTEGER NOT NULL REFERENCES users(id),
       problem_id TEXT NOT NULL,
       score INTEGER,
       max_score INTEGER,
       time_seconds INTEGER,
-      started_at TEXT NOT NULL DEFAULT (datetime('now')),
-      finished_at TEXT
+      started_at TIMESTAMP NOT NULL DEFAULT NOW(),
+      finished_at TIMESTAMP
     )
-  `);
-  db.run(sql`
+  `;
+  await sql`
     CREATE TABLE IF NOT EXISTS answers (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      id SERIAL PRIMARY KEY,
       session_id INTEGER NOT NULL REFERENCES exam_sessions(id),
       question_number INTEGER NOT NULL,
       selected_answer TEXT NOT NULL,
-      is_correct INTEGER NOT NULL DEFAULT 0
+      is_correct BOOLEAN NOT NULL DEFAULT false
     )
-  `);
+  `;
 }

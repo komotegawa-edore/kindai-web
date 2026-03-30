@@ -10,15 +10,14 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    ensureTables();
+    await ensureTables();
     const { id } = await params;
     const sessionId = parseInt(id, 10);
 
-    const session = db
+    const [session] = await db
       .select()
       .from(examSessions)
-      .where(eq(examSessions.id, sessionId))
-      .get();
+      .where(eq(examSessions.id, sessionId));
 
     if (!session) {
       return NextResponse.json(
@@ -27,11 +26,10 @@ export async function GET(
       );
     }
 
-    const user = db
+    const [user] = await db
       .select()
       .from(users)
-      .where(eq(users.id, session.userId))
-      .get();
+      .where(eq(users.id, session.userId));
 
     const problem = getReadingProblem(session.problemId);
     if (!problem) {

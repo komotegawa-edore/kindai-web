@@ -9,15 +9,14 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    ensureTables();
+    await ensureTables();
     const { id } = await params;
     const sessionId = parseInt(id, 10);
 
-    const result = db
+    const result = await db
       .select()
       .from(answers)
-      .where(eq(answers.sessionId, sessionId))
-      .all();
+      .where(eq(answers.sessionId, sessionId));
 
     return NextResponse.json({
       answers: result.map((a) => ({
