@@ -171,41 +171,16 @@ export default function SpringLPPage() {
               <div className="absolute w-72 h-72 md:w-96 md:h-96 bg-primary/5 rounded-full -top-8 -right-8" />
 
               <div className="relative z-10">
-                {/* スマホフレーム */}
+                {/* スマホフレーム — 診断結果スクショ */}
                 <div className="rounded-[2rem] overflow-hidden shadow-2xl border-4 border-gray-800 bg-gray-800 w-48 md:w-56">
                   <Image
-                    src="/images/mock-2.PNG"
-                    alt="診断クイズ画面"
+                    src="/images/mock-spring.PNG"
+                    alt="診断結果画面 — カテゴリ別診断"
                     width={390}
                     height={844}
                     className="w-full h-auto"
                     priority
                   />
-                </div>
-
-                {/* 浮かぶ結果カード */}
-                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-auto md:-right-12 w-44 md:w-52 bg-white rounded-xl shadow-xl border border-border p-3 z-20">
-                  <p className="text-[10px] font-bold text-text mb-2">あなたの診断結果</p>
-                  <div className="space-y-2">
-                    {[
-                      { label: "文法", pct: 80, color: "bg-primary" },
-                      { label: "語彙", pct: 35, color: "bg-red-400" },
-                      { label: "読解", pct: 70, color: "bg-primary" },
-                    ].map((s) => (
-                      <div key={s.label}>
-                        <div className="flex justify-between text-[9px] mb-0.5">
-                          <span className="text-text-light">{s.label}</span>
-                          <span className="font-bold text-text">{s.pct}%</span>
-                        </div>
-                        <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                          <div className={`h-full rounded-full ${s.color}`} style={{ width: `${s.pct}%` }} />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                  <p className="text-[9px] text-red-500 font-bold mt-2">
-                    &#9888; 語彙が弱点です
-                  </p>
                 </div>
               </div>
             </div>
