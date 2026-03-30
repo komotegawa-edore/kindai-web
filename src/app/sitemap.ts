@@ -18,6 +18,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/kindai/quiz`,
+      lastModified: "2026-03-30",
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/kindai/leaderboard`,
       lastModified: "2026-03-30",
       changeFrequency: "daily",

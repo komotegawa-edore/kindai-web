@@ -55,3 +55,33 @@ export function getProblemNumber(id: string): number {
   const match = id.match(/q7_(\d+)/);
   return match ? parseInt(match[1], 10) : 0;
 }
+
+// --- 診断クイズ ---
+
+export interface QuizQuestion {
+  id: string;
+  section: number;
+  section_name: string;
+  category: string;
+  question: string;
+  sentence_frame?: string;
+  choices: Record<string, string>;
+  answer: string;
+  explanation: string;
+  points: number;
+}
+
+export interface QuizData {
+  id: string;
+  title: string;
+  description: string;
+  time_limit_seconds: number;
+  questions: QuizQuestion[];
+}
+
+export function getQuizData(quizId: string = "kindai_2026spring"): QuizData | undefined {
+  const filePath = path.join(process.cwd(), `data/quiz/${quizId}.json`);
+  if (!fs.existsSync(filePath)) return undefined;
+  const raw = fs.readFileSync(filePath, "utf-8");
+  return JSON.parse(raw) as QuizData;
+}

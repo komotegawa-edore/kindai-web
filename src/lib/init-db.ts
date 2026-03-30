@@ -18,12 +18,25 @@ export async function ensureTables() {
       id SERIAL PRIMARY KEY,
       user_id INTEGER NOT NULL REFERENCES users(id),
       problem_id TEXT NOT NULL,
+      exam_type TEXT NOT NULL DEFAULT 'reading',
       score INTEGER,
       max_score INTEGER,
       time_seconds INTEGER,
       started_at TIMESTAMP NOT NULL DEFAULT NOW(),
       finished_at TIMESTAMP
     )
+  `;
+  // 既存テーブルに exam_type カラムがない場合に追加
+  await sql`
+    DO $$
+    BEGIN
+      IF NOT EXISTS (
+        SELECT 1 FROM information_schema.columns
+        WHERE table_name = 'exam_sessions' AND column_name = 'exam_type'
+      ) THEN
+        ALTER TABLE exam_sessions ADD COLUMN exam_type TEXT NOT NULL DEFAULT 'reading';
+      END IF;
+    END $$
   `;
   await sql`
     CREATE TABLE IF NOT EXISTS answers (

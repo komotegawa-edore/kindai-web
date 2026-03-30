@@ -15,6 +15,7 @@ export const examSessions = pgTable("exam_sessions", {
     .notNull()
     .references(() => users.id),
   problemId: text("problem_id").notNull(),
+  examType: text("exam_type").notNull().default("reading"),
   score: integer("score"),
   maxScore: integer("max_score"),
   timeSeconds: integer("time_seconds"),

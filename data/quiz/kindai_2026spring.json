@@ -1,0 +1,266 @@
+{
+  "id": "kindai_quiz_2026spring",
+  "title": "近大英語 スタートダッシュ診断",
+  "description": "近大入試の傾向に基づく20問で弱点を診断。文法・語彙・同意文・整序をチェックします。",
+  "time_limit_seconds": 600,
+  "questions": [
+    {
+      "id": "quiz_001",
+      "section": 3,
+      "section_name": "文法・語法",
+      "category": "文法・語法",
+      "question": "A sudden feeling came over her (    ) something terrible was about to happen.",
+      "choices": { "A": "in which", "B": "that", "C": "thereafter", "D": "to which" },
+      "answer": "B",
+      "explanation": "同格の that。a feeling that S+V で「〜という感覚」。名詞の内容を that 節が説明する形。",
+      "points": 2
+    },
+    {
+      "id": "quiz_002",
+      "section": 3,
+      "section_name": "文法・語法",
+      "category": "文法・語法",
+      "question": "In the emergency drill, all employees were made (    ) the building within three minutes.",
+      "choices": { "A": "leave", "B": "leaving", "C": "to leave", "D": "to leaving" },
+      "answer": "C",
+      "explanation": "使役動詞 make の受動態。能動態では make O do（原形不定詞）だが、受動態では be made to do と to が必要。",
+      "points": 2
+    },
+    {
+      "id": "quiz_003",
+      "section": 3,
+      "section_name": "文法・語法",
+      "category": "文法・語法",
+      "question": "However (    ) it may seem unlikely, regular exercise can significantly improve mental health.",
+      "choices": { "A": "many", "B": "more", "C": "most", "D": "much" },
+      "answer": "D",
+      "explanation": "however much S+V で「どんなに〜であっても」の譲歩構文。seem は不可算なので much を使う。",
+      "points": 2
+    },
+    {
+      "id": "quiz_004",
+      "section": 3,
+      "section_name": "文法・語法",
+      "category": "文法・語法",
+      "question": "I spoke with Mika last night and (    ) to the concert together this Friday.",
+      "choices": { "A": "we're going", "B": "we're gone", "C": "we've been going", "D": "we've gone" },
+      "answer": "A",
+      "explanation": "近い将来の確定した予定を表す現在進行形 be going。last night に話し合って this Friday の予定を立てた文脈。",
+      "points": 2
+    },
+    {
+      "id": "quiz_005",
+      "section": 3,
+      "section_name": "文法・語法",
+      "category": "文法・語法",
+      "question": "Several well-known bookstores have closed recently, (    ) some smaller independent shops.",
+      "choices": { "A": "are either", "B": "and either are", "C": "are neither", "D": "and neither are" },
+      "answer": "D",
+      "explanation": "否定文（have closed ≒ are no longer open）の後で「〜もまた…ない」は and neither + 助動詞 + 主語の倒置で表す。",
+      "points": 2
+    },
+    {
+      "id": "quiz_006",
+      "section": 3,
+      "section_name": "文法・語法",
+      "category": "文法・語法",
+      "question": "(    ) the songs on this album were written by the lead singer.",
+      "choices": { "A": "Almost", "B": "Almost all", "C": "Many", "D": "Most" },
+      "answer": "B",
+      "explanation": "almost は単独で名詞を修飾できない。the がつく名詞の前では almost all the ~ の形にする。Many/Most は the の前に直接置けない（of が必要）。",
+      "points": 2
+    },
+    {
+      "id": "quiz_007",
+      "section": 3,
+      "section_name": "文法・語法",
+      "category": "文法・語法",
+      "question": "She is leading a community project, the impact (    ) could transform the entire neighborhood.",
+      "choices": { "A": "by which", "B": "of which", "C": "which", "D": "with which" },
+      "answer": "B",
+      "explanation": "the impact of which = whose impact。「その影響が」の意味。前置詞 of + 関係代名詞 which の形。",
+      "points": 2
+    },
+    {
+      "id": "quiz_008",
+      "section": 3,
+      "section_name": "文法・語法",
+      "category": "文法・語法",
+      "question": "The train might be delayed due to heavy snow, (    ) I will pick you up by car instead.",
+      "choices": { "A": "in case", "B": "in the case", "C": "in which case", "D": "which case" },
+      "answer": "C",
+      "explanation": "in which case で「その場合は」。前の文全体を先行詞とする関係代名詞 which を用いた慣用表現。",
+      "points": 2
+    },
+    {
+      "id": "quiz_009",
+      "section": 4,
+      "section_name": "同意文",
+      "category": "同意文",
+      "question": "\"The new project leader took the scheduling problems in hand.\" と最も近い意味の文を選べ。",
+      "choices": {
+        "A": "The leader assumed responsibility for resolving the scheduling problems.",
+        "B": "The leader delegated the job of fixing the scheduling problems.",
+        "C": "The leader entrusted someone else to deal with the scheduling problems.",
+        "D": "The leader received assistance in addressing the scheduling problems."
+      },
+      "answer": "A",
+      "explanation": "take ~ in hand は「〜を引き受けて対処する」の意味。assumed responsibility for（〜の責任を引き受けた）が最も近い。",
+      "points": 2
+    },
+    {
+      "id": "quiz_010",
+      "section": 4,
+      "section_name": "同意文",
+      "category": "同意文",
+      "question": "\"It took several hours to make heads or tails of the new software manual.\" と最も近い意味の文を選べ。",
+      "choices": {
+        "A": "It took several hours to determine which section of the manual came first.",
+        "B": "It took several hours to exchange opinions about the manual.",
+        "C": "It took several hours to evaluate the merits of the manual.",
+        "D": "It took several hours to understand the manual."
+      },
+      "answer": "D",
+      "explanation": "make heads or tails of は「〜を理解する」の意味の慣用表現。can't make heads or tails of で「さっぱりわからない」。",
+      "points": 2
+    },
+    {
+      "id": "quiz_011",
+      "section": 4,
+      "section_name": "同意文",
+      "category": "同意文",
+      "question": "\"I encourage you to keep this presentation to the point.\" と最も近い意味の文を選べ。",
+      "choices": {
+        "A": "I suggest that you avoid straying from the topic during this presentation.",
+        "B": "I suggest you cover a wide variety of topics in this presentation.",
+        "C": "I urge you to consider including frequent breaks in this presentation.",
+        "D": "I urge you to move away from the main idea of this presentation."
+      },
+      "answer": "A",
+      "explanation": "keep ~ to the point は「要点から外れない、本題に沿う」の意味。avoid straying from the topic（話題から逸れないようにする）が最も近い。",
+      "points": 2
+    },
+    {
+      "id": "quiz_012",
+      "section": 4,
+      "section_name": "同意文",
+      "category": "同意文",
+      "question": "\"After much thought, he decided to turn over a new leaf.\" と最も近い意味の文を選べ。",
+      "choices": {
+        "A": "Following deliberation, he promised to continue his usual habits.",
+        "B": "Following reflection, he pledged to remain the same as before.",
+        "C": "Following careful thought, he decided to change his behavior for the better.",
+        "D": "Following consideration, he pledged to maintain his current lifestyle."
+      },
+      "answer": "C",
+      "explanation": "turn over a new leaf は「心を入れ替える、改心する」の意味。change his behavior for the better（行動を改める）が最も近い。",
+      "points": 2
+    },
+    {
+      "id": "quiz_013",
+      "section": 5,
+      "section_name": "語彙",
+      "category": "語彙",
+      "question": "意味: requiring a lot of effort and hard work\nThe renovation of the old library was a (    ) process that required years of effort.",
+      "choices": { "A": "belated", "B": "detailed", "C": "laborious", "D": "smooth" },
+      "answer": "C",
+      "explanation": "laborious は「骨の折れる、大変な労力を要する」の意味。何年もかかる大変な作業という文脈に合う。",
+      "points": 2
+    },
+    {
+      "id": "quiz_014",
+      "section": 5,
+      "section_name": "語彙",
+      "category": "語彙",
+      "question": "意味: awkward or lacking coordination in movement\nShe knocked over the glass of water, showing once again how (    ) she could be.",
+      "choices": { "A": "clumsy", "B": "elegant", "C": "flexible", "D": "proficient" },
+      "answer": "A",
+      "explanation": "clumsy は「不器用な、ぎこちない」の意味。水のグラスを倒してしまうほど不器用という文脈に合う。",
+      "points": 2
+    },
+    {
+      "id": "quiz_015",
+      "section": 5,
+      "section_name": "語彙",
+      "category": "語彙",
+      "question": "意味: a flaw or imperfection in something\nThe company recalled the product due to (    ) found during quality testing.",
+      "choices": { "A": "attributes", "B": "defects", "C": "fading", "D": "purity" },
+      "answer": "B",
+      "explanation": "defects は「欠陥、不具合」の意味。品質検査で見つかった製品の不具合でリコールという文脈に合う。",
+      "points": 2
+    },
+    {
+      "id": "quiz_016",
+      "section": 5,
+      "section_name": "語彙",
+      "category": "語彙",
+      "question": "意味: saying yes or agreeing with something\nThe committee gave an (    ) response to the proposed changes.",
+      "choices": { "A": "affirmative", "B": "aggressive", "C": "assertive", "D": "attractive" },
+      "answer": "A",
+      "explanation": "affirmative は「肯定的な」の意味。提案された変更に「はい」と同意する回答という文脈。",
+      "points": 2
+    },
+    {
+      "id": "quiz_017",
+      "section": 5,
+      "section_name": "語彙",
+      "category": "語彙",
+      "question": "意味: to give a detailed evaluation or analysis of something, often in the form of feedback\nThe editor was asked to (    ) the manuscript before it went to print.",
+      "choices": { "A": "critique", "B": "debate", "C": "practice", "D": "watch" },
+      "answer": "A",
+      "explanation": "critique は「批評する、詳細に評価する」の意味。印刷前に原稿の評価を求めるという文脈。",
+      "points": 2
+    },
+    {
+      "id": "quiz_018",
+      "section": 6,
+      "section_name": "整序英作文",
+      "category": "整序英作文",
+      "question": "「彼の小説は多くの言語に翻訳され、世界中の読者に愛されている。」に合うように語句を並べ替えたとき、正しいものを選べ。",
+      "sentence_frame": "_____, his novels are loved by readers around the world.",
+      "choices": {
+        "A": "Into many translated languages",
+        "B": "Translated into many languages",
+        "C": "Many languages translated into",
+        "D": "Languages into many translated"
+      },
+      "answer": "B",
+      "explanation": "過去分詞で始まる分詞構文。Translated into many languages, S+V で「多くの言語に翻訳され、〜」。",
+      "points": 2
+    },
+    {
+      "id": "quiz_019",
+      "section": 6,
+      "section_name": "整序英作文",
+      "category": "整序英作文",
+      "question": "「彼女は懸命に努力して不況による厳しい状況から抜け出した。」に合うように語句を並べ替えたとき、正しいものを選べ。",
+      "sentence_frame": "She _____ the recession.",
+      "choices": {
+        "A": "worked out of her way a tough situation caused by",
+        "B": "caused by a tough situation worked her way out of",
+        "C": "worked her way out of a tough situation caused by",
+        "D": "worked a tough situation out of her way caused by"
+      },
+      "answer": "C",
+      "explanation": "work one's way out of で「懸命に〜から抜け出す」の慣用表現。caused by は a tough situation を後ろから修飾する。",
+      "points": 2
+    },
+    {
+      "id": "quiz_020",
+      "section": 6,
+      "section_name": "整序英作文",
+      "category": "整序英作文",
+      "question": "「彼女は息子がいつか自分の力で生きていく日が来ることを理解していた。」に合うように語句を並べ替えたとき、正しいものを選べ。",
+      "sentence_frame": "She understood _____ would start living independently.",
+      "choices": {
+        "A": "when her son that the day would come",
+        "B": "that the day would come when her son",
+        "C": "that her son would come the day when",
+        "D": "the day that when would come her son"
+      },
+      "answer": "B",
+      "explanation": "She understood that the day would come when ... の構造。that は understood の目的語節を導き、when は the day を修飾する関係副詞。",
+      "points": 2
+    }
+  ]
+}
