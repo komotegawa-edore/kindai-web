@@ -61,7 +61,7 @@ export default function ResultPage() {
         const examData: ExamResult = await examRes.json();
 
         if (!examData.finished) {
-          window.location.href = `/exam/${sessionId}`;
+          window.location.href = `/kindai/exam/${sessionId}`;
           return;
         }
 
@@ -152,7 +152,7 @@ export default function ResultPage() {
             <span className="font-bold text-lg">ドリレオ</span>
           </Link>
           <Link
-            href="/leaderboard"
+            href="/kindai/leaderboard"
             className="text-white/80 hover:text-white text-sm"
           >
             ランキング
@@ -186,13 +186,13 @@ export default function ResultPage() {
           </div>
           <div className="flex gap-4 justify-center mt-8">
             <Link
-              href="/leaderboard"
+              href="/kindai/leaderboard"
               className="bg-primary text-white font-bold px-6 py-3 rounded-lg hover:bg-primary-light transition"
             >
               ランキングを見る
             </Link>
             <Link
-              href="/exam"
+              href="/kindai/exam"
               className="border border-primary text-primary font-bold px-6 py-3 rounded-lg hover:bg-primary/5 transition"
             >
               もう一度挑戦

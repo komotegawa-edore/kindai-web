@@ -53,7 +53,7 @@ export default function LeaderboardPage() {
             <span className="font-bold text-lg">ドリレオ</span>
           </Link>
           <Link
-            href="/exam"
+            href="/kindai/exam"
             className="text-white/80 hover:text-white text-sm"
           >
             模試を受ける
@@ -74,7 +74,7 @@ export default function LeaderboardPage() {
               まだ記録がありません
             </p>
             <Link
-              href="/exam"
+              href="/kindai/exam"
               className="inline-block bg-accent text-white font-bold px-6 py-3 rounded-lg hover:bg-accent-light transition"
             >
               最初の挑戦者になる

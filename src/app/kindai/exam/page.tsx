@@ -33,7 +33,7 @@ export default function ExamEntryPage() {
       });
       if (!res.ok) throw new Error("Failed to start exam");
       const data = await res.json();
-      router.push(`/exam/${data.sessionId}`);
+      router.push(`/kindai/exam/${data.sessionId}`);
     } catch {
       setError("模試の開始に失敗しました。もう一度お試しください。");
       setLoading(false);
@@ -54,7 +54,7 @@ export default function ExamEntryPage() {
             <span className="font-bold text-lg">ドリレオ</span>
           </Link>
           <Link
-            href="/leaderboard"
+            href="/kindai/leaderboard"
             className="text-white/80 hover:text-white text-sm"
           >
             ランキング

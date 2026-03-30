@@ -52,7 +52,7 @@ export default function ExamPage() {
         if (!res.ok) throw new Error("Failed to load exam");
         const data: ExamData = await res.json();
         if (data.finished) {
-          router.replace(`/exam/${sessionId}/result`);
+          router.replace(`/kindai/exam/${sessionId}/result`);
           return;
         }
         setExamData(data);
@@ -118,7 +118,7 @@ export default function ExamPage() {
         }),
       });
       if (!res.ok) throw new Error("Submit failed");
-      router.push(`/exam/${sessionId}/result`);
+      router.push(`/kindai/exam/${sessionId}/result`);
     } catch {
       setError("提出に失敗しました。もう一度お試しください。");
       setSubmitting(false);
@@ -145,7 +145,7 @@ export default function ExamPage() {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <p className="text-error mb-4">{error || "データがありません"}</p>
-          <Link href="/exam" className="text-primary underline">
+          <Link href="/kindai/exam" className="text-primary underline">
             模試トップへ戻る
           </Link>
         </div>
