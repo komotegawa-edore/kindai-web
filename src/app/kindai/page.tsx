@@ -369,8 +369,8 @@ export default function Home() {
           </div>
 
           {/* 実際の画面イメージ */}
-          <div className="flex justify-center gap-4 md:gap-8 mb-14">
-            <div className="w-40 sm:w-48 md:w-56">
+          <div className="grid grid-cols-2 gap-4 md:gap-8 max-w-sm md:max-w-lg mx-auto mb-14">
+            <div>
               <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800">
                 <Image
                   src="/images/mock-1.PNG"
@@ -382,7 +382,7 @@ export default function Home() {
               </div>
               <p className="text-xs text-text-light text-center mt-3">長文を読む</p>
             </div>
-            <div className="w-40 sm:w-48 md:w-56">
+            <div>
               <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800">
                 <Image
                   src="/images/mock-2.PNG"

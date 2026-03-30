@@ -246,8 +246,8 @@ export default function DrilleoTopPage() {
             {/* 書籍プレビュー */}
             <div>
               <h3 className="text-lg font-bold text-primary mb-4 text-center">書籍</h3>
-              <div className="flex justify-center gap-3">
-                <div className="w-32 md:w-40">
+              <div className="grid grid-cols-3 gap-2 md:gap-3">
+                <div>
                   <div className="rounded-lg overflow-hidden shadow-lg border border-border">
                     <Image
                       src="/images/book-preview/cover-front.png"
@@ -259,7 +259,7 @@ export default function DrilleoTopPage() {
                   </div>
                   <p className="text-xs text-text-light text-center mt-2">表紙</p>
                 </div>
-                <div className="w-28 md:w-36">
+                <div>
                   <div className="rounded-lg overflow-hidden shadow-md border border-border">
                     <Image
                       src="/images/book-preview/round1-009.png"
@@ -271,7 +271,7 @@ export default function DrilleoTopPage() {
                   </div>
                   <p className="text-xs text-text-light text-center mt-2">英文ページ</p>
                 </div>
-                <div className="w-28 md:w-36">
+                <div>
                   <div className="rounded-lg overflow-hidden shadow-md border border-border">
                     <Image
                       src="/images/book-preview/round1-010.png"
@@ -299,8 +299,8 @@ export default function DrilleoTopPage() {
             {/* 模試スクリーンショット */}
             <div>
               <h3 className="text-lg font-bold text-accent mb-4 text-center">Web模試（無料）</h3>
-              <div className="flex justify-center gap-4">
-                <div className="w-36 md:w-44">
+              <div className="grid grid-cols-2 gap-3 max-w-xs mx-auto md:max-w-sm">
+                <div>
                   <div className="rounded-2xl overflow-hidden shadow-lg border-4 border-gray-800 bg-gray-800">
                     <Image
                       src="/images/mock-1.PNG"
@@ -312,7 +312,7 @@ export default function DrilleoTopPage() {
                   </div>
                   <p className="text-xs text-text-light text-center mt-2">長文を読む</p>
                 </div>
-                <div className="w-36 md:w-44">
+                <div>
                   <div className="rounded-2xl overflow-hidden shadow-lg border-4 border-gray-800 bg-gray-800">
                     <Image
                       src="/images/mock-2.PNG"
