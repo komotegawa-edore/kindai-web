@@ -225,49 +225,29 @@ export default function Home() {
             />
           </div>
 
-          {/* モックアップ + CTA */}
-          <div className="flex flex-col md:flex-row items-center gap-10">
-            <div className="md:w-1/2 flex justify-center">
-              <Image
-                src="/images/exam-mockup.png"
-                alt="模試アプリの画面イメージ"
-                width={600}
-                height={480}
-                className="w-full max-w-md h-auto rounded-xl shadow-lg"
-              />
-            </div>
-            <div className="md:w-1/2 text-center md:text-left">
-              <div className="flex items-center gap-3 mb-4 justify-center md:justify-start">
-                <Image
-                  src="/images/hero.png"
-                  alt="受験生"
-                  width={80}
-                  height={64}
-                  className="w-16 h-auto"
-                />
-                <p className="text-lg font-bold text-text">
-                  アカウント登録不要で
-                  <br />
-                  <span className="text-accent">今すぐ</span>模試に挑戦できます
-                </p>
-              </div>
-              <ul className="text-sm text-text-light space-y-2 mb-6 ml-2">
-                <li className="flex items-start gap-2">
-                  <span className="text-success font-bold mt-0.5">&#10003;</span>
-                  登録なしで模試を受験可能
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-success font-bold mt-0.5">&#10003;</span>
-                  解答後すぐにスコア・解説を確認
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-success font-bold mt-0.5">&#10003;</span>
-                  アカウント登録で成績保存＆ランキング参加
-                </li>
-              </ul>
+          {/* CTA */}
+          <div className="bg-white rounded-2xl border border-border shadow-sm p-8 md:p-10 text-center max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl font-bold text-text mb-2">
+              アカウント登録不要で<span className="text-accent">今すぐ</span>挑戦できます
+            </p>
+            <ul className="text-sm text-text-light space-y-2 mb-8 inline-block text-left">
+              <li className="flex items-start gap-2">
+                <span className="text-success font-bold mt-0.5">&#10003;</span>
+                登録なしで模試を受験可能
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-success font-bold mt-0.5">&#10003;</span>
+                解答後すぐにスコア・解説を確認
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-success font-bold mt-0.5">&#10003;</span>
+                アカウント登録で成績保存＆ランキング参加
+              </li>
+            </ul>
+            <div>
               <Link
                 href="/exam"
-                className="inline-block bg-accent text-white font-bold text-lg px-10 py-4 rounded-lg hover:bg-accent-light transition shadow-lg shadow-accent/25"
+                className="inline-block bg-accent text-white font-bold text-lg px-12 py-4 rounded-lg hover:bg-accent-light transition shadow-lg shadow-accent/25"
               >
                 無料で模試を受けてみる
               </Link>
