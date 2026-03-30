@@ -9,6 +9,41 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://drilleo.edore-edu.com/kindai" },
 };
 
+const faqItems = [
+  {
+    q: "この書籍はどんな人におすすめですか？",
+    a: "近畿大学の英語入試を受験予定の方に。特に赤本を解き終えてさらに演習量を増やしたい方、長文読解に苦手意識がある方、本番形式に慣れたい方に最適です。",
+  },
+  {
+    q: "近大の英語入試はどのような形式ですか？",
+    a: "試験時間60分・100点満点の完全マークシート方式。大問7題構成、難易度は共通テスト同等（やや易〜標準）。",
+  },
+  {
+    q: "書籍にはどんな問題が収録されていますか？",
+    a: "大問7（長文読解）形式の問題を全25回分。1回あたり約400語の英文＋設問7問。全問に解説・全文和訳・語注付き。",
+  },
+  {
+    q: "問題は過去問ですか？",
+    a: "いいえ、すべてオリジナル問題。傾向分析に基づき作成、人間による品質チェック済み。",
+  },
+  {
+    q: "Web模試は無料ですか？",
+    a: "アカウント登録不要で完全無料。ニックネームを入力するだけで制限時間30分の模試を受験可能。即時採点・全問解説。",
+  },
+  {
+    q: "ランキングにはどのような情報が表示されますか？",
+    a: "ニックネーム、スコア、解答時間のみ。個人情報は公開されません。",
+  },
+  {
+    q: "Kindle版とペーパーバック版の違いは？",
+    a: "内容は同じ。Kindle版はスマホ・タブレット、ペーパーバック版は紙の書籍。",
+  },
+  {
+    q: "他の大問の問題集もありますか？",
+    a: "現在は大問7（長文読解）のみ。配点最高の重要パート。他の大問も今後検討中。",
+  },
+];
+
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -42,6 +77,18 @@ const jsonLd = [
       },
     ],
   },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.a,
+      },
+    })),
+  },
 ];
 
 export default function Home() {
@@ -71,6 +118,9 @@ export default function Home() {
             </a>
             <a href="#mock-exam" className="text-text-light hover:text-primary transition">
               模試
+            </a>
+            <a href="#faq" className="text-text-light hover:text-primary transition">
+              FAQ
             </a>
             <Link href="/kindai/leaderboard" className="text-text-light hover:text-primary transition">
               ランキング
@@ -217,8 +267,44 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 選ばれる理由 */}
+      <section className="bg-bg-gray py-16 md:py-24">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="flex justify-center mb-6">
+            <Image
+              src="/images/illust/reason-check.png"
+              alt="合格チェックマーク"
+              width={120}
+              height={120}
+              className="w-20 h-auto"
+            />
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">
+            この問題集が選ばれる理由
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-6">
+            <ReasonCard
+              title="近大入試に完全対応"
+              description="出題形式・語数・設問数を忠実に再現。本番と同じ感覚で演習できます。"
+            />
+            <ReasonCard
+              title="全問に丁寧な解説・全文和訳"
+              description="解答の根拠を示した解説と英文全体の和訳で、独学でもしっかり理解。"
+            />
+            <ReasonCard
+              title="過去問の「次」の一冊"
+              description="赤本を解き終えた後の追加演習に最適。さらなる実践力を身につけます。"
+            />
+            <ReasonCard
+              title="Web模試との連携"
+              description="書籍と同じ形式の問題をWeb模試で無料体験。タイマー付きで実戦練習。"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* 試し読み */}
-      <section id="preview" className="bg-bg-gray py-16 md:py-24">
+      <section id="preview" className="py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-primary">
             試し読み
@@ -253,7 +339,7 @@ export default function Home() {
       </section>
 
       {/* 模試体験セクション */}
-      <section id="mock-exam" className="py-16 md:py-24">
+      <section id="mock-exam" className="bg-bg-gray py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-primary">
             近大英語模試を体験しよう
@@ -342,7 +428,7 @@ export default function Home() {
       </section>
 
       {/* 大問構成 */}
-      <section className="bg-bg-gray py-16 md:py-24">
+      <section className="py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">
             近大英語の大問構成
@@ -381,6 +467,38 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 傾向と対策 */}
+      <section className="bg-bg-gray py-16 md:py-24">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">
+            近大英語の傾向と対策
+          </h2>
+
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-lg font-bold text-text mb-3">試験の概要</h3>
+              <p className="text-text-light text-sm leading-relaxed">
+                近畿大学の英語入試は、試験時間60分・100点満点の完全マークシート方式です。大問は7題構成で、難易度は共通テスト同等（やや易〜標準）。幅広い分野からバランスよく出題されますが、合否を分けるのは配点の高い長文読解です。
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-text mb-3">長文読解（大問7）の攻略</h3>
+              <p className="text-text-light text-sm leading-relaxed">
+                大問7の長文読解は1問あたり3〜4点と配点が最も高く、合否を左右するパートです。英文は500〜600語程度で、社会・科学・文化など多様なテーマから出題されます。設問は段落指定形式が多く、該当箇所を素早く見つける力が求められます。日頃から400〜600語程度の英文を繰り返し読み、段落ごとの要旨をつかむ練習をしておきましょう。
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-text mb-3">効果的な学習法</h3>
+              <p className="text-text-light text-sm leading-relaxed">
+                まずは書籍で長文読解を繰り返し演習し、時間配分の感覚を身につけましょう。1回あたり15〜20分を目安に解き、解説と和訳で理解を深めます。ある程度自信がついたら、Web模試でタイマー付きの実戦練習に挑戦。本番と同じ緊張感の中で実力を確認し、弱点を把握して効率的に対策を進めましょう。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Amazon購入 */}
       <section className="bg-primary text-white py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-6 text-center">
@@ -395,6 +513,47 @@ export default function Home() {
             <a href="#" className="border-2 border-white text-white font-bold px-8 py-4 rounded-lg hover:bg-white/10 transition">
               ペーパーバック版を購入
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section id="faq" className="py-16 md:py-24">
+        <div className="max-w-3xl mx-auto px-6">
+          <div className="flex justify-center mb-6">
+            <Image
+              src="/images/illust/faq-thinking.png"
+              alt="よくある質問"
+              width={120}
+              height={120}
+              className="w-20 h-auto"
+            />
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-primary">
+            よくある質問
+          </h2>
+          <div className="space-y-4">
+            {faqItems.map((item) => (
+              <details
+                key={item.q}
+                className="bg-white rounded-xl border border-border shadow-sm group"
+              >
+                <summary className="px-6 py-4 cursor-pointer font-bold text-text flex items-center justify-between list-none">
+                  <span>{item.q}</span>
+                  <svg
+                    className="w-5 h-5 text-text-light shrink-0 ml-4 group-open:rotate-180 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-4 text-text-light text-sm leading-relaxed">
+                  {item.a}
+                </div>
+              </details>
+            ))}
           </div>
         </div>
       </section>
@@ -425,6 +584,30 @@ function FeatureCard({
       </div>
       <h3 className="text-lg font-bold mb-2 text-primary">{title}</h3>
       <p className="text-text-light text-sm leading-relaxed">{description}</p>
+    </div>
+  );
+}
+
+function ReasonCard({
+  title,
+  description,
+}: {
+  title: string;
+  description: string;
+}) {
+  return (
+    <div className="bg-white rounded-xl p-6 shadow-sm border border-border">
+      <div className="flex items-start gap-3">
+        <div className="w-8 h-8 bg-success/10 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+          <svg className="w-4 h-4 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <div>
+          <h3 className="font-bold text-text mb-1">{title}</h3>
+          <p className="text-text-light text-sm leading-relaxed">{description}</p>
+        </div>
+      </div>
     </div>
   );
 }

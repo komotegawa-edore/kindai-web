@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -7,6 +8,33 @@ export const metadata: Metadata = {
     "大学別に特化した問題集と模試で合格をつかみ取ろう。近畿大学の英語入試から対応中。",
   alternates: { canonical: "https://drilleo.edore-edu.com" },
 };
+
+const faqItems = [
+  {
+    q: "ドリレオとはどんなサービスですか？",
+    a: "大学別に特化した問題集（書籍）と無料Web模試を組み合わせた受験対策サービスです。各大学の出題傾向を徹底的に分析し、本番と同じ形式のオリジナル問題を収録しています。現在は近畿大学の英語に対応しており、今後、関西大学・立命館大学なども順次対応予定です。",
+  },
+  {
+    q: "Web模試は無料で利用できますか？",
+    a: "はい、アカウント登録不要で完全無料です。制限時間付きで本番さながらの環境で解答でき、解答後すぐにスコア・全問解説・全文和訳を確認できます。アカウントを登録すると、成績の記録やランキングへの参加も可能です。",
+  },
+  {
+    q: "書籍はどこで購入できますか？",
+    a: "Amazonで販売しています。Kindle版（電子書籍）とペーパーバック版（紙の書籍）の2種類からお選びいただけます。",
+  },
+  {
+    q: "問題は過去問ですか？",
+    a: "いいえ、すべてオリジナル問題です。各大学の過去の出題傾向を徹底分析したうえで作成しており、過去問をそのまま掲載しているわけではありません。過去問集を解き終えた後の追加演習にも最適です。",
+  },
+  {
+    q: "ランキングに参加するにはどうすればいいですか？",
+    a: "ニックネームを入力して模試を受験してください。ランキングにはニックネームのみが表示され、個人情報が公開されることはありません。",
+  },
+  {
+    q: "現在対応している大学・科目は何ですか？",
+    a: "近畿大学の英語入試に対応しています。長文読解ドリル全25回分を収録した書籍と、Web模試をご利用いただけます。関西大学・立命館大学の英語についても準備中です。",
+  },
+];
 
 const jsonLd = [
   {
@@ -22,6 +50,18 @@ const jsonLd = [
     "@type": "WebSite",
     name: "ドリレオ",
     url: "https://drilleo.edore-edu.com",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.a,
+      },
+    })),
   },
 ];
 
@@ -51,31 +91,132 @@ export default function DrilleoTopPage() {
 
       {/* ヒーロー */}
       <section className="bg-gradient-to-br from-white via-white to-primary/5 overflow-hidden">
-        <div className="max-w-5xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28 text-center">
-          <div className="flex justify-center mb-6">
-            <svg width="64" height="64" viewBox="0 0 512 512" className="shrink-0">
-              <rect width="512" height="512" rx="96" fill="#2563EB"/>
-              <circle cx="256" cy="256" r="180" fill="white" opacity="0.2"/>
-              <circle cx="256" cy="256" r="140" fill="#2563EB"/>
-              <circle cx="256" cy="256" r="110" fill="white" opacity="0.3"/>
-              <circle cx="256" cy="256" r="80" fill="#F97316"/>
-              <circle cx="256" cy="256" r="36" fill="white"/>
-            </svg>
+        <div className="max-w-5xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28">
+          <div className="flex flex-col md:flex-row items-center gap-10">
+            <div className="md:w-1/2 text-center md:text-left">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-text">
+                <span className="text-primary">志望校</span>を狙い撃ち。
+              </h1>
+              <p className="text-lg md:text-xl text-text-light mb-2 max-w-lg">
+                大学別に特化した問題集（書籍）& 無料Web模試
+              </p>
+              <p className="text-sm text-text-light max-w-lg leading-relaxed">
+                各大学の出題傾向を徹底分析し、本番と同じ形式のオリジナル問題を収録。
+                書籍で繰り返し演習し、Web模試で実力を確認。合格をつかみ取ろう。
+              </p>
+            </div>
+            <div className="md:w-1/2 flex justify-center">
+              <Image
+                src="/images/illust/hero-target.png"
+                alt="ターゲットを狙い撃ちするイラスト"
+                width={320}
+                height={320}
+                className="w-56 md:w-72 h-auto"
+                priority
+              />
+            </div>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-text">
-            <span className="text-primary">志望校</span>を狙い撃ち。
-          </h1>
-          <p className="text-lg md:text-xl text-text-light mb-2 max-w-2xl mx-auto">
-            大学別に特化した問題集 & 模試アプリ
-          </p>
-          <p className="text-sm text-text-light max-w-2xl mx-auto">
-            各大学の出題傾向を徹底分析。本番と同じ形式の演習で、合格をつかみ取ろう。
-          </p>
         </div>
       </section>
 
-      {/* 大学カード */}
+      {/* ドリレオとは */}
+      <section className="bg-bg-gray py-16 md:py-24">
+        <div className="max-w-5xl mx-auto px-6">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-text">
+            ドリレオとは
+          </h2>
+          <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
+            <div className="md:w-3/5">
+              <p className="text-text-light leading-relaxed mb-4">
+                ドリレオは、大学入試に特化した「書籍」と「Web模試」を組み合わせた新しいかたちの受験対策サービスです。
+              </p>
+              <p className="text-text-light leading-relaxed mb-4">
+                一般的な参考書は幅広い大学を対象にしていますが、ドリレオは各大学の出題傾向・形式・難易度を徹底的に分析し、その大学だけに的を絞ったオリジナル問題を収録しています。
+              </p>
+              <p className="text-text-light leading-relaxed">
+                過去問をそのまま掲載するのではなく、傾向分析にもとづいて作成されたオリジナル問題なので、過去問集を解き終わった後の追加演習としても最適です。
+              </p>
+            </div>
+            <div className="md:w-2/5 flex justify-center">
+              <Image
+                src="/images/illust/service-book-app.png"
+                alt="書籍とアプリのイラスト"
+                width={280}
+                height={280}
+                className="w-48 md:w-56 h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 使い方 */}
       <section className="py-16 md:py-24">
+        <div className="max-w-5xl mx-auto px-6">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-text">
+            使い方
+          </h2>
+          <div className="grid md:grid-cols-3 gap-10">
+            <div className="text-center">
+              <div className="flex justify-center mb-4">
+                <Image
+                  src="/images/illust/step-select.png"
+                  alt="志望校を選ぶ"
+                  width={160}
+                  height={160}
+                  className="w-28 h-auto"
+                />
+              </div>
+              <div className="w-10 h-10 bg-primary text-white font-bold text-lg rounded-full flex items-center justify-center mx-auto mb-3">
+                1
+              </div>
+              <h3 className="text-lg font-bold mb-2 text-text">志望校を選ぶ</h3>
+              <p className="text-text-light text-sm leading-relaxed">
+                対応大学の中から自分の志望校を選びましょう。大学ごとに問題集・模試が用意されています。
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="flex justify-center mb-4">
+                <Image
+                  src="/images/illust/step-study.png"
+                  alt="書籍で演習する"
+                  width={160}
+                  height={160}
+                  className="w-28 h-auto"
+                />
+              </div>
+              <div className="w-10 h-10 bg-primary text-white font-bold text-lg rounded-full flex items-center justify-center mx-auto mb-3">
+                2
+              </div>
+              <h3 className="text-lg font-bold mb-2 text-text">書籍で演習する</h3>
+              <p className="text-text-light text-sm leading-relaxed">
+                Amazonで問題集を購入し、繰り返し演習。全問に解説・和訳付きだから、独学でも安心。
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="flex justify-center mb-4">
+                <Image
+                  src="/images/illust/step-exam.png"
+                  alt="Web模試で腕試し"
+                  width={160}
+                  height={160}
+                  className="w-28 h-auto"
+                />
+              </div>
+              <div className="w-10 h-10 bg-primary text-white font-bold text-lg rounded-full flex items-center justify-center mx-auto mb-3">
+                3
+              </div>
+              <h3 className="text-lg font-bold mb-2 text-text">Web模試で腕試し</h3>
+              <p className="text-text-light text-sm leading-relaxed">
+                無料のWeb模試に挑戦。タイマー付きの本番環境で実力を確認し、ランキングで仲間と競おう。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 対応大学 */}
+      <section className="bg-bg-gray py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-text">
             対応大学
@@ -156,7 +297,7 @@ export default function DrilleoTopPage() {
       </section>
 
       {/* ドリレオの特徴 */}
-      <section className="bg-bg-gray py-16 md:py-24">
+      <section className="py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-text">
             ドリレオの特徴
@@ -195,6 +336,47 @@ export default function DrilleoTopPage() {
                 同じ志望校の受験生とスコアを競い合おう。モチベーション維持に最適。
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section id="faq" className="bg-bg-gray py-16 md:py-24">
+        <div className="max-w-3xl mx-auto px-6">
+          <div className="flex justify-center mb-6">
+            <Image
+              src="/images/illust/faq-thinking.png"
+              alt="よくある質問"
+              width={120}
+              height={120}
+              className="w-20 h-auto"
+            />
+          </div>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-text">
+            よくある質問
+          </h2>
+          <div className="space-y-4">
+            {faqItems.map((item) => (
+              <details
+                key={item.q}
+                className="bg-white rounded-xl border border-border shadow-sm group"
+              >
+                <summary className="px-6 py-4 cursor-pointer font-bold text-text flex items-center justify-between list-none">
+                  <span>{item.q}</span>
+                  <svg
+                    className="w-5 h-5 text-text-light shrink-0 ml-4 group-open:rotate-180 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-4 text-text-light text-sm leading-relaxed">
+                  {item.a}
+                </div>
+              </details>
+            ))}
           </div>
         </div>
       </section>
