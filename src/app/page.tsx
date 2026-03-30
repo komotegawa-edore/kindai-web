@@ -44,6 +44,11 @@ const jsonLd = [
     url: "https://drilleo.edore-edu.com",
     logo: "https://drilleo.edore-edu.com/icon-192.png",
     description: "大学別に特化した問題集と模試アプリ",
+    parentOrganization: {
+      "@type": "Organization",
+      name: "edore",
+      url: "https://www.edore-edu.com/",
+    },
   },
   {
     "@context": "https://schema.org",
