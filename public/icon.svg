@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="96" fill="#2563EB"/>
+  <!-- ターゲットリング -->
+  <circle cx="256" cy="256" r="180" fill="white" opacity="0.2"/>
+  <circle cx="256" cy="256" r="140" fill="#2563EB"/>
+  <circle cx="256" cy="256" r="110" fill="white" opacity="0.3"/>
+  <circle cx="256" cy="256" r="80" fill="#F97316"/>
+  <circle cx="256" cy="256" r="36" fill="white"/>
+</svg>

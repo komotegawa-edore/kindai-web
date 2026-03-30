@@ -44,8 +44,14 @@ export default function ExamEntryPage() {
     <div className="min-h-screen flex flex-col">
       <header className="bg-primary text-white py-4 px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
-          <Link href="/" className="font-bold text-lg">
-            Drilleo
+          <Link href="/" className="flex items-center gap-2">
+            <svg width="24" height="24" viewBox="0 0 512 512" className="shrink-0">
+              <rect width="512" height="512" rx="96" fill="white"/>
+              <circle cx="256" cy="256" r="180" fill="#2563EB" opacity="0.15"/>
+              <circle cx="256" cy="256" r="80" fill="#F97316"/>
+              <circle cx="256" cy="256" r="36" fill="white"/>
+            </svg>
+            <span className="font-bold text-lg">ドリレオ</span>
           </Link>
           <Link
             href="/leaderboard"

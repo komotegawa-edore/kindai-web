@@ -7,7 +7,17 @@ export default function Home() {
       {/* ナビ */}
       <header className="bg-white border-b border-border sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">
-          <span className="font-bold text-primary text-lg">Drilleo</span>
+          <Link href="/" className="flex items-center gap-2">
+            <svg width="28" height="28" viewBox="0 0 512 512" className="shrink-0">
+              <rect width="512" height="512" rx="96" fill="#2563EB"/>
+              <circle cx="256" cy="256" r="180" fill="white" opacity="0.2"/>
+              <circle cx="256" cy="256" r="140" fill="#2563EB"/>
+              <circle cx="256" cy="256" r="110" fill="white" opacity="0.3"/>
+              <circle cx="256" cy="256" r="80" fill="#F97316"/>
+              <circle cx="256" cy="256" r="36" fill="white"/>
+            </svg>
+            <span className="font-bold text-primary-dark text-lg">ドリレオ</span>
+          </Link>
           <div className="flex gap-6 text-sm font-medium">
             <a href="#book" className="text-text-light hover:text-primary transition">
               書籍
@@ -345,7 +355,7 @@ export default function Home() {
       {/* フッター */}
       <footer className="bg-primary-dark text-white/60 py-8">
         <div className="max-w-5xl mx-auto px-6 text-center text-sm">
-          <p>&copy; 2026 Drilleo. All rights reserved.</p>
+          <p>&copy; 2026 ドリレオ (Drilleo). All rights reserved.</p>
         </div>
       </footer>
     </>
