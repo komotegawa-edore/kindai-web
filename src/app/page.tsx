@@ -60,6 +60,7 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "ドリレオ",
+    alternateName: "Drilleo",
     url: "https://drilleo.edore-edu.com",
   },
   {
