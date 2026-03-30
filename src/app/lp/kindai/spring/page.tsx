@@ -184,7 +184,7 @@ export default function SpringLPPage() {
                 </div>
 
                 {/* 浮かぶ結果カード */}
-                <div className="absolute -bottom-4 -right-2 md:-right-12 w-44 md:w-52 bg-white rounded-xl shadow-xl border border-border p-3 z-20">
+                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-auto md:-right-12 w-44 md:w-52 bg-white rounded-xl shadow-xl border border-border p-3 z-20">
                   <p className="text-[10px] font-bold text-text mb-2">あなたの診断結果</p>
                   <div className="space-y-2">
                     {[
