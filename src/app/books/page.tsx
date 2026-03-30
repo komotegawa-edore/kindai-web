@@ -52,27 +52,20 @@ export default function BooksPage() {
           {/* 1冊目: 近大英語 長文読解ドリル */}
           <div className="bg-white rounded-2xl border border-border shadow-sm overflow-hidden flex flex-col">
             <div className="bg-bg-gray px-6 py-8">
-              <div className="flex justify-center gap-2 md:gap-3">
+              <div className="flex justify-center gap-3 md:gap-4">
                 <Image
                   src="/images/book-preview/cover-front.png"
                   alt="近大英語 長文読解ドリル 表紙"
                   width={400}
                   height={566}
-                  className="w-28 md:w-36 h-auto rounded-lg shadow-xl"
+                  className="w-32 md:w-40 h-auto rounded-lg shadow-xl"
                 />
                 <Image
                   src="/images/book-preview/round1-009.png"
                   alt="第1回 英文ページ"
                   width={400}
                   height={566}
-                  className="w-20 md:w-24 h-auto rounded shadow-md border border-border/50"
-                />
-                <Image
-                  src="/images/book-preview/round1-010.png"
-                  alt="第1回 設問ページ"
-                  width={400}
-                  height={566}
-                  className="w-20 md:w-24 h-auto rounded shadow-md border border-border/50"
+                  className="w-24 md:w-28 h-auto rounded shadow-md border border-border/50"
                 />
               </div>
             </div>

@@ -54,10 +54,10 @@ export default function ExamEntryPage() {
             <span className="font-bold text-lg">ドリレオ</span>
           </Link>
           <Link
-            href="/kindai/leaderboard"
+            href="/kindai"
             className="text-white/80 hover:text-white text-sm"
           >
-            ランキング
+            近大英語トップ
           </Link>
         </div>
       </header>

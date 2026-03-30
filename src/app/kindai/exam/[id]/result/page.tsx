@@ -153,10 +153,10 @@ export default function ResultPage() {
             <span className="font-bold text-lg">ドリレオ</span>
           </Link>
           <Link
-            href="/kindai/leaderboard"
+            href="/kindai"
             className="text-white/80 hover:text-white text-sm"
           >
-            ランキング
+            近大英語トップ
           </Link>
         </div>
       </header>
@@ -187,10 +187,10 @@ export default function ResultPage() {
           </div>
           <div className="flex gap-4 justify-center mt-8">
             <Link
-              href="/kindai/leaderboard"
+              href="/kindai"
               className="bg-primary text-white font-bold px-6 py-3 rounded-lg hover:bg-primary-light transition"
             >
-              ランキングを見る
+              近大英語トップへ
             </Link>
             <Link
               href="/kindai/exam"

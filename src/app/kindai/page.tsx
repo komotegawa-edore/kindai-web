@@ -138,8 +138,8 @@ export default function Home() {
             <a href="#faq" className="text-text-light hover:text-primary transition">
               FAQ
             </a>
-            <Link href="/kindai/leaderboard" className="text-text-light hover:text-primary transition">
-              ランキング
+            <Link href="/kindai/quiz" className="text-text-light hover:text-primary transition">
+              診断クイズ
             </Link>
           </div>
         </div>

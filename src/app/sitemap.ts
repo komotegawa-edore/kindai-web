@@ -30,12 +30,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/kindai/leaderboard`,
-      lastModified: "2026-03-30",
-      changeFrequency: "daily",
-      priority: 0.6,
-    },
-    {
       url: `${baseUrl}/blog`,
       lastModified: "2026-03-30",
       changeFrequency: "weekly",
@@ -52,6 +46,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: "2026-03-30",
       changeFrequency: "yearly",
       priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/lp/kindai/spring`,
+      lastModified: "2026-03-31",
+      changeFrequency: "monthly",
+      priority: 0.8,
     },
   ];
 
