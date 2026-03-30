@@ -99,7 +99,7 @@ export default function DrilleoTopPage() {
         <div className="max-w-5xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28">
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="md:w-1/2 text-center md:text-left">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-text">
+              <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight text-text">
                 <span className="text-primary">志望校</span>だけに絞った
                 <br />
                 問題集 & 模試
