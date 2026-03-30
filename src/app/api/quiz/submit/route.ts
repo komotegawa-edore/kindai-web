@@ -15,17 +15,17 @@ export async function POST(request: Request) {
     await ensureTables();
 
     const body = await request.json();
-    const { sessionId, answers: submitted, timeSeconds } = body as {
-      sessionId: number;
+    const { sessionId: publicId, answers: submitted, timeSeconds } = body as {
+      sessionId: string;
       answers: SubmittedAnswer[];
       timeSeconds: number;
     };
 
-    // セッション取得
+    // セッション取得（publicIdで検索）
     const [session] = await db
       .select()
       .from(examSessions)
-      .where(eq(examSessions.id, sessionId));
+      .where(eq(examSessions.publicId, publicId));
 
     if (!session || session.examType !== "quiz") {
       return NextResponse.json(
@@ -88,7 +88,7 @@ export async function POST(request: Request) {
 
       // DB保存
       await db.insert(answers).values({
-        sessionId,
+        sessionId: session.id,
         questionNumber,
         selectedAnswer: selected,
         isCorrect,
@@ -105,7 +105,7 @@ export async function POST(request: Request) {
         timeSeconds,
         finishedAt: new Date(),
       })
-      .where(eq(examSessions.id, sessionId));
+      .where(eq(examSessions.id, session.id));
 
     return NextResponse.json({
       score: totalScore,

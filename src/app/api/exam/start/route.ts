@@ -1,3 +1,4 @@
+import { randomUUID } from "crypto";
 import { NextResponse } from "next/server";
 import { db } from "@/lib/db";
 import { users, examSessions } from "@/lib/schema";
@@ -33,19 +34,20 @@ export async function POST(request: Request) {
       .values({ nickname })
       .returning();
 
-    // セッション作成
+    // セッション作成（URLにはpublicIdを使用）
+    const publicId = randomUUID();
     const maxScore = problem.questions.reduce((sum: number, q: { points: number }) => sum + q.points, 0);
-    const [session] = await db
+    await db
       .insert(examSessions)
       .values({
+        publicId,
         userId: userResult.id,
         problemId: problem.id,
         maxScore,
-      })
-      .returning();
+      });
 
     return NextResponse.json({
-      sessionId: session.id,
+      sessionId: publicId,
       problemId: problem.id,
     });
   } catch (error) {

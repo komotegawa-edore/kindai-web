@@ -7,6 +7,7 @@ import Link from "next/link";
 interface ExamResult {
   session: {
     id: number;
+    publicId: string;
     userId: number;
     nickname: string;
     problemId: string;
@@ -37,7 +38,7 @@ interface ExamResult {
 
 export default function ResultPage() {
   const params = useParams();
-  const sessionId = Number(params.id);
+  const sessionId = params.id as string;
   const [data, setData] = useState<ExamResult | null>(null);
   const [loading, setLoading] = useState(true);
   const [userAnswers, setUserAnswers] = useState<

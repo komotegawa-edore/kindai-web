@@ -20,6 +20,7 @@ interface QuizQuestion {
 interface QuizResult {
   session: {
     id: number;
+    publicId: string;
     nickname: string;
     problemId: string;
     score: number;
@@ -60,7 +61,7 @@ function getWeaknessComment(category: string, correct: number, total: number): s
 
 export default function QuizResultPage() {
   const params = useParams();
-  const sessionId = Number(params.id);
+  const sessionId = params.id as string;
   const [data, setData] = useState<QuizResult | null>(null);
   const [loading, setLoading] = useState(true);
   const [userAnswers, setUserAnswers] = useState<

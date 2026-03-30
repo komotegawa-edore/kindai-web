@@ -129,9 +129,9 @@ export default function Home() {
             <span className="font-bold text-primary-dark text-lg">ドリレオ</span>
           </Link>
           <div className="flex gap-6 text-sm font-medium">
-            <a href="#book" className="text-text-light hover:text-primary transition">
+            <Link href="/books" className="text-text-light hover:text-primary transition">
               書籍
-            </a>
+            </Link>
             <a href="#mock-exam" className="text-text-light hover:text-primary transition">
               模試
             </a>

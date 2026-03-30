@@ -18,6 +18,7 @@ interface QuizQuestion {
 interface QuizSessionData {
   session: {
     id: number;
+    publicId: string;
     nickname: string;
     problemId: string;
     maxScore: number;
@@ -35,7 +36,7 @@ interface QuizSessionData {
 export default function QuizPage() {
   const params = useParams();
   const router = useRouter();
-  const sessionId = Number(params.id);
+  const sessionId = params.id as string;
 
   const [data, setData] = useState<QuizSessionData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -64,7 +65,8 @@ export default function QuizPage() {
       }
     }
     load();
-  }, [sessionId, router]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sessionId]);
 
   // タイマー
   useEffect(() => {

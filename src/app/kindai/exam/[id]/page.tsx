@@ -16,6 +16,7 @@ interface Question {
 interface ExamData {
   session: {
     id: number;
+    publicId: string;
     nickname: string;
     problemId: string;
     maxScore: number;
@@ -34,7 +35,7 @@ const TIME_LIMIT = 1800; // 30分
 export default function ExamPage() {
   const params = useParams();
   const router = useRouter();
-  const sessionId = Number(params.id);
+  const sessionId = params.id as string;
 
   const [examData, setExamData] = useState<ExamData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -63,7 +64,8 @@ export default function ExamPage() {
       }
     }
     load();
-  }, [sessionId, router]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sessionId]);
 
   // タイマー
   useEffect(() => {

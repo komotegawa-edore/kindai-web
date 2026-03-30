@@ -10,7 +10,7 @@ export async function GET() {
 
     const results = await db
       .select({
-        id: examSessions.id,
+        id: examSessions.publicId,
         nickname: users.nickname,
         problemId: examSessions.problemId,
         score: examSessions.score,

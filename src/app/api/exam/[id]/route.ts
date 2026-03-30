@@ -12,12 +12,11 @@ export async function GET(
   try {
     await ensureTables();
     const { id } = await params;
-    const sessionId = parseInt(id, 10);
 
     const [session] = await db
       .select()
       .from(examSessions)
-      .where(eq(examSessions.id, sessionId));
+      .where(eq(examSessions.publicId, id));
 
     if (!session) {
       return NextResponse.json(

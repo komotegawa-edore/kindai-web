@@ -5,6 +5,7 @@ import Link from "next/link";
 
 const navItems = [
   { href: "/kindai", label: "近大英語" },
+  { href: "/books", label: "書籍一覧" },
   { href: "/blog", label: "ブログ" },
 ];
 
