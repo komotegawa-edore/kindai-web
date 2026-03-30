@@ -132,40 +132,82 @@ export default function SpringLPPage() {
               <div className="inline-block bg-accent/10 text-accent text-xs font-bold px-3 py-1.5 rounded-full mb-4">
                 春の新学期キャンペーン
               </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-text">
-                <span className="text-primary">近大英語</span>、
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight text-text">
+                近大英語、
                 <br />
-                どこから始める？
+                <span className="text-primary">5分</span>で弱点がわかる。
               </h1>
-              <p className="text-lg md:text-xl text-text-light mb-2">
-                <span className="font-bold text-text">5分</span>
-                でわかる弱点診断
+              <p className="text-base md:text-lg text-text-light mb-3 max-w-md">
+                20問の診断クイズで、文法・語彙・読解の
+                <span className="font-bold text-text">どこが弱いか</span>が一目でわかる。
               </p>
-              <p className="text-sm text-text-light mb-8 max-w-md">
-                近畿大学の英語入試に必要な力を、カテゴリ別にチェック。
-                今の自分の弱点を知って、効率的に対策を始めよう。
-              </p>
+              <div className="flex flex-wrap gap-3 mb-6 justify-center md:justify-start">
+                <span className="inline-flex items-center gap-1.5 bg-white border border-border rounded-full px-3 py-1.5 text-xs font-medium text-text-light">
+                  <svg className="w-3.5 h-3.5 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7"/></svg>
+                  無料
+                </span>
+                <span className="inline-flex items-center gap-1.5 bg-white border border-border rounded-full px-3 py-1.5 text-xs font-medium text-text-light">
+                  <svg className="w-3.5 h-3.5 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7"/></svg>
+                  登録不要
+                </span>
+                <span className="inline-flex items-center gap-1.5 bg-accent/10 border border-accent/20 rounded-full px-3 py-1.5 text-xs font-bold text-accent">
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" strokeWidth={2}/><path strokeLinecap="round" strokeWidth={2} d="M12 6v6l4 2"/></svg>
+                  たった5分
+                </span>
+              </div>
               <Link
                 href="/kindai/quiz"
                 className="group relative inline-block bg-gradient-to-r from-accent to-orange-500 text-white font-bold text-lg px-10 py-4 rounded-xl hover:from-orange-500 hover:to-accent transition-all shadow-xl shadow-accent/30 hover:shadow-2xl hover:shadow-accent/40 hover:-translate-y-0.5"
               >
                 <span className="flex items-center gap-2">
-                  診断をスタートする（無料・5分）
+                  今すぐ診断スタート
                   <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
                 </span>
               </Link>
             </div>
+
+            {/* 右側: スマホスクショ + 浮かぶ結果カード */}
             <div className="md:w-1/2 flex justify-center relative">
               <div className="absolute w-72 h-72 md:w-96 md:h-96 bg-primary/5 rounded-full -top-8 -right-8" />
-              <div className="absolute w-36 h-36 bg-accent/5 rounded-full bottom-0 -left-4" />
-              <Image
-                src="/images/illust/lp-spring-hero.png"
-                alt="桜の中を走り出す受験生"
-                width={640}
-                height={640}
-                className="relative z-10 w-64 md:w-80 h-auto"
-                priority
-              />
+
+              <div className="relative z-10">
+                {/* スマホフレーム */}
+                <div className="rounded-[2rem] overflow-hidden shadow-2xl border-4 border-gray-800 bg-gray-800 w-48 md:w-56">
+                  <Image
+                    src="/images/mock-2.PNG"
+                    alt="診断クイズ画面"
+                    width={390}
+                    height={844}
+                    className="w-full h-auto"
+                    priority
+                  />
+                </div>
+
+                {/* 浮かぶ結果カード */}
+                <div className="absolute -bottom-4 -right-2 md:-right-12 w-44 md:w-52 bg-white rounded-xl shadow-xl border border-border p-3 z-20">
+                  <p className="text-[10px] font-bold text-text mb-2">あなたの診断結果</p>
+                  <div className="space-y-2">
+                    {[
+                      { label: "文法", pct: 80, color: "bg-primary" },
+                      { label: "語彙", pct: 35, color: "bg-red-400" },
+                      { label: "読解", pct: 70, color: "bg-primary" },
+                    ].map((s) => (
+                      <div key={s.label}>
+                        <div className="flex justify-between text-[9px] mb-0.5">
+                          <span className="text-text-light">{s.label}</span>
+                          <span className="font-bold text-text">{s.pct}%</span>
+                        </div>
+                        <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                          <div className={`h-full rounded-full ${s.color}`} style={{ width: `${s.pct}%` }} />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-[9px] text-red-500 font-bold mt-2">
+                    &#9888; 語彙が弱点です
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
