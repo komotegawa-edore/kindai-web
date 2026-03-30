@@ -146,9 +146,12 @@ export default function SpringLPPage() {
               </p>
               <Link
                 href="/kindai/quiz"
-                className="inline-block bg-accent text-white font-bold text-lg px-10 py-4 rounded-lg hover:bg-accent-light transition shadow-lg shadow-accent/25"
+                className="group relative inline-block bg-gradient-to-r from-accent to-orange-500 text-white font-bold text-lg px-10 py-4 rounded-xl hover:from-orange-500 hover:to-accent transition-all shadow-xl shadow-accent/30 hover:shadow-2xl hover:shadow-accent/40 hover:-translate-y-0.5"
               >
-                診断をスタートする（無料・5分）
+                <span className="flex items-center gap-2">
+                  診断をスタートする（無料・5分）
+                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                </span>
               </Link>
             </div>
             <div className="md:w-1/2 flex justify-center relative">
@@ -184,17 +187,17 @@ export default function SpringLPPage() {
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <PainCard
-              emoji="📚"
+              icon={<PainIconBooks />}
               title="何から手をつけていいかわからない"
               description="大問が7つもあって範囲が広い。どこから始めれば効率的なの？"
             />
             <PainCard
-              emoji="❓"
+              icon={<PainIconQuestion />}
               title="自分の弱点がわからない"
               description="文法？語彙？長文？なんとなく苦手だけど、具体的にどこが弱いの？"
             />
             <PainCard
-              emoji="😰"
+              icon={<PainIconWorry />}
               title="周りとの差が気になる"
               description="みんなどのくらいのレベル？自分は遅れてない？不安が尽きない。"
             />
@@ -219,29 +222,40 @@ export default function SpringLPPage() {
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-primary text-center md:text-left">
                 まずは5分で「今の自分」を知ろう
               </h2>
-              <div className="space-y-4 mb-8">
+              <div className="space-y-5 mb-8">
                 <MeritItem
-                  icon="✅"
+                  icon={<MeritIconShield />}
                   title="無料・登録不要"
                   description="ニックネームだけですぐスタート。個人情報の入力は一切不要。"
                 />
                 <MeritItem
-                  icon="⏱️"
+                  icon={<MeritIconClock />}
                   title="たった5分で完了"
                   description="厳選20問のクイズ形式。スキマ時間にサクッと受けられる。"
+                  highlight
                 />
                 <MeritItem
-                  icon="📊"
+                  icon={<MeritIconChart />}
                   title="カテゴリ別に弱点がわかる"
                   description="文法・語彙・読解など、分野ごとの得点率で弱点を可視化。"
                 />
               </div>
+              {/* 5分バッジ */}
+              <div className="flex items-center gap-2 mb-5 justify-center md:justify-start">
+                <div className="flex items-center gap-1.5 bg-accent/10 border border-accent/20 rounded-full px-4 py-1.5">
+                  <svg className="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" strokeWidth={2}/><path strokeLinecap="round" strokeWidth={2} d="M12 6v6l4 2"/></svg>
+                  <span className="text-accent font-bold text-sm">所要時間たったの5分</span>
+                </div>
+              </div>
               <div className="text-center md:text-left">
                 <Link
                   href="/kindai/quiz"
-                  className="inline-block bg-accent text-white font-bold px-8 py-3.5 rounded-lg hover:bg-accent-light transition shadow-lg shadow-accent/25"
+                  className="group relative inline-block bg-gradient-to-r from-accent to-orange-500 text-white font-bold text-lg px-10 py-4 rounded-xl hover:from-orange-500 hover:to-accent transition-all shadow-xl shadow-accent/30 hover:shadow-2xl hover:shadow-accent/40 hover:-translate-y-0.5"
                 >
-                  今すぐ診断する（無料）
+                  <span className="flex items-center gap-2">
+                    今すぐ診断する（無料）
+                    <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                  </span>
                 </Link>
               </div>
             </div>
@@ -318,9 +332,12 @@ export default function SpringLPPage() {
           <div className="text-center">
             <Link
               href="/kindai/quiz"
-              className="inline-block bg-accent text-white font-bold px-8 py-3.5 rounded-lg hover:bg-accent-light transition shadow-lg shadow-accent/25"
+              className="group relative inline-block bg-gradient-to-r from-accent to-orange-500 text-white font-bold text-lg px-10 py-4 rounded-xl hover:from-orange-500 hover:to-accent transition-all shadow-xl shadow-accent/30 hover:shadow-2xl hover:shadow-accent/40 hover:-translate-y-0.5"
             >
-              自分の弱点を診断する
+              <span className="flex items-center gap-2">
+                自分の弱点を診断する
+                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+              </span>
             </Link>
           </div>
         </div>
@@ -372,9 +389,12 @@ export default function SpringLPPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/kindai/quiz"
-              className="inline-block bg-accent text-white font-bold px-8 py-3.5 rounded-lg hover:bg-accent-light transition text-center shadow-lg shadow-accent/25"
+              className="group inline-block bg-gradient-to-r from-accent to-orange-500 text-white font-bold text-lg px-10 py-4 rounded-xl hover:from-orange-500 hover:to-accent transition-all text-center shadow-xl shadow-accent/30 hover:shadow-2xl hover:shadow-accent/40 hover:-translate-y-0.5"
             >
-              まずは診断から始めよう
+              <span className="flex items-center gap-2 justify-center">
+                まずは診断から始めよう
+                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+              </span>
             </Link>
             <Link
               href="/books"
@@ -469,9 +489,12 @@ export default function SpringLPPage() {
             <div className="mb-4">
               <Link
                 href="/kindai/quiz"
-                className="inline-block bg-accent text-white font-bold text-lg px-12 py-4 rounded-lg hover:bg-accent-light transition shadow-lg shadow-accent/25"
+                className="group inline-block bg-gradient-to-r from-accent to-orange-500 text-white font-bold text-lg px-12 py-5 rounded-xl hover:from-orange-500 hover:to-accent transition-all shadow-xl shadow-accent/30 hover:shadow-2xl hover:shadow-accent/40 hover:-translate-y-0.5 animate-pulse hover:animate-none"
               >
-                スタートダッシュ診断を受ける（無料）
+                <span className="flex items-center gap-2">
+                  スタートダッシュ診断を受ける（無料）
+                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                </span>
               </Link>
             </div>
 
@@ -506,17 +529,17 @@ export default function SpringLPPage() {
 /* ── Inline Components ── */
 
 function PainCard({
-  emoji,
+  icon,
   title,
   description,
 }: {
-  emoji: string;
+  icon: React.ReactNode;
   title: string;
   description: string;
 }) {
   return (
     <div className="bg-white rounded-xl p-6 shadow-sm border border-border text-center">
-      <div className="text-3xl mb-3">{emoji}</div>
+      <div className="flex justify-center mb-3">{icon}</div>
       <h3 className="font-bold text-text mb-2">{title}</h3>
       <p className="text-text-light text-sm leading-relaxed">{description}</p>
     </div>
@@ -527,18 +550,86 @@ function MeritItem({
   icon,
   title,
   description,
+  highlight,
 }: {
-  icon: string;
+  icon: React.ReactNode;
   title: string;
   description: string;
+  highlight?: boolean;
 }) {
   return (
-    <div className="flex items-start gap-3">
-      <span className="text-xl shrink-0 mt-0.5">{icon}</span>
+    <div className={`flex items-start gap-4 rounded-xl p-4 ${highlight ? "bg-accent/5 border border-accent/20" : ""}`}>
+      <div className="shrink-0 mt-0.5">{icon}</div>
       <div>
         <h3 className="font-bold text-text mb-0.5">{title}</h3>
         <p className="text-text-light text-sm leading-relaxed">{description}</p>
       </div>
+    </div>
+  );
+}
+
+/* SVG Icons — Pain Cards */
+
+function PainIconBooks() {
+  return (
+    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+      <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+      </svg>
+    </div>
+  );
+}
+
+function PainIconQuestion() {
+  return (
+    <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center">
+      <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01" />
+        <circle cx="12" cy="12" r="10" strokeWidth={2} />
+      </svg>
+    </div>
+  );
+}
+
+function PainIconWorry() {
+  return (
+    <div className="w-12 h-12 bg-red-50 rounded-full flex items-center justify-center">
+      <svg className="w-6 h-6 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+      </svg>
+    </div>
+  );
+}
+
+/* SVG Icons — Merit Items */
+
+function MeritIconShield() {
+  return (
+    <div className="w-10 h-10 bg-success/10 rounded-full flex items-center justify-center">
+      <svg className="w-5 h-5 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+      </svg>
+    </div>
+  );
+}
+
+function MeritIconClock() {
+  return (
+    <div className="w-10 h-10 bg-accent/10 rounded-full flex items-center justify-center">
+      <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" strokeWidth={2} />
+        <path strokeLinecap="round" strokeWidth={2} d="M12 6v6l4 2" />
+      </svg>
+    </div>
+  );
+}
+
+function MeritIconChart() {
+  return (
+    <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
+      <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+      </svg>
     </div>
   );
 }
