@@ -91,37 +91,38 @@ export default function SpringLPPage() {
       {/* 桜アニメーション */}
       <style dangerouslySetInnerHTML={{ __html: `
         @keyframes sakura-fall {
-          0%   { transform: translateY(-10%) translateX(0) rotate(0deg); opacity: 1; }
-          25%  { transform: translateY(25%) translateX(15px) rotate(90deg); opacity: 1; }
-          50%  { transform: translateY(50%) translateX(-10px) rotate(180deg); opacity: 0.8; }
-          75%  { transform: translateY(75%) translateX(20px) rotate(270deg); opacity: 0.6; }
-          100% { transform: translateY(110%) translateX(5px) rotate(360deg); opacity: 0; }
+          0%   { top: -5%; transform: translateX(0) rotate(0deg) scale(1); opacity: 0; }
+          5%   { opacity: 0.9; }
+          25%  { transform: translateX(20px) rotate(90deg) scale(0.95); opacity: 0.9; }
+          50%  { transform: translateX(-15px) rotate(200deg) scale(0.9); opacity: 0.7; }
+          75%  { transform: translateX(25px) rotate(290deg) scale(0.85); opacity: 0.5; }
+          100% { top: 105%; transform: translateX(10px) rotate(400deg) scale(0.8); opacity: 0; }
         }
         .sakura-petal {
           position: absolute;
-          width: 12px;
-          height: 12px;
+          top: -5%;
           background: radial-gradient(ellipse at 30% 30%, #fcc, #f9a8c9);
           border-radius: 50% 0 50% 50%;
           opacity: 0;
-          animation: sakura-fall linear infinite;
+          animation: sakura-fall ease-in-out infinite;
           pointer-events: none;
+          z-index: 5;
         }
       `}} />
 
       {/* 1. Hero */}
       <section className="bg-gradient-to-br from-white via-white to-primary/5 overflow-hidden relative">
         {/* 桜の花びら */}
-        {Array.from({ length: 12 }).map((_, i) => (
+        {Array.from({ length: 15 }).map((_, i) => (
           <span
             key={i}
             className="sakura-petal"
             style={{
-              left: `${8 + i * 7.5}%`,
-              animationDuration: `${4 + (i % 5) * 1.5}s`,
-              animationDelay: `${(i * 0.7) % 5}s`,
-              width: `${8 + (i % 4) * 4}px`,
-              height: `${8 + (i % 4) * 4}px`,
+              left: `${5 + i * 6}%`,
+              animationDuration: `${5 + (i % 5) * 2}s`,
+              animationDelay: `${(i * 0.8) % 6}s`,
+              width: `${8 + (i % 4) * 3}px`,
+              height: `${8 + (i % 4) * 3}px`,
             }}
           />
         ))}
