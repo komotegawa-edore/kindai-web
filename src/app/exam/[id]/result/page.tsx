@@ -143,7 +143,7 @@ export default function ResultPage() {
       <header className="bg-primary text-white py-4 px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <Link href="/" className="font-bold text-lg">
-            近大ドリル
+            Drilleo
           </Link>
           <Link
             href="/leaderboard"
@@ -401,7 +401,7 @@ export default function ResultPage() {
 
       <footer className="bg-primary-dark text-white/60 py-6">
         <div className="max-w-5xl mx-auto px-6 text-center text-sm">
-          <p>&copy; 2026 近大ドリル. All rights reserved.</p>
+          <p>&copy; 2026 Drilleo. All rights reserved.</p>
         </div>
       </footer>
     </div>

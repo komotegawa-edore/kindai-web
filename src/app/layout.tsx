@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "近大ドリル — 近畿大学 英語入試対策",
+  title: "Drilleo — 大学別特化型 問題集 & 模試",
   description:
-    "近畿大学の英語入試に特化した問題集と模試アプリ。全7大問を徹底対策。",
+    "大学別に特化した問題集と模試アプリ。近畿大学の英語入試から対応開始。",
 };
 
 export default function RootLayout({

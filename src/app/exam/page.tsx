@@ -45,7 +45,7 @@ export default function ExamEntryPage() {
       <header className="bg-primary text-white py-4 px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <Link href="/" className="font-bold text-lg">
-            近大ドリル
+            Drilleo
           </Link>
           <Link
             href="/leaderboard"

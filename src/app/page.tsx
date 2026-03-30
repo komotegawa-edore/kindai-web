@@ -7,7 +7,7 @@ export default function Home() {
       {/* ナビ */}
       <header className="bg-white border-b border-border sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">
-          <span className="font-bold text-primary text-lg">近大ドリル</span>
+          <span className="font-bold text-primary text-lg">Drilleo</span>
           <div className="flex gap-6 text-sm font-medium">
             <a href="#book" className="text-text-light hover:text-primary transition">
               書籍
@@ -345,7 +345,7 @@ export default function Home() {
       {/* フッター */}
       <footer className="bg-primary-dark text-white/60 py-8">
         <div className="max-w-5xl mx-auto px-6 text-center text-sm">
-          <p>&copy; 2026 近大ドリル. All rights reserved.</p>
+          <p>&copy; 2026 Drilleo. All rights reserved.</p>
         </div>
       </footer>
     </>
