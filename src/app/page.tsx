@@ -225,6 +225,34 @@ export default function Home() {
             />
           </div>
 
+          {/* 実際の画面イメージ */}
+          <div className="flex justify-center gap-4 md:gap-8 mb-14">
+            <div className="w-40 sm:w-48 md:w-56">
+              <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800">
+                <Image
+                  src="/images/mock-1.PNG"
+                  alt="模試画面 — 長文読解"
+                  width={390}
+                  height={844}
+                  className="w-full h-auto"
+                />
+              </div>
+              <p className="text-xs text-text-light text-center mt-3">長文を読む</p>
+            </div>
+            <div className="w-40 sm:w-48 md:w-56">
+              <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800">
+                <Image
+                  src="/images/mock-2.PNG"
+                  alt="模試画面 — 設問に解答"
+                  width={390}
+                  height={844}
+                  className="w-full h-auto"
+                />
+              </div>
+              <p className="text-xs text-text-light text-center mt-3">設問に解答する</p>
+            </div>
+          </div>
+
           {/* CTA */}
           <div className="bg-white rounded-2xl border border-border shadow-sm p-8 md:p-10 text-center max-w-2xl mx-auto">
             <p className="text-lg md:text-xl font-bold text-text mb-2">
