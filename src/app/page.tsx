@@ -95,10 +95,12 @@ export default function DrilleoTopPage() {
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="md:w-1/2 text-center md:text-left">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-text">
-                <span className="text-primary">志望校</span>を狙い撃ち。
+                <span className="text-primary">大学別</span>問題集なら
+                <br />
+                ドリレオ
               </h1>
               <p className="text-lg md:text-xl text-text-light mb-2 max-w-lg">
-                大学別に特化した問題集（書籍）& 無料Web模試
+                志望校に特化した問題集（書籍）& 無料Web模試
               </p>
               <p className="text-sm text-text-light max-w-lg leading-relaxed">
                 各大学の出題傾向を徹底分析し、本番と同じ形式のオリジナル問題を収録。
@@ -138,13 +140,19 @@ export default function DrilleoTopPage() {
               </p>
             </div>
             <div className="md:w-2/5 flex justify-center">
-              <Image
-                src="/images/illust/service-book-app.png"
-                alt="書籍とアプリのイラスト"
-                width={280}
-                height={280}
-                className="w-48 md:w-56 h-auto"
-              />
+              <div className="relative">
+                <Image
+                  src="/images/book-preview/cover-front.png"
+                  alt="近大英語 長文読解ドリル 表紙"
+                  width={400}
+                  height={566}
+                  className="w-44 md:w-52 h-auto rounded-lg shadow-xl"
+                  style={{ transform: "rotateY(-4deg)" }}
+                />
+                <div className="absolute -top-2 -right-2 bg-accent text-white text-[10px] font-bold px-2.5 py-1 rounded-full shadow-md">
+                  近大英語
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -215,8 +223,129 @@ export default function DrilleoTopPage() {
         </div>
       </section>
 
-      {/* 対応大学 */}
+      {/* 近大英語の例 */}
       <section className="bg-bg-gray py-16 md:py-24">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="inline-block bg-primary/10 text-primary text-xs font-bold px-3 py-1.5 rounded-full mb-4 mx-auto block text-center">
+            近畿大学 英語 — 対応中
+          </div>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-text">
+            たとえば「近大英語」では
+          </h2>
+          <p className="text-center text-text-light mb-12 max-w-2xl mx-auto">
+            近畿大学の英語入試を徹底分析した長文読解ドリルを提供しています。
+            書籍とWeb模試を組み合わせた学習で、効率的に合格力を高めます。
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-start">
+            {/* 書籍プレビュー */}
+            <div>
+              <h3 className="text-lg font-bold text-primary mb-4 text-center">書籍</h3>
+              <div className="flex justify-center gap-3">
+                <div className="w-32 md:w-40">
+                  <div className="rounded-lg overflow-hidden shadow-lg border border-border">
+                    <Image
+                      src="/images/book-preview/cover-front.png"
+                      alt="近大英語 長文読解ドリル 表紙"
+                      width={400}
+                      height={566}
+                      className="w-full h-auto"
+                    />
+                  </div>
+                  <p className="text-xs text-text-light text-center mt-2">表紙</p>
+                </div>
+                <div className="w-28 md:w-36">
+                  <div className="rounded-lg overflow-hidden shadow-md border border-border">
+                    <Image
+                      src="/images/book-preview/round1-009.png"
+                      alt="第1回 英文ページ"
+                      width={400}
+                      height={566}
+                      className="w-full h-auto"
+                    />
+                  </div>
+                  <p className="text-xs text-text-light text-center mt-2">英文ページ</p>
+                </div>
+                <div className="w-28 md:w-36">
+                  <div className="rounded-lg overflow-hidden shadow-md border border-border">
+                    <Image
+                      src="/images/book-preview/round1-010.png"
+                      alt="第1回 設問ページ"
+                      width={400}
+                      height={566}
+                      className="w-full h-auto"
+                    />
+                  </div>
+                  <p className="text-xs text-text-light text-center mt-2">設問ページ</p>
+                </div>
+              </div>
+              <ul className="text-sm text-text-light mt-4 space-y-1">
+                <li className="flex items-start gap-2">
+                  <span className="text-success font-bold mt-0.5">&#10003;</span>
+                  全25回分の長文読解（約400語 × 7問）
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-success font-bold mt-0.5">&#10003;</span>
+                  全問解説・全文和訳・語注付き
+                </li>
+              </ul>
+            </div>
+
+            {/* 模試スクリーンショット */}
+            <div>
+              <h3 className="text-lg font-bold text-accent mb-4 text-center">Web模試（無料）</h3>
+              <div className="flex justify-center gap-4">
+                <div className="w-36 md:w-44">
+                  <div className="rounded-2xl overflow-hidden shadow-lg border-4 border-gray-800 bg-gray-800">
+                    <Image
+                      src="/images/mock-1.PNG"
+                      alt="模試画面 — 長文読解"
+                      width={390}
+                      height={844}
+                      className="w-full h-auto"
+                    />
+                  </div>
+                  <p className="text-xs text-text-light text-center mt-2">長文を読む</p>
+                </div>
+                <div className="w-36 md:w-44">
+                  <div className="rounded-2xl overflow-hidden shadow-lg border-4 border-gray-800 bg-gray-800">
+                    <Image
+                      src="/images/mock-2.PNG"
+                      alt="模試画面 — 設問に解答"
+                      width={390}
+                      height={844}
+                      className="w-full h-auto"
+                    />
+                  </div>
+                  <p className="text-xs text-text-light text-center mt-2">設問に解答する</p>
+                </div>
+              </div>
+              <ul className="text-sm text-text-light mt-4 space-y-1">
+                <li className="flex items-start gap-2">
+                  <span className="text-success font-bold mt-0.5">&#10003;</span>
+                  タイマー付きの本番形式で腕試し
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-success font-bold mt-0.5">&#10003;</span>
+                  即時採点・解説・ランキング参加
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="text-center mt-10">
+            <Link
+              href="/kindai"
+              className="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-lg hover:bg-primary-light transition shadow-lg shadow-primary/25"
+            >
+              近大英語の詳細を見る &rarr;
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 対応大学 */}
+      <section className="py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-text">
             対応大学
