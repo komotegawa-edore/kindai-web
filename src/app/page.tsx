@@ -1,8 +1,37 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "ドリレオ — 志望校を狙い撃ち｜大学別特化型 問題集 & 模試",
+  description:
+    "大学別に特化した問題集と模試で合格をつかみ取ろう。近畿大学の英語入試から対応中。",
+  alternates: { canonical: "https://drilleo.edore-edu.com" },
+};
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "ドリレオ",
+    url: "https://drilleo.edore-edu.com",
+    logo: "https://drilleo.edore-edu.com/icon-192.png",
+    description: "大学別に特化した問題集と模試アプリ",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "ドリレオ",
+    url: "https://drilleo.edore-edu.com",
+  },
+];
 
 export default function DrilleoTopPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* ナビ */}
       <header className="bg-white border-b border-border sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">

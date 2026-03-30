@@ -1,9 +1,56 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "近大英語 長文読解ドリル｜ドリレオ",
+  description:
+    "近畿大学の英語入試を徹底分析。本番と同じ形式の長文読解を全25回分収録。全問解説・全文和訳付き。無料Web模試も。",
+  alternates: { canonical: "https://drilleo.edore-edu.com/kindai" },
+};
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: "近大英語 長文読解ドリル",
+    description:
+      "近畿大学の英語入試を徹底分析。本番と同じ形式の長文読解を全25回分収録。",
+    brand: { "@type": "Brand", name: "ドリレオ" },
+    image: "https://drilleo.edore-edu.com/images/book-preview/cover-front.png",
+    offers: {
+      "@type": "Offer",
+      availability: "https://schema.org/InStock",
+      priceCurrency: "JPY",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ドリレオ",
+        item: "https://drilleo.edore-edu.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "近大英語",
+        item: "https://drilleo.edore-edu.com/kindai",
+      },
+    ],
+  },
+];
 
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* ナビ */}
       <header className="bg-white border-b border-border sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">

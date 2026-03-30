@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://drilleo.edore-edu.com"),
   title: "ドリレオ — 大学別特化型 問題集 & 模試",
   description:
     "大学別に特化した問題集と模試アプリ。近畿大学の英語入試から対応開始。",
