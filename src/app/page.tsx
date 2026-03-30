@@ -112,15 +112,38 @@ export default function DrilleoTopPage() {
                 書籍で繰り返し演習し、Web模試で実力を確認。合格をつかみ取ろう。
               </p>
             </div>
-            <div className="md:w-1/2 flex justify-center">
-              <Image
-                src="/images/illust/hero-target.png"
-                alt="ターゲットを狙い撃ちするイラスト"
-                width={320}
-                height={320}
-                className="w-56 md:w-72 h-auto"
-                priority
-              />
+            <div className="md:w-1/2 flex justify-center items-end gap-4">
+              {/* 書籍表紙 */}
+              <div className="relative">
+                <Image
+                  src="/images/book-preview/cover-front.png"
+                  alt="近大英語 長文読解ドリル 表紙"
+                  width={400}
+                  height={566}
+                  className="w-32 md:w-40 h-auto rounded-lg shadow-xl"
+                  style={{ transform: "rotateY(-4deg)" }}
+                  priority
+                />
+                <div className="absolute -top-2 -right-2 bg-accent text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-md">
+                  書籍
+                </div>
+              </div>
+              {/* 模試画面 */}
+              <div className="relative">
+                <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800 w-28 md:w-36">
+                  <Image
+                    src="/images/mock-1.PNG"
+                    alt="Web模試画面"
+                    width={390}
+                    height={844}
+                    className="w-full h-auto"
+                    priority
+                  />
+                </div>
+                <div className="absolute -top-2 -right-2 bg-primary text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-md">
+                  Web模試
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -145,19 +168,13 @@ export default function DrilleoTopPage() {
               </p>
             </div>
             <div className="md:w-2/5 flex justify-center">
-              <div className="relative">
-                <Image
-                  src="/images/book-preview/cover-front.png"
-                  alt="近大英語 長文読解ドリル 表紙"
-                  width={400}
-                  height={566}
-                  className="w-44 md:w-52 h-auto rounded-lg shadow-xl"
-                  style={{ transform: "rotateY(-4deg)" }}
-                />
-                <div className="absolute -top-2 -right-2 bg-accent text-white text-[10px] font-bold px-2.5 py-1 rounded-full shadow-md">
-                  近大英語
-                </div>
-              </div>
+              <Image
+                src="/images/illust/hero-target.png"
+                alt="ターゲットを狙い撃ちするイラスト"
+                width={320}
+                height={320}
+                className="w-48 md:w-56 h-auto"
+              />
             </div>
           </div>
         </div>
