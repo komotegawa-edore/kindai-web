@@ -95,9 +95,9 @@ export default function DrilleoTopPage() {
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="md:w-1/2 text-center md:text-left">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-text">
-                <span className="text-primary">大学別</span>問題集なら
+                <span className="text-primary">志望校</span>だけに絞った
                 <br />
-                ドリレオ
+                問題集 & 模試
               </h1>
               <p className="text-lg md:text-xl text-text-light mb-2 max-w-lg">
                 志望校に特化した問題集（書籍）& 無料Web模試
