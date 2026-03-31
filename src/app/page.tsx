@@ -59,8 +59,8 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "ドリレオ",
-    alternateName: "Drilleo",
+    name: "Drilleo（ドリレオ）",
+    alternateName: ["ドリレオ", "Drilleo"],
     url: "https://drilleo.edore-edu.com",
   },
   {
