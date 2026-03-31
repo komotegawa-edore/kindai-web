@@ -332,17 +332,33 @@ export default function QuizResultPage() {
           )}
         </div>
 
-        {/* 5. 長文模試への誘導 */}
-        <div className="bg-white rounded-xl border border-border p-6 mb-6 text-center">
-          <p className="text-sm text-text-light mb-3">
-            長文読解の実力も試してみませんか？
-          </p>
-          <Link
-            href="/kindai/exam"
-            className="inline-block bg-primary text-white font-bold px-8 py-3 rounded-lg hover:bg-primary-light transition"
-          >
-            無料模試を受ける（長文読解）
-          </Link>
+        {/* 5. 書籍紹介（表紙画像付き） */}
+        <div className="bg-white rounded-xl border border-border p-6 mb-6">
+          <h2 className="text-lg font-bold text-primary mb-4 text-center">近大英語対策の書籍</h2>
+          <div className="grid grid-cols-2 gap-4">
+            <Link href="/kindai" className="group text-center">
+              <Image
+                src="/images/book-preview/cover-front.png"
+                alt="近大英語 長文読解ドリル"
+                width={400}
+                height={566}
+                className="w-28 h-auto mx-auto rounded-lg shadow-lg group-hover:shadow-xl transition"
+              />
+              <p className="text-sm font-bold text-text mt-3 group-hover:text-primary transition">長文読解ドリル</p>
+              <p className="text-xs text-text-light mt-1">全25回・全問解説付き</p>
+            </Link>
+            <Link href="/kindai-bunpou" className="group text-center">
+              <Image
+                src="/images/book-preview/cover-bunpou.jpg"
+                alt="近大英語 文法・語法ドリル"
+                width={400}
+                height={566}
+                className="w-28 h-auto mx-auto rounded-lg shadow-lg group-hover:shadow-xl transition"
+              />
+              <p className="text-sm font-bold text-text mt-3 group-hover:text-primary transition">文法・語法ドリル</p>
+              <p className="text-xs text-text-light mt-1">全20回・大問III〜VI対応</p>
+            </Link>
+          </div>
         </div>
 
         {/* 6. X共有ボタン */}

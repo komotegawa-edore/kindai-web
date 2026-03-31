@@ -197,10 +197,10 @@ export default function BooksPage() {
                 </a>
               </div>
               <Link
-                href="/kindai/exam"
+                href="/kindai"
                 className="mt-3 text-center text-sm text-accent font-medium hover:underline"
               >
-                無料Web模試を受けてみる &rarr;
+                詳細ページを見る &rarr;
               </Link>
             </div>
           </div>

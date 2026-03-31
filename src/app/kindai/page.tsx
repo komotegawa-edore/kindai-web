@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import MobileNav from "@/components/MobileNav";
 
 export const metadata: Metadata = {
   title: "近大英語 長文読解ドリル｜ドリレオ",
   description:
-    "近畿大学の英語入試を徹底分析。本番と同じ形式の長文読解を全25回分収録。全問解説・全文和訳付き。無料Web模試も。",
+    "近畿大学の英語入試を徹底分析。本番と同じ形式の長文読解を全25回分収録。全問解説・全文和訳付き。無料スタートダッシュ診断も。",
   alternates: { canonical: "https://drilleo.edore-edu.com/kindai" },
   openGraph: {
     title: "近大英語 長文読解ドリル｜ドリレオ",
     description:
-      "近畿大学の英語入試を徹底分析。本番と同じ形式の長文読解を全25回分収録。全問解説・全文和訳付き。無料Web模試も。",
+      "近畿大学の英語入試を徹底分析。本番と同じ形式の長文読解を全25回分収録。全問解説・全文和訳付き。無料スタートダッシュ診断も。",
   },
 };
 
@@ -32,12 +33,8 @@ const faqItems = [
     a: "いいえ、すべてオリジナル問題。傾向分析に基づき作成、人間による品質チェック済み。",
   },
   {
-    q: "Web模試は無料ですか？",
-    a: "アカウント登録不要で完全無料。ニックネームを入力するだけで制限時間30分の模試を受験可能。即時採点・全問解説。",
-  },
-  {
-    q: "ランキングにはどのような情報が表示されますか？",
-    a: "ニックネーム、スコア、解答時間のみ。個人情報は公開されません。",
+    q: "スタートダッシュ診断とは？",
+    a: "文法・語彙・語法の20問で近大英語の弱点をチェックできる無料診断です。登録不要・約5分で完了し、カテゴリ別のスコアと学習アドバイスが表示されます。",
   },
   {
     q: "Kindle版とペーパーバック版の違いは？",
@@ -128,20 +125,7 @@ export default function Home() {
             </svg>
             <span className="font-bold text-primary-dark text-lg">ドリレオ</span>
           </Link>
-          <div className="flex gap-6 text-sm font-medium">
-            <Link href="/books" className="text-text-light hover:text-primary transition">
-              書籍
-            </Link>
-            <Link href="/kindai-bunpou" className="text-text-light hover:text-primary transition">
-              文法ドリル
-            </Link>
-            <a href="#mock-exam" className="text-text-light hover:text-primary transition">
-              模試
-            </a>
-            <a href="#faq" className="text-text-light hover:text-primary transition">
-              FAQ
-            </a>
-          </div>
+          <MobileNav />
         </div>
       </header>
 
@@ -174,12 +158,12 @@ export default function Home() {
                 >
                   Amazonで購入
                 </a>
-                <a
-                  href="#mock-exam"
+                <Link
+                  href="/kindai/quiz"
                   className="border-2 border-accent text-accent font-bold px-8 py-3.5 rounded-lg hover:bg-accent/5 transition text-center"
                 >
-                  無料で模試を受ける
-                </a>
+                  無料で診断を受ける
+                </Link>
               </div>
             </div>
 
@@ -308,12 +292,12 @@ export default function Home() {
               description="解答の根拠を示した解説と英文全体の和訳で、独学でもしっかり理解。"
             />
             <ReasonCard
-              title="過去問の「次」の一冊"
-              description="赤本を解き終えた後の追加演習に最適。さらなる実践力を身につけます。"
+              title="過去問じゃないから気軽に演習"
+              description="オリジナル問題なので、過去問と並行して、あるいは過去問に取り組む前の実力チェックにも最適です。"
             />
             <ReasonCard
-              title="Web模試との連携"
-              description="書籍と同じ形式の問題をWeb模試で無料体験。タイマー付きで実戦練習。"
+              title="無料診断で弱点チェック"
+              description="スタートダッシュ診断で文法・語彙の弱点を無料で確認。学習の優先順位がわかります。"
             />
           </div>
         </div>
@@ -354,91 +338,57 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 模試体験セクション */}
-      <section id="mock-exam" className="bg-bg-gray py-16 md:py-24">
+      {/* スタートダッシュ診断セクション */}
+      <section className="bg-bg-gray py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-6">
+          <div className="inline-block bg-accent/10 text-accent text-xs font-bold px-3 py-1.5 rounded-full mb-4 mx-auto block text-center">
+            無料・登録不要・約5分
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-primary">
-            近大英語模試を体験しよう
+            まずは弱点をチェック！
           </h2>
-          <p className="text-center text-text-light mb-12 max-w-2xl mx-auto">
-            書籍と同じ長文読解問題をWebで無料体験。
-            解答後にアカウント登録すると、成績の記録・ランキング参加ができます。
+          <p className="text-center text-text-light mb-10 max-w-2xl mx-auto">
+            文法・語彙・語法の20問であなたの弱点を無料診断。
+            カテゴリ別のスコアで、何を優先的に学習すべきかがわかります。
           </p>
 
-          {/* 3ステップ */}
-          <div className="grid md:grid-cols-3 gap-8 mb-14">
-            <StepCard
-              step={1}
-              title="問題を解く"
-              description="長文を読み、制限時間30分で全7問の設問に解答。本番さながらのタイマー付き。"
-            />
-            <StepCard
-              step={2}
-              title="スコアと解説を確認"
-              description="採点結果を即時表示。全問の正誤・解説・全文和訳で復習できます。"
-            />
-            <StepCard
-              step={3}
-              title="ランキングで競う"
-              description="アカウント登録で成績を保存。全国の近大志望者とスコアを競い合おう。"
-            />
-          </div>
-
-          {/* 実際の画面イメージ */}
-          <div className="grid grid-cols-2 gap-4 md:gap-8 max-w-sm md:max-w-lg mx-auto mb-14">
-            <div>
-              <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800">
-                <Image
-                  src="/images/mock-1.PNG"
-                  alt="模試画面 — 長文読解"
-                  width={390}
-                  height={844}
-                  className="w-full h-auto"
-                />
+          <div className="grid md:grid-cols-3 gap-6 mb-10">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-border text-center">
+              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
               </div>
-              <p className="text-xs text-text-light text-center mt-3">長文を読む</p>
+              <h3 className="font-bold text-text mb-1">弱点がわかる</h3>
+              <p className="text-text-light text-sm">カテゴリ別にスコアを診断。自分の弱点が一目でわかります。</p>
             </div>
-            <div>
-              <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800">
-                <Image
-                  src="/images/mock-2.PNG"
-                  alt="模試画面 — 設問に解答"
-                  width={390}
-                  height={844}
-                  className="w-full h-auto"
-                />
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-border text-center">
+              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
               </div>
-              <p className="text-xs text-text-light text-center mt-3">設問に解答する</p>
+              <h3 className="font-bold text-text mb-1">学習の優先順位がわかる</h3>
+              <p className="text-text-light text-sm">診断結果から、優先すべき学習分野を提案します。</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-border text-center">
+              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-text mb-1">無料で5分</h3>
+              <p className="text-text-light text-sm">登録不要で今すぐ受験。たった5分で診断完了。</p>
             </div>
           </div>
 
-          {/* CTA */}
-          <div className="bg-white rounded-2xl border border-border shadow-sm p-8 md:p-10 text-center max-w-2xl mx-auto">
-            <p className="text-lg md:text-xl font-bold text-text mb-2">
-              アカウント登録不要で<span className="text-accent">今すぐ</span>挑戦できます
-            </p>
-            <ul className="text-sm text-text-light space-y-2 mb-8 inline-block text-left">
-              <li className="flex items-start gap-2">
-                <span className="text-success font-bold mt-0.5">&#10003;</span>
-                登録なしで模試を受験可能
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-success font-bold mt-0.5">&#10003;</span>
-                解答後すぐにスコア・解説を確認
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-success font-bold mt-0.5">&#10003;</span>
-                アカウント登録で成績保存＆ランキング参加
-              </li>
-            </ul>
-            <div>
-              <Link
-                href="/kindai/exam"
-                className="inline-block bg-accent text-white font-bold text-lg px-12 py-4 rounded-lg hover:bg-accent-light transition shadow-lg shadow-accent/25"
-              >
-                無料で模試を受けてみる
-              </Link>
-            </div>
+          <div className="text-center">
+            <Link
+              href="/kindai/quiz"
+              className="inline-block bg-accent text-white font-bold text-lg px-12 py-4 rounded-lg hover:bg-accent-light transition shadow-lg shadow-accent/25"
+            >
+              無料でスタートダッシュ診断を受ける
+            </Link>
           </div>
         </div>
       </section>
@@ -526,7 +476,7 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-bold text-text mb-3">効果的な学習法</h3>
               <p className="text-text-light text-sm leading-relaxed">
-                まずは書籍で長文読解を繰り返し演習し、時間配分の感覚を身につけましょう。1回あたり15〜20分を目安に解き、解説と和訳で理解を深めます。ある程度自信がついたら、Web模試でタイマー付きの実戦練習に挑戦。本番と同じ緊張感の中で実力を確認し、弱点を把握して効率的に対策を進めましょう。
+                まずは書籍で長文読解を繰り返し演習し、時間配分の感覚を身につけましょう。1回あたり15〜20分を目安に解き、解説と和訳で理解を深めます。また、無料のスタートダッシュ診断で文法・語彙の弱点をチェックし、弱点を把握して効率的に対策を進めましょう。
               </p>
             </div>
           </div>
@@ -646,26 +596,6 @@ function ReasonCard({
           <p className="text-text-light text-sm leading-relaxed">{description}</p>
         </div>
       </div>
-    </div>
-  );
-}
-
-function StepCard({
-  step,
-  title,
-  description,
-}: {
-  step: number;
-  title: string;
-  description: string;
-}) {
-  return (
-    <div className="text-center">
-      <div className="w-12 h-12 bg-primary text-white font-bold text-xl rounded-full flex items-center justify-center mx-auto mb-4">
-        {step}
-      </div>
-      <h3 className="text-lg font-bold mb-2 text-text">{title}</h3>
-      <p className="text-text-light text-sm leading-relaxed">{description}</p>
     </div>
   );
 }

@@ -87,7 +87,7 @@ export default function ExamEntryPage() {
                   type="text"
                   value={nickname}
                   onChange={(e) => setNickname(e.target.value)}
-                  placeholder="ランキングに表示される名前"
+                  placeholder="結果画面に表示される名前"
                   maxLength={20}
                   className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
                 />

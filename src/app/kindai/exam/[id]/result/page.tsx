@@ -211,7 +211,7 @@ export default function ResultPage() {
                     記録を保存しませんか？
                   </p>
                   <p className="text-sm text-text-light">
-                    アカウント登録すると、成績の記録・履歴閲覧・ランキング参加ができます。
+                    アカウント登録すると、成績の記録・履歴閲覧ができます。
                   </p>
                 </div>
                 <button

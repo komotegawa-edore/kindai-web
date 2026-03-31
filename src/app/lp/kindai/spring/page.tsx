@@ -400,8 +400,8 @@ export default function SpringLPPage() {
             />
             <RoadmapCard
               step={4}
-              title="Web模試で仕上げ"
-              description="本番形式のWeb模試で時間配分と実力を最終チェック。"
+              title="診断で実力チェック"
+              description="無料のスタートダッシュ診断で弱点を把握し、仕上げにつなげよう。"
             />
           </div>
 

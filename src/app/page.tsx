@@ -4,25 +4,25 @@ import Link from "next/link";
 import MobileNav from "@/components/MobileNav";
 
 export const metadata: Metadata = {
-  title: "ドリレオ — 志望校を狙い撃ち｜大学別特化型 問題集 & 模試",
+  title: "ドリレオ — 志望校を狙い撃ち｜大学別特化型 問題集 & 無料診断",
   description:
-    "大学別に特化した問題集と模試で合格をつかみ取ろう。近畿大学の英語入試から対応中。",
+    "大学別に特化した問題集と無料Web診断で合格をつかみ取ろう。近畿大学の英語入試から対応中。",
   alternates: { canonical: "https://drilleo.edore-edu.com" },
   openGraph: {
-    title: "ドリレオ — 志望校を狙い撃ち｜大学別特化型 問題集 & 模試",
+    title: "ドリレオ — 志望校を狙い撃ち｜大学別特化型 問題集 & 無料診断",
     description:
-      "大学別に特化した問題集と模試で合格をつかみ取ろう。近畿大学の英語入試から対応中。",
+      "大学別に特化した問題集と無料Web診断で合格をつかみ取ろう。近畿大学の英語入試から対応中。",
   },
 };
 
 const faqItems = [
   {
     q: "ドリレオとはどんなサービスですか？",
-    a: "大学別に特化した問題集（書籍）と無料Web模試を組み合わせた受験対策サービスです。各大学の出題傾向を徹底的に分析し、本番と同じ形式のオリジナル問題を収録しています。現在は近畿大学の英語に対応しており、今後、関西大学・立命館大学なども順次対応予定です。",
+    a: "大学別に特化した問題集（書籍）と無料Web診断を組み合わせた受験対策サービスです。各大学の出題傾向を徹底的に分析し、本番と同じ形式のオリジナル問題を収録しています。現在は近畿大学の英語に対応しており、今後、関西大学・立命館大学なども順次対応予定です。",
   },
   {
-    q: "Web模試は無料で利用できますか？",
-    a: "はい、アカウント登録不要で完全無料です。制限時間付きで本番さながらの環境で解答でき、解答後すぐにスコア・全問解説・全文和訳を確認できます。アカウントを登録すると、成績の記録やランキングへの参加も可能です。",
+    q: "無料診断とは何ですか？",
+    a: "アカウント登録不要・完全無料の「スタートダッシュ診断」です。近大英語の基礎力を手軽にチェックでき、結果に応じておすすめの書籍を提案します。まずは診断で自分の実力を確認してみましょう。",
   },
   {
     q: "書籍はどこで購入できますか？",
@@ -33,12 +33,8 @@ const faqItems = [
     a: "いいえ、すべてオリジナル問題です。各大学の過去の出題傾向を徹底分析したうえで作成しており、過去問をそのまま掲載しているわけではありません。過去問集を解き終えた後の追加演習にも最適です。",
   },
   {
-    q: "ランキングに参加するにはどうすればいいですか？",
-    a: "ニックネームを入力して模試を受験してください。ランキングにはニックネームのみが表示され、個人情報が公開されることはありません。",
-  },
-  {
     q: "現在対応している大学・科目は何ですか？",
-    a: "近畿大学の英語入試に対応しています。長文読解ドリル（全25回）と文法・語法ドリル（全20回）の2冊の書籍、およびWeb模試をご利用いただけます。関西大学・立命館大学の英語についても準備中です。",
+    a: "近畿大学の英語入試に対応しています。長文読解ドリル（全25回）と文法・語法ドリル（全20回）の2冊の書籍、および無料のスタートダッシュ診断をご利用いただけます。関西大学・立命館大学の英語についても準備中です。",
   },
 ];
 
@@ -49,7 +45,7 @@ const jsonLd = [
     name: "ドリレオ",
     url: "https://drilleo.edore-edu.com",
     logo: "https://drilleo.edore-edu.com/icon-192.png",
-    description: "大学別に特化した問題集と模試アプリ",
+    description: "大学別に特化した問題集と無料診断",
     parentOrganization: {
       "@type": "Organization",
       name: "edore",
@@ -110,14 +106,14 @@ export default function DrilleoTopPage() {
               <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight text-text">
                 <span className="text-primary">志望校</span>だけに絞った
                 <br />
-                問題集 & 模試
+                問題集 & 無料診断
               </h1>
               <p className="text-lg md:text-xl text-text-light mb-2 max-w-lg">
-                志望校に特化した問題集（書籍）& 無料Web模試
+                志望校に特化した問題集（書籍）& 無料Web診断
               </p>
               <p className="text-sm text-text-light max-w-lg leading-relaxed">
                 各大学の出題傾向を徹底分析し、本番と同じ形式のオリジナル問題を収録。
-                書籍で繰り返し演習し、Web模試で実力を確認。合格をつかみ取ろう。
+                書籍で繰り返し演習し、無料診断で弱点を把握。合格をつかみ取ろう。
               </p>
             </div>
             <div className="md:w-1/2 flex justify-center items-end gap-4">
@@ -151,20 +147,16 @@ export default function DrilleoTopPage() {
                   文法
                 </div>
               </div>
-              {/* 模試画面 */}
+              {/* 無料診断 */}
               <div className="relative">
-                <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800 w-24 md:w-32">
-                  <Image
-                    src="/images/mock-1.PNG"
-                    alt="Web模試画面"
-                    width={390}
-                    height={844}
-                    className="w-full h-auto"
-                    priority
-                  />
+                <div className="w-24 md:w-32 bg-gradient-to-br from-success/10 to-success/5 rounded-2xl border-2 border-success/30 p-3 md:p-4 flex flex-col items-center justify-center shadow-xl aspect-[9/16]">
+                  <svg className="w-8 h-8 md:w-10 md:h-10 text-success mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span className="text-success font-bold text-[10px] md:text-xs text-center leading-tight">無料で<br/>実力診断</span>
                 </div>
                 <div className="absolute -top-2 -right-2 bg-success text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-md">
-                  模試
+                  診断
                 </div>
               </div>
             </div>
@@ -181,7 +173,7 @@ export default function DrilleoTopPage() {
           <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
             <div className="md:w-3/5">
               <p className="text-text-light leading-relaxed mb-4">
-                ドリレオは、大学入試に特化した「書籍」と「Web模試」を組み合わせた新しいかたちの受験対策サービスです。
+                ドリレオは、大学入試に特化した「書籍」と「無料Web診断」を組み合わせた新しいかたちの受験対策サービスです。
               </p>
               <p className="text-text-light leading-relaxed mb-4">
                 一般的な参考書は幅広い大学を対象にしていますが、ドリレオは各大学の出題傾向・形式・難易度を徹底的に分析し、その大学だけに的を絞ったオリジナル問題を収録しています。
@@ -225,7 +217,7 @@ export default function DrilleoTopPage() {
               </div>
               <h3 className="text-lg font-bold mb-2 text-text">志望校を選ぶ</h3>
               <p className="text-text-light text-sm leading-relaxed">
-                対応大学の中から自分の志望校を選びましょう。大学ごとに問題集・模試が用意されています。
+                対応大学の中から自分の志望校を選びましょう。大学ごとに問題集・無料診断が用意されています。
               </p>
             </div>
             <div className="text-center">
@@ -250,7 +242,7 @@ export default function DrilleoTopPage() {
               <div className="flex justify-center mb-4">
                 <Image
                   src="/images/illust/step-exam.png"
-                  alt="Web模試で腕試し"
+                  alt="無料診断で実力チェック"
                   width={160}
                   height={160}
                   className="w-28 h-auto"
@@ -259,9 +251,9 @@ export default function DrilleoTopPage() {
               <div className="w-10 h-10 bg-primary text-white font-bold text-lg rounded-full flex items-center justify-center mx-auto mb-3">
                 3
               </div>
-              <h3 className="text-lg font-bold mb-2 text-text">Web模試で腕試し</h3>
+              <h3 className="text-lg font-bold mb-2 text-text">無料診断で実力チェック</h3>
               <p className="text-text-light text-sm leading-relaxed">
-                無料のWeb模試に挑戦。タイマー付きの本番環境で実力を確認し、ランキングで仲間と競おう。
+                無料のスタートダッシュ診断で近大英語の基礎力をチェック。結果に応じたおすすめ書籍もわかる。
               </p>
             </div>
           </div>
@@ -279,7 +271,7 @@ export default function DrilleoTopPage() {
           </h2>
           <p className="text-center text-text-light mb-12 max-w-2xl mx-auto">
             近畿大学の英語入試を徹底分析。長文読解ドリル＆文法・語法ドリルの2冊と、
-            Web模試を組み合わせた学習で、効率的に合格力を高めます。
+            無料Web診断を組み合わせた学習で、効率的に合格力を高めます。
           </p>
 
           <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-start">
@@ -328,43 +320,36 @@ export default function DrilleoTopPage() {
               </ul>
             </div>
 
-            {/* 模試スクリーンショット */}
+            {/* 無料診断 */}
             <div>
-              <h3 className="text-lg font-bold text-accent mb-4 text-center">Web模試（無料）</h3>
-              <div className="grid grid-cols-2 gap-3 max-w-xs mx-auto md:max-w-sm">
-                <div>
-                  <div className="rounded-2xl overflow-hidden shadow-lg border-4 border-gray-800 bg-gray-800">
-                    <Image
-                      src="/images/mock-1.PNG"
-                      alt="模試画面 — 長文読解"
-                      width={390}
-                      height={844}
-                      className="w-full h-auto"
-                    />
+              <h3 className="text-lg font-bold text-accent mb-4 text-center">スタートダッシュ診断（無料）</h3>
+              <div className="bg-white rounded-xl border border-border shadow-sm p-6 max-w-sm mx-auto">
+                <div className="flex justify-center mb-4">
+                  <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center">
+                    <svg className="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
                   </div>
-                  <p className="text-xs text-text-light text-center mt-2">長文を読む</p>
                 </div>
-                <div>
-                  <div className="rounded-2xl overflow-hidden shadow-lg border-4 border-gray-800 bg-gray-800">
-                    <Image
-                      src="/images/mock-2.PNG"
-                      alt="模試画面 — 設問に解答"
-                      width={390}
-                      height={844}
-                      className="w-full h-auto"
-                    />
-                  </div>
-                  <p className="text-xs text-text-light text-center mt-2">設問に解答する</p>
-                </div>
+                <p className="text-center text-text font-bold mb-2">近大英語の基礎力をチェック</p>
+                <p className="text-center text-text-light text-sm mb-4">
+                  登録不要・無料で今すぐ受けられます。結果に応じておすすめの書籍もご案内。
+                </p>
+                <Link
+                  href="/kindai/quiz"
+                  className="block bg-accent text-white font-bold text-sm py-3 rounded-lg hover:bg-accent-light transition text-center shadow-lg shadow-accent/25"
+                >
+                  無料で診断を受ける &rarr;
+                </Link>
               </div>
               <ul className="text-sm text-text-light mt-4 space-y-1">
                 <li className="flex items-start gap-2">
                   <span className="text-success font-bold mt-0.5">&#10003;</span>
-                  タイマー付きの本番形式で腕試し
+                  アカウント登録不要・完全無料
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-success font-bold mt-0.5">&#10003;</span>
-                  即時採点・解説・ランキング参加
+                  結果に応じたおすすめ書籍を提案
                 </li>
               </ul>
             </div>
@@ -415,7 +400,7 @@ export default function DrilleoTopPage() {
                 </div>
               </div>
               <p className="text-sm text-text-light mb-4">
-                長文読解ドリル＆文法・語法ドリルの2冊。書籍 & Web模試で近大英語を完全攻略。
+                長文読解ドリル＆文法・語法ドリルの2冊。書籍 & 無料診断で近大英語を完全攻略。
               </p>
               <div className="flex items-center gap-2">
                 <span className="inline-block bg-success/10 text-success text-xs font-bold px-2.5 py-1 rounded-full">
@@ -492,9 +477,9 @@ export default function DrilleoTopPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold mb-2 text-accent">Web模試で実力チェック</h3>
+              <h3 className="text-lg font-bold mb-2 text-accent">無料診断で弱点チェック</h3>
               <p className="text-text-light text-sm leading-relaxed">
-                本番さながらのタイマー付き模試をWebで無料体験。即時採点で弱点を把握。
+                登録不要・完全無料のスタートダッシュ診断。結果に応じておすすめ書籍もわかる。
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm border border-border text-center">
@@ -503,9 +488,9 @@ export default function DrilleoTopPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold mb-2 text-success">ランキングで競う</h3>
+              <h3 className="text-lg font-bold mb-2 text-success">全問解説付き</h3>
               <p className="text-text-light text-sm leading-relaxed">
-                同じ志望校の受験生とスコアを競い合おう。モチベーション維持に最適。
+                すべての問題に丁寧な解説を収録。独学でも安心して学習を進められる。
               </p>
             </div>
           </div>

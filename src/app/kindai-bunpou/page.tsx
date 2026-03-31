@@ -45,8 +45,8 @@ const faqItems = [
     a: "内容は同じです。Kindle版はスマホ・タブレットで、ペーパーバック版は紙の書籍でお使いいただけます。",
   },
   {
-    q: "Web模試はありますか？",
-    a: "現在、文法・語法ドリルのWeb模試は準備中です。長文読解ドリルのWeb模試は無料でご利用いただけます。",
+    q: "無料の診断テストはありますか？",
+    a: "はい、近大英語の基礎力をチェックできる「スタートダッシュ診断」を無料でご利用いただけます。登録不要で結果に応じたおすすめ書籍もご案内します。",
   },
 ];
 
@@ -417,6 +417,61 @@ export default function KindaiBunpouPage() {
                 本書の1回分（21問）を20〜30分を目安に解き、解説で理解を深めましょう。間違えた問題は解説を読んだ後に時間を空けて再挑戦すると定着します。全20回を2周すれば、近大の文法・語法パートは自信を持って臨めるはずです。
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* スタートダッシュ診断 */}
+      <section className="bg-bg-gray py-16 md:py-24">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="inline-block bg-accent/10 text-accent text-xs font-bold px-3 py-1.5 rounded-full mb-4 mx-auto block text-center">
+            無料・登録不要・約5分
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-primary">
+            まずは弱点をチェック！
+          </h2>
+          <p className="text-center text-text-light mb-10 max-w-2xl mx-auto">
+            文法・語彙・語法の20問であなたの弱点を無料診断。
+            カテゴリ別のスコアで、何を優先的に学習すべきかがわかります。
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-6 mb-10">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-border text-center">
+              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-text mb-1">弱点がわかる</h3>
+              <p className="text-text-light text-sm">カテゴリ別にスコアを診断。自分の弱点が一目でわかります。</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-border text-center">
+              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-text mb-1">学習の優先順位がわかる</h3>
+              <p className="text-text-light text-sm">診断結果から、優先すべき学習分野を提案します。</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-border text-center">
+              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-text mb-1">無料で5分</h3>
+              <p className="text-text-light text-sm">登録不要で今すぐ受験。たった5分で診断完了。</p>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <Link
+              href="/kindai/quiz"
+              className="inline-block bg-accent text-white font-bold text-lg px-12 py-4 rounded-lg hover:bg-accent-light transition shadow-lg shadow-accent/25"
+            >
+              無料でスタートダッシュ診断を受ける
+            </Link>
           </div>
         </div>
       </section>
