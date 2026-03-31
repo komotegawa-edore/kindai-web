@@ -6,18 +6,108 @@ import MobileNav from "@/components/MobileNav";
 export const metadata: Metadata = {
   title: "書籍一覧｜ドリレオ",
   description:
-    "ドリレオの書籍一覧。近畿大学の英語入試に特化した問題集をラインナップ。",
+    "ドリレオの書籍一覧。近畿大学の英語入試に特化した長文読解ドリル・文法・語法ドリルをラインナップ。",
   alternates: { canonical: "https://drilleo.edore-edu.com/books" },
   openGraph: {
     title: "書籍一覧｜ドリレオ",
     description:
-      "ドリレオの書籍一覧。近畿大学の英語入試に特化した問題集をラインナップ。",
+      "ドリレオの書籍一覧。近畿大学の英語入試に特化した長文読解ドリル・文法・語法ドリルをラインナップ。",
   },
 };
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "ドリレオ 書籍一覧",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        item: {
+          "@type": "Product",
+          name: "近大英語 長文読解ドリル",
+          description:
+            "近畿大学の英語入試を徹底分析。本番と同じ形式の長文読解を全25回分収録。全問解説・全文和訳付き。",
+          image: "https://drilleo.edore-edu.com/images/book-preview/cover-front.png",
+          brand: { "@type": "Brand", name: "ドリレオ" },
+          url: "https://drilleo.edore-edu.com/kindai",
+          offers: [
+            {
+              "@type": "Offer",
+              name: "Kindle版",
+              price: 780,
+              priceCurrency: "JPY",
+              availability: "https://schema.org/InStock",
+            },
+            {
+              "@type": "Offer",
+              name: "ペーパーバック版",
+              price: 1580,
+              priceCurrency: "JPY",
+              availability: "https://schema.org/InStock",
+            },
+          ],
+        },
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        item: {
+          "@type": "Product",
+          name: "近大英語 文法・語法ドリル",
+          description:
+            "近畿大学の英語入試 大問III〜VIに完全特化。文法・語法・同意文・語彙・整序英作文を全20回分収録。全問解説付き。",
+          image: "https://drilleo.edore-edu.com/images/book-preview/cover-bunpou.jpg",
+          brand: { "@type": "Brand", name: "ドリレオ" },
+          url: "https://drilleo.edore-edu.com/kindai-bunpou",
+          offers: [
+            {
+              "@type": "Offer",
+              name: "Kindle版",
+              price: 780,
+              priceCurrency: "JPY",
+              availability: "https://schema.org/InStock",
+            },
+            {
+              "@type": "Offer",
+              name: "ペーパーバック版",
+              price: 1580,
+              priceCurrency: "JPY",
+              availability: "https://schema.org/InStock",
+            },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ドリレオ",
+        item: "https://drilleo.edore-edu.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "書籍一覧",
+        item: "https://drilleo.edore-edu.com/books",
+      },
+    ],
+  },
+];
 
 export default function BooksPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* ナビ */}
       <header className="bg-white border-b border-border sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">
@@ -115,44 +205,69 @@ export default function BooksPage() {
             </div>
           </div>
 
-          {/* 2冊目: プレ近大（準備中） */}
-          <div className="bg-white/60 rounded-2xl border border-border/60 overflow-hidden flex flex-col opacity-75">
-            <div className="bg-bg-gray flex justify-center items-center py-8">
-              <div className="w-40 md:w-48 h-56 md:h-68 bg-white rounded-lg shadow-md border border-border flex items-center justify-center">
-                <span className="text-text-light text-4xl font-bold">?</span>
+          {/* 2冊目: 近大英語 文法・語法ドリル */}
+          <div className="bg-white rounded-2xl border border-border shadow-sm overflow-hidden flex flex-col">
+            <div className="bg-bg-gray px-6 py-8">
+              <div className="flex justify-center">
+                <Image
+                  src="/images/book-preview/cover-bunpou.jpg"
+                  alt="近大英語 文法・語法ドリル 表紙"
+                  width={400}
+                  height={566}
+                  className="w-36 md:w-44 h-auto rounded-lg shadow-xl"
+                />
               </div>
             </div>
             <div className="p-6 flex flex-col flex-1">
               <div className="flex items-center gap-2 mb-2">
-                <span className="inline-block bg-bg-gray text-text-light text-xs font-bold px-2.5 py-1 rounded-full">
-                  準備中
+                <span className="inline-block bg-success/10 text-success text-xs font-bold px-2.5 py-1 rounded-full">
+                  発売中
                 </span>
               </div>
-              <h2 className="text-xl font-bold text-text-light mb-3">
-                プレ近大 英語ドリル
+              <h2 className="text-xl font-bold text-text mb-3">
+                近大英語 文法・語法ドリル
               </h2>
               <ul className="text-sm text-text-light space-y-1.5 mb-4">
                 <li className="flex items-start gap-2">
-                  <span className="text-text-light font-bold mt-0.5">&#8226;</span>
-                  近大英語の基礎固めに最適
+                  <span className="text-success font-bold mt-0.5">&#10003;</span>
+                  大問III〜VI（文法・同意文・語彙・整序）に完全特化
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-text-light font-bold mt-0.5">&#8226;</span>
-                  文法・語法・語彙を中心に演習
+                  <span className="text-success font-bold mt-0.5">&#10003;</span>
+                  全20回分（1回21問）収録
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-text-light font-bold mt-0.5">&#8226;</span>
-                  長文読解ドリルの前にやるべき一冊
+                  <span className="text-success font-bold mt-0.5">&#10003;</span>
+                  全問解説付き
                 </li>
               </ul>
-              <div className="mt-auto">
-                <Link
-                  href="/kindai/quiz"
-                  className="inline-block text-sm text-primary font-medium hover:underline"
-                >
-                  まずは無料の診断クイズに挑戦 &rarr;
-                </Link>
+              <div className="text-sm text-text-light mb-5">
+                <p>
+                  <span className="font-bold text-text">Kindle版</span> ¥780
+                  <span className="mx-2 text-border">|</span>
+                  <span className="font-bold text-text">ペーパーバック版</span> ¥1,580
+                </p>
               </div>
+              <div className="flex flex-col sm:flex-row gap-3 mt-auto">
+                <a
+                  href="#"
+                  className="bg-primary text-white font-bold text-sm px-6 py-3 rounded-lg hover:bg-primary-light transition text-center shadow-lg shadow-primary/25 flex-1"
+                >
+                  Kindle版を購入
+                </a>
+                <a
+                  href="#"
+                  className="border-2 border-primary text-primary font-bold text-sm px-6 py-3 rounded-lg hover:bg-primary/5 transition text-center flex-1"
+                >
+                  ペーパーバック版を購入
+                </a>
+              </div>
+              <Link
+                href="/kindai-bunpou"
+                className="mt-3 text-center text-sm text-accent font-medium hover:underline"
+              >
+                詳細ページを見る &rarr;
+              </Link>
             </div>
           </div>
         </div>

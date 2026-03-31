@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 
 interface QuizQuestion {
@@ -246,7 +247,7 @@ export default function QuizResultPage() {
           {overallStrong && weaknessComments.length === 0 ? (
             <div className="bg-success/10 rounded-lg p-4">
               <p className="text-sm text-success font-medium">
-                基礎力は十分です！長文読解で実戦力を磨きましょう。
+                基礎力は十分です！長文読解ドリルで実戦力を磨きましょう。
               </p>
             </div>
           ) : (
@@ -269,52 +270,65 @@ export default function QuizResultPage() {
 
         {/* 4. 書籍CTA */}
         <div className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-xl border border-border p-6 md:p-8 mb-6">
-          {percentage < 60 ? (
-            <>
-              <h2 className="text-lg font-bold text-text mb-2">
-                まずは基礎固めから！
-              </h2>
-              <p className="text-sm text-text-light mb-4">
-                文法・語彙の基礎をしっかり固めることで、近大英語のスコアは大きく伸びます。
-                「プレ近大 英語ドリル」で基礎力をつけましょう。
-              </p>
-              <a
-                href="#"
-                className="inline-block bg-accent text-white font-bold px-8 py-3 rounded-lg hover:bg-accent-light transition shadow-lg shadow-accent/25"
-              >
-                プレ近大 英語ドリルを見る
-              </a>
-              <p className="text-xs text-text-light mt-3">
-                ※ 出版準備中。近日公開予定です。
-              </p>
-            </>
-          ) : (
-            <>
-              <h2 className="text-lg font-bold text-text mb-2">
-                基礎力は十分！次は長文読解
-              </h2>
-              <p className="text-sm text-text-light mb-2">
-                近大英語で最も配点が高いのは長文読解（大問7）。
-                全25回分の長文読解ドリルで実戦力を磨きましょう。
-              </p>
-              <p className="text-sm text-text-light mb-4">
-                全問解説・全文和訳付きで、独学でもスコアアップ。
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3">
-                <a
-                  href="#"
-                  className="inline-block bg-primary text-white font-bold px-8 py-3 rounded-lg hover:bg-primary-light transition text-center shadow-lg shadow-primary/25"
-                >
-                  Kindle版を見る
-                </a>
-                <a
-                  href="#"
-                  className="inline-block border-2 border-primary text-primary font-bold px-8 py-3 rounded-lg hover:bg-primary/5 transition text-center"
-                >
-                  ペーパーバック版を見る
-                </a>
+          {percentage <= 60 ? (
+            <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start">
+              <Image
+                src="/images/book-preview/cover-bunpou.jpg"
+                alt="近大英語 文法・語法ドリル 表紙"
+                width={400}
+                height={566}
+                className="w-32 h-auto rounded-lg shadow-xl shrink-0"
+              />
+              <div>
+                <h2 className="text-lg font-bold text-text mb-2">
+                  まずは文法・語法で基礎固め！
+                </h2>
+                <p className="text-sm text-text-light mb-2">
+                  大問III〜VI（文法・語法・同意文・語彙・整序英作文）の基礎をしっかり固めることで、近大英語のスコアは大きく伸びます。
+                </p>
+                <p className="text-sm text-text-light mb-4">
+                  過去問ではないオリジナル問題だから、気軽に近大形式の演習を始められます。全20回・全問解説付き。
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Link
+                    href="/kindai-bunpou"
+                    className="inline-block bg-accent text-white font-bold px-8 py-3 rounded-lg hover:bg-accent-light transition text-center shadow-lg shadow-accent/25"
+                  >
+                    文法・語法ドリルを見る
+                  </Link>
+                </div>
               </div>
-            </>
+            </div>
+          ) : (
+            <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start">
+              <Image
+                src="/images/book-preview/cover-front.png"
+                alt="近大英語 長文読解ドリル 表紙"
+                width={400}
+                height={566}
+                className="w-32 h-auto rounded-lg shadow-xl shrink-0"
+              />
+              <div>
+                <h2 className="text-lg font-bold text-text mb-2">
+                  基礎力は十分！次は長文読解
+                </h2>
+                <p className="text-sm text-text-light mb-2">
+                  近大英語で最も配点が高いのは長文読解（大問VII）。
+                  全25回分の長文読解ドリルで実戦力を磨きましょう。
+                </p>
+                <p className="text-sm text-text-light mb-4">
+                  全問解説・全文和訳付きで、独学でもスコアアップ。
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Link
+                    href="/kindai"
+                    className="inline-block bg-primary text-white font-bold px-8 py-3 rounded-lg hover:bg-primary-light transition text-center shadow-lg shadow-primary/25"
+                  >
+                    長文読解ドリルを見る
+                  </Link>
+                </div>
+              </div>
+            </div>
           )}
         </div>
 

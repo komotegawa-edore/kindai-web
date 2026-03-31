@@ -38,7 +38,7 @@ const faqItems = [
   },
   {
     q: "現在対応している大学・科目は何ですか？",
-    a: "近畿大学の英語入試に対応しています。長文読解ドリル全25回分を収録した書籍と、Web模試をご利用いただけます。関西大学・立命館大学の英語についても準備中です。",
+    a: "近畿大学の英語入試に対応しています。長文読解ドリル（全25回）と文法・語法ドリル（全20回）の2冊の書籍、およびWeb模試をご利用いただけます。関西大学・立命館大学の英語についても準備中です。",
   },
 ];
 
@@ -121,24 +121,39 @@ export default function DrilleoTopPage() {
               </p>
             </div>
             <div className="md:w-1/2 flex justify-center items-end gap-4">
-              {/* 書籍表紙 */}
+              {/* 書籍表紙: 長文読解ドリル */}
               <div className="relative">
                 <Image
                   src="/images/book-preview/cover-front.png"
                   alt="近大英語 長文読解ドリル 表紙"
                   width={400}
                   height={566}
-                  className="w-32 md:w-40 h-auto rounded-lg shadow-xl"
+                  className="w-28 md:w-36 h-auto rounded-lg shadow-xl"
                   style={{ transform: "rotateY(-4deg)" }}
                   priority
                 />
                 <div className="absolute -top-2 -right-2 bg-accent text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-md">
-                  書籍
+                  長文
+                </div>
+              </div>
+              {/* 書籍表紙: 文法・語法ドリル */}
+              <div className="relative">
+                <Image
+                  src="/images/book-preview/cover-bunpou.jpg"
+                  alt="近大英語 文法・語法ドリル 表紙"
+                  width={400}
+                  height={566}
+                  className="w-28 md:w-36 h-auto rounded-lg shadow-xl"
+                  style={{ transform: "rotateY(-4deg)" }}
+                  priority
+                />
+                <div className="absolute -top-2 -right-2 bg-primary text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-md">
+                  文法
                 </div>
               </div>
               {/* 模試画面 */}
               <div className="relative">
-                <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800 w-28 md:w-36">
+                <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800 w-24 md:w-32">
                   <Image
                     src="/images/mock-1.PNG"
                     alt="Web模試画面"
@@ -148,8 +163,8 @@ export default function DrilleoTopPage() {
                     priority
                   />
                 </div>
-                <div className="absolute -top-2 -right-2 bg-primary text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-md">
-                  Web模試
+                <div className="absolute -top-2 -right-2 bg-success text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-md">
+                  模試
                 </div>
               </div>
             </div>
@@ -263,15 +278,15 @@ export default function DrilleoTopPage() {
             たとえば「近大英語」では
           </h2>
           <p className="text-center text-text-light mb-12 max-w-2xl mx-auto">
-            近畿大学の英語入試を徹底分析した長文読解ドリルを提供しています。
-            書籍とWeb模試を組み合わせた学習で、効率的に合格力を高めます。
+            近畿大学の英語入試を徹底分析。長文読解ドリル＆文法・語法ドリルの2冊と、
+            Web模試を組み合わせた学習で、効率的に合格力を高めます。
           </p>
 
           <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-start">
             {/* 書籍プレビュー */}
             <div>
-              <h3 className="text-lg font-bold text-primary mb-4 text-center">書籍</h3>
-              <div className="grid grid-cols-3 gap-2 md:gap-3">
+              <h3 className="text-lg font-bold text-primary mb-4 text-center">書籍（2冊）</h3>
+              <div className="grid grid-cols-2 gap-3 md:gap-4">
                 <div>
                   <div className="rounded-lg overflow-hidden shadow-lg border border-border">
                     <Image
@@ -282,41 +297,33 @@ export default function DrilleoTopPage() {
                       className="w-full h-auto"
                     />
                   </div>
-                  <p className="text-xs text-text-light text-center mt-2">表紙</p>
+                  <p className="text-xs text-text-light text-center mt-2">長文読解ドリル</p>
                 </div>
                 <div>
-                  <div className="rounded-lg overflow-hidden shadow-md border border-border">
+                  <div className="rounded-lg overflow-hidden shadow-lg border border-border">
                     <Image
-                      src="/images/book-preview/round1-009.png"
-                      alt="第1回 英文ページ"
+                      src="/images/book-preview/cover-bunpou.jpg"
+                      alt="近大英語 文法・語法ドリル 表紙"
                       width={400}
                       height={566}
                       className="w-full h-auto"
                     />
                   </div>
-                  <p className="text-xs text-text-light text-center mt-2">英文ページ</p>
-                </div>
-                <div>
-                  <div className="rounded-lg overflow-hidden shadow-md border border-border">
-                    <Image
-                      src="/images/book-preview/round1-010.png"
-                      alt="第1回 設問ページ"
-                      width={400}
-                      height={566}
-                      className="w-full h-auto"
-                    />
-                  </div>
-                  <p className="text-xs text-text-light text-center mt-2">設問ページ</p>
+                  <p className="text-xs text-text-light text-center mt-2">文法・語法ドリル</p>
                 </div>
               </div>
               <ul className="text-sm text-text-light mt-4 space-y-1">
                 <li className="flex items-start gap-2">
                   <span className="text-success font-bold mt-0.5">&#10003;</span>
-                  全25回分の長文読解（約400語 × 7問）
+                  長文読解ドリル：全25回（約400語 × 7問）
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-success font-bold mt-0.5">&#10003;</span>
-                  全問解説・全文和訳・語注付き
+                  文法・語法ドリル：全20回（大問III〜VI × 21問）
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-success font-bold mt-0.5">&#10003;</span>
+                  全問解説付き
                 </li>
               </ul>
             </div>
@@ -363,12 +370,18 @@ export default function DrilleoTopPage() {
             </div>
           </div>
 
-          <div className="text-center mt-10">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center mt-10">
             <Link
               href="/kindai"
-              className="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-lg hover:bg-primary-light transition shadow-lg shadow-primary/25"
+              className="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-lg hover:bg-primary-light transition shadow-lg shadow-primary/25 text-center"
             >
-              近大英語の詳細を見る &rarr;
+              長文読解ドリル &rarr;
+            </Link>
+            <Link
+              href="/kindai-bunpou"
+              className="inline-block border-2 border-primary text-primary font-bold px-8 py-3.5 rounded-lg hover:bg-primary/5 transition text-center"
+            >
+              文法・語法ドリル &rarr;
             </Link>
           </div>
         </div>
@@ -402,7 +415,7 @@ export default function DrilleoTopPage() {
                 </div>
               </div>
               <p className="text-sm text-text-light mb-4">
-                長文読解ドリル全25回分。書籍 & Web模試で近大英語を完全攻略。
+                長文読解ドリル＆文法・語法ドリルの2冊。書籍 & Web模試で近大英語を完全攻略。
               </p>
               <div className="flex items-center gap-2">
                 <span className="inline-block bg-success/10 text-success text-xs font-bold px-2.5 py-1 rounded-full">

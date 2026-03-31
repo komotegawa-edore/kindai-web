@@ -45,7 +45,7 @@ const faqItems = [
   },
   {
     q: "他の大問の問題集もありますか？",
-    a: "現在は大問7（長文読解）のみ。配点最高の重要パート。他の大問も今後検討中。",
+    a: "大問III〜VI（文法・語法・同意文・語彙・整序英作文）を収録した「文法・語法ドリル」も好評発売中です。長文読解ドリルとあわせてご活用ください。",
   },
 ];
 
@@ -88,7 +88,7 @@ const jsonLd = [
       {
         "@type": "ListItem",
         position: 2,
-        name: "近大英語",
+        name: "近大英語 長文読解ドリル",
         item: "https://drilleo.edore-edu.com/kindai",
       },
     ],
@@ -132,15 +132,15 @@ export default function Home() {
             <Link href="/books" className="text-text-light hover:text-primary transition">
               書籍
             </Link>
+            <Link href="/kindai-bunpou" className="text-text-light hover:text-primary transition">
+              文法ドリル
+            </Link>
             <a href="#mock-exam" className="text-text-light hover:text-primary transition">
               模試
             </a>
             <a href="#faq" className="text-text-light hover:text-primary transition">
               FAQ
             </a>
-            <Link href="/kindai/quiz" className="text-text-light hover:text-primary transition">
-              診断クイズ
-            </Link>
           </div>
         </div>
       </header>
@@ -480,6 +480,24 @@ export default function Home() {
           <p className="text-center text-text-light mt-6 text-sm">
             試験時間60分 / 100点満点 / 完全マークシート方式
           </p>
+
+          {/* 文法ドリルへのリンクバナー */}
+          <Link
+            href="/kindai-bunpou"
+            className="mt-8 block bg-primary/5 border border-primary/20 rounded-xl p-5 hover:bg-primary/10 transition group"
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="font-bold text-primary mb-1">大問III〜VIの対策はこちら</p>
+                <p className="text-sm text-text-light">
+                  文法・語法・同意文・語彙・整序英作文を全20回分収録した「文法・語法ドリル」も好評発売中。
+                </p>
+              </div>
+              <span className="text-primary text-lg font-bold group-hover:translate-x-1 transition-transform shrink-0 ml-4">
+                &rarr;
+              </span>
+            </div>
+          </Link>
         </div>
       </section>
 

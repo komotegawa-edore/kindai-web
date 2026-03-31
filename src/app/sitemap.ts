@@ -13,7 +13,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: `${baseUrl}/kindai`,
-      lastModified: "2026-03-30",
+      lastModified: "2026-03-31",
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/kindai-bunpou`,
+      lastModified: "2026-03-31",
       changeFrequency: "weekly",
       priority: 0.9,
     },

@@ -4,7 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 
 const navItems = [
-  { href: "/kindai", label: "近大英語" },
+  { href: "/kindai", label: "近大英語（長文）" },
+  { href: "/kindai-bunpou", label: "近大英語（文法）" },
   { href: "/books", label: "書籍一覧" },
   { href: "/blog", label: "ブログ" },
 ];
