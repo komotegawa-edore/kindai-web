@@ -24,22 +24,68 @@ const ai = new GoogleGenAI({ apiKey: API_KEY });
 
 const IMAGES = [
   {
-    name: "kindai-english-spring-schedule.png",
+    name: "kindai-english-by-section.png",
     prompt: `Create a blog thumbnail image (1200x630px, 16:9 aspect ratio) for a Japanese educational blog post.
 
-Title text to display on the image: "春から始める 近大英語の勉強スケジュール"
-Subtitle text: "2026年度最新版"
+Title text to display on the image: "近大英語の大問別攻略法"
+Subtitle text: "全7大問を徹底解説"
 
 Design:
 - Background: soft gradient from light blue (#EBF4FF) to white
-- A few cherry blossom petals scattered decoratively in the corners
-- A stylized monthly calendar/planner illustration in the center-left area showing months from 4月 to 1月 with colorful progress blocks
-- An open English textbook and pencil illustration beside the calendar
-- The title text "春から始める 近大英語の勉強スケジュール" in bold dark navy text (#1E293B), large and prominent
-- The subtitle "2026年度最新版" in a rounded orange (#F97316) badge/pill shape
+- 7 numbered blocks or cards (I〜VII) arranged in a row, each with a different icon (speech bubble, grammar, vocabulary, etc.)
+- The title "近大英語の大問別攻略法" in bold dark navy text, large and prominent
+- The subtitle "全7大問を徹底解説" in a rounded blue (#2563EB) badge
+- A target/bullseye icon suggesting strategy
 - Clean, modern Japanese blog thumbnail style
-- Blue (#2563EB) and orange (#F97316) accent colors
-- Professional and trustworthy feel, targeting high school students preparing for university exams`,
+- Blue (#2563EB) and orange (#F97316) accent colors`,
+  },
+  {
+    name: "kindai-english-passing-score.png",
+    prompt: `Create a blog thumbnail image (1200x630px, 16:9 aspect ratio) for a Japanese educational blog post.
+
+Title text to display on the image: "近大英語の合格最低点は？"
+Subtitle text: "学部別ボーダーと目標点"
+
+Design:
+- Background: soft gradient from light blue (#EBF4FF) to white
+- A bar chart showing score levels with a red line marking the passing threshold
+- Numbers "70" "80" "90" visible on the chart axis
+- The title "近大英語の合格最低点は？" in bold dark navy text, large and prominent
+- The subtitle "学部別ボーダーと目標点" in a rounded orange (#F97316) badge
+- Clean, modern Japanese blog thumbnail style
+- Blue (#2563EB) and orange (#F97316) accent colors`,
+  },
+  {
+    name: "kindai-english-textbooks.png",
+    prompt: `Create a blog thumbnail image (1200x630px, 16:9 aspect ratio) for a Japanese educational blog post.
+
+Title text to display on the image: "近大英語 おすすめ参考書"
+Subtitle text: "厳選5冊"
+
+Design:
+- Background: soft gradient from light blue (#EBF4FF) to white
+- 5 colorful book spines standing upright in a row, each with a different pastel color
+- A checkmark or star badge on the recommended books
+- The title "近大英語 おすすめ参考書" in bold dark navy text, large and prominent
+- The subtitle "厳選5冊" in a rounded orange (#F97316) badge with number 5 emphasized
+- Clean, modern Japanese blog thumbnail style
+- Blue (#2563EB) and orange (#F97316) accent colors`,
+  },
+  {
+    name: "kindai-english-time-strategy.png",
+    prompt: `Create a blog thumbnail image (1200x630px, 16:9 aspect ratio) for a Japanese educational blog post.
+
+Title text to display on the image: "近大英語 配点と時間配分の戦略"
+Subtitle text: "何割取れば受かる？"
+
+Design:
+- Background: soft gradient from light blue (#EBF4FF) to white
+- A stopwatch/timer showing 60 minutes and a pie chart divided into sections showing time allocation
+- The number "80%" displayed prominently as a target score
+- The title "近大英語 配点と時間配分の戦略" in bold dark navy text, large and prominent
+- The subtitle "何割取れば受かる？" in a rounded orange (#F97316) badge
+- Clean, modern Japanese blog thumbnail style
+- Blue (#2563EB) and orange (#F97316) accent colors`,
   },
 ];
 
