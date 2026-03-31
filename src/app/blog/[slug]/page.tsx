@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { getBlogBySlug, getAllBlogSlugs } from "@/lib/microcms";
 import MobileNav from "@/components/MobileNav";
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 export async function generateStaticParams() {
   try {

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { getBlogList } from "@/lib/microcms";
 import MobileNav from "@/components/MobileNav";
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "ブログ｜ドリレオ",
