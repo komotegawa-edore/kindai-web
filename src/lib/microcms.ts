@@ -15,6 +15,12 @@ function getClient() {
   return _client;
 }
 
+// カテゴリ型（microCMS リレーション）
+export type BlogCategory = {
+  id: string;
+  name: string;
+};
+
 // Blog 型定義
 export type Blog = {
   id: string;
@@ -23,7 +29,7 @@ export type Blog = {
   content: string;
   description?: string;
   thumbnail?: MicroCMSImage;
-  category?: string[];
+  category?: BlogCategory;
   createdAt: string;
   updatedAt: string;
   publishedAt: string;

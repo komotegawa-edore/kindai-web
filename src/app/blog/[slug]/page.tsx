@@ -154,9 +154,9 @@ export default async function BlogDetailPage({
 
             {/* カテゴリ・日付 */}
             <div className="flex items-center gap-3 mb-4">
-              {blog.category && blog.category.length > 0 && (
+              {blog.category && (
                 <span className="inline-block text-xs font-bold text-primary bg-primary/10 px-2.5 py-1 rounded-full">
-                  {blog.category[0]}
+                  {blog.category.name}
                 </span>
               )}
               <time className="text-sm text-text-light">

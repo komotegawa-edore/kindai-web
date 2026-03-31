@@ -118,9 +118,9 @@ export default async function BlogListPage() {
                   </div>
                 )}
                 <div className="p-5">
-                  {blog.category && blog.category.length > 0 && (
+                  {blog.category && (
                     <span className="inline-block text-xs font-bold text-primary bg-primary/10 px-2.5 py-1 rounded-full mb-2">
-                      {blog.category[0]}
+                      {blog.category.name}
                     </span>
                   )}
                   <h2 className="font-bold text-text group-hover:text-primary transition line-clamp-2 mb-2">
