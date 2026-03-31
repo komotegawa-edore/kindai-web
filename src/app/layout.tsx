@@ -40,6 +40,7 @@ export const metadata: Metadata = {
   },
   other: {
     "theme-color": "#2563EB",
+    "application-name": "ドリレオ",
   },
 };
 
