@@ -1,20 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { headers } from "next/headers";
 import { notFound } from "next/navigation";
-import { getBlogBySlug, getAllBlogSlugs } from "@/lib/microcms";
+import { getBlogBySlug } from "@/lib/microcms";
 import MobileNav from "@/components/MobileNav";
 
 export const dynamic = "force-dynamic";
-
-export async function generateStaticParams() {
-  try {
-    const slugs = await getAllBlogSlugs();
-    return slugs.map((slug) => ({ slug }));
-  } catch {
-    return [];
-  }
-}
+export const fetchCache = "force-no-store";
 
 export async function generateMetadata({
   params,
@@ -56,6 +49,7 @@ export default async function BlogDetailPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  await headers(); // SSR を強制
   const { slug } = await params;
   const blog = await getBlogBySlug(slug);
   if (!blog) notFound();

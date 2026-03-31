@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { headers } from "next/headers";
 import { getBlogList } from "@/lib/microcms";
 import MobileNav from "@/components/MobileNav";
 
 export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
 
 export const metadata: Metadata = {
   title: "ブログ｜ドリレオ",
@@ -19,6 +21,8 @@ export const metadata: Metadata = {
 };
 
 export default async function BlogListPage() {
+  await headers(); // SSR を強制
+
   let blogs: Awaited<ReturnType<typeof getBlogList>>["contents"] = [];
   try {
     const res = await getBlogList();
