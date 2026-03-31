@@ -29,7 +29,9 @@ export type Blog = {
   publishedAt: string;
 };
 
-/** ブログ一覧取得（ISR 1時間） */
+const noCache = { cache: "no-store" as RequestCache };
+
+/** ブログ一覧取得 */
 export async function getBlogList(
   limit = 20,
   offset = 0,
@@ -37,6 +39,7 @@ export async function getBlogList(
   return getClient().getList<Blog>({
     endpoint: "blogs",
     queries: { limit, offset, orders: "-publishedAt" },
+    customRequestInit: noCache,
   });
 }
 
@@ -45,6 +48,7 @@ export async function getBlogBySlug(slug: string): Promise<Blog | null> {
   const res = await getClient().getList<Blog>({
     endpoint: "blogs",
     queries: { filters: `slug[equals]${slug}`, limit: 1 },
+    customRequestInit: noCache,
   });
   return res.contents[0] ?? null;
 }
@@ -54,6 +58,7 @@ export async function getAllBlogSlugs(): Promise<string[]> {
   const res = await getClient().getList<Blog>({
     endpoint: "blogs",
     queries: { fields: "slug", limit: 100 },
+    customRequestInit: noCache,
   });
   return res.contents.map((b) => b.slug);
 }
@@ -65,6 +70,7 @@ export async function getBlogSlugsForSitemap(): Promise<
   const res = await getClient().getList<Blog>({
     endpoint: "blogs",
     queries: { fields: "slug,updatedAt", limit: 100 },
+    customRequestInit: noCache,
   });
   return res.contents.map((b) => ({ slug: b.slug, updatedAt: b.updatedAt }));
 }
