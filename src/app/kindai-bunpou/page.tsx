@@ -66,6 +66,42 @@ const jsonLd = [
         price: 1580,
         priceCurrency: "JPY",
         availability: "https://schema.org/InStock",
+        shippingDetails: {
+          "@type": "OfferShippingDetails",
+          shippingDestination: {
+            "@type": "DefinedRegion",
+            addressCountry: "JP",
+          },
+          deliveryTime: {
+            "@type": "ShippingDeliveryTime",
+            handlingTime: {
+              "@type": "QuantitativeValue",
+              minValue: 1,
+              maxValue: 2,
+              unitCode: "d",
+            },
+            transitTime: {
+              "@type": "QuantitativeValue",
+              minValue: 1,
+              maxValue: 3,
+              unitCode: "d",
+            },
+          },
+          shippingRate: {
+            "@type": "MonetaryAmount",
+            value: 0,
+            currency: "JPY",
+          },
+        },
+        hasMerchantReturnPolicy: {
+          "@type": "MerchantReturnPolicy",
+          applicableCountry: "JP",
+          returnPolicyCategory:
+            "https://schema.org/MerchantReturnFiniteReturnWindow",
+          merchantReturnDays: 30,
+          returnMethod: "https://schema.org/ReturnByMail",
+          returnFees: "https://schema.org/FreeReturn",
+        },
       },
       {
         "@type": "Offer",
@@ -73,6 +109,39 @@ const jsonLd = [
         price: 780,
         priceCurrency: "JPY",
         availability: "https://schema.org/InStock",
+        shippingDetails: {
+          "@type": "OfferShippingDetails",
+          shippingDestination: {
+            "@type": "DefinedRegion",
+            addressCountry: "JP",
+          },
+          deliveryTime: {
+            "@type": "ShippingDeliveryTime",
+            handlingTime: {
+              "@type": "QuantitativeValue",
+              minValue: 0,
+              maxValue: 0,
+              unitCode: "d",
+            },
+            transitTime: {
+              "@type": "QuantitativeValue",
+              minValue: 0,
+              maxValue: 0,
+              unitCode: "d",
+            },
+          },
+          shippingRate: {
+            "@type": "MonetaryAmount",
+            value: 0,
+            currency: "JPY",
+          },
+        },
+        hasMerchantReturnPolicy: {
+          "@type": "MerchantReturnPolicy",
+          applicableCountry: "JP",
+          returnPolicyCategory:
+            "https://schema.org/MerchantReturnNotPermitted",
+        },
       },
     ],
   },
