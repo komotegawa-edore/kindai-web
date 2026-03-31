@@ -149,11 +149,15 @@ export default function DrilleoTopPage() {
               </div>
               {/* 無料診断 */}
               <div className="relative">
-                <div className="w-24 md:w-32 bg-gradient-to-br from-success/10 to-success/5 rounded-2xl border-2 border-success/30 p-3 md:p-4 flex flex-col items-center justify-center shadow-xl aspect-[9/16]">
-                  <svg className="w-8 h-8 md:w-10 md:h-10 text-success mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span className="text-success font-bold text-[10px] md:text-xs text-center leading-tight">無料で<br/>実力診断</span>
+                <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800 w-24 md:w-32">
+                  <Image
+                    src="/images/mock-spring.PNG"
+                    alt="スタートダッシュ診断 結果画面"
+                    width={390}
+                    height={844}
+                    className="w-full h-auto"
+                    priority
+                  />
                 </div>
                 <div className="absolute -top-2 -right-2 bg-success text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-md">
                   診断
