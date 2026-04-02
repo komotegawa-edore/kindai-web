@@ -118,7 +118,7 @@ export default function DrilleoTopPage() {
             </div>
             <div className="md:w-1/2 flex justify-center items-end gap-4">
               {/* 書籍表紙: 長文読解ドリル */}
-              <div className="relative">
+              <a href="https://www.amazon.co.jp/dp/B0GVMW86MN?&linkCode=ll2&tag=frontriver0b-22&linkId=f7bb7943e3d7a61495f83e9f2e956915&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="relative block hover:scale-105 transition-transform">
                 <Image
                   src="/images/book-preview/cover-front.png"
                   alt="近大英語 長文読解ドリル 表紙"
@@ -131,9 +131,9 @@ export default function DrilleoTopPage() {
                 <div className="absolute -top-2 -right-2 bg-accent text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-md">
                   長文
                 </div>
-              </div>
+              </a>
               {/* 書籍表紙: 文法・語法ドリル */}
-              <div className="relative">
+              <a href="https://www.amazon.co.jp/dp/B0GVRG65V3?&linkCode=ll2&tag=frontriver0b-22&linkId=2459913aee4afeea5353a161603a4afd&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="relative block hover:scale-105 transition-transform">
                 <Image
                   src="/images/book-preview/cover-bunpou.jpg"
                   alt="近大英語 文法・語法ドリル 表紙"
@@ -146,7 +146,7 @@ export default function DrilleoTopPage() {
                 <div className="absolute -top-2 -right-2 bg-primary text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-md">
                   文法
                 </div>
-              </div>
+              </a>
               {/* 無料診断 */}
               <div className="relative">
                 <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-gray-800 bg-gray-800 w-24 md:w-32">
@@ -283,7 +283,7 @@ export default function DrilleoTopPage() {
             <div>
               <h3 className="text-lg font-bold text-primary mb-4 text-center">書籍（2冊）</h3>
               <div className="grid grid-cols-2 gap-3 md:gap-4">
-                <div>
+                <a href="https://www.amazon.co.jp/dp/B0GVMW86MN?&linkCode=ll2&tag=frontriver0b-22&linkId=f7bb7943e3d7a61495f83e9f2e956915&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="block hover:scale-105 transition-transform">
                   <div className="rounded-lg overflow-hidden shadow-lg border border-border">
                     <Image
                       src="/images/book-preview/cover-front.png"
@@ -294,8 +294,8 @@ export default function DrilleoTopPage() {
                     />
                   </div>
                   <p className="text-xs text-text-light text-center mt-2">長文読解ドリル</p>
-                </div>
-                <div>
+                </a>
+                <a href="https://www.amazon.co.jp/dp/B0GVRG65V3?&linkCode=ll2&tag=frontriver0b-22&linkId=2459913aee4afeea5353a161603a4afd&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="block hover:scale-105 transition-transform">
                   <div className="rounded-lg overflow-hidden shadow-lg border border-border">
                     <Image
                       src="/images/book-preview/cover-bunpou.jpg"
@@ -306,7 +306,7 @@ export default function DrilleoTopPage() {
                     />
                   </div>
                   <p className="text-xs text-text-light text-center mt-2">文法・語法ドリル</p>
-                </div>
+                </a>
               </div>
               <ul className="text-sm text-text-light mt-4 space-y-1">
                 <li className="flex items-start gap-2">

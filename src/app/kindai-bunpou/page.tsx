@@ -222,7 +222,7 @@ export default function KindaiBunpouPage() {
               <div className="absolute w-44 h-44 bg-accent/5 rounded-full bottom-0 -left-8" />
 
               <div className="relative z-10">
-                <div className="relative" style={{ perspective: "1000px" }}>
+                <a href="https://www.amazon.co.jp/dp/B0GVRG65V3?&linkCode=ll2&tag=frontriver0b-22&linkId=2459913aee4afeea5353a161603a4afd&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="relative block hover:scale-105 transition-transform" style={{ perspective: "1000px" }}>
                   <Image
                     src="/images/book-preview/cover-bunpou.jpg"
                     alt="近大英語 文法・語法ドリル 表紙"
@@ -238,7 +238,7 @@ export default function KindaiBunpouPage() {
                   <div className="absolute -bottom-3 -left-3 bg-primary text-white text-[11px] font-bold px-3 py-1.5 rounded-full shadow-lg">
                     大問III〜VI
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>

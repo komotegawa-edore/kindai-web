@@ -127,17 +127,17 @@ export default function BooksPage() {
         <div className="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-8">
           {/* 1冊目: 近大英語 長文読解ドリル */}
           <div className="bg-white rounded-2xl border border-border shadow-sm overflow-hidden flex flex-col">
-            <div className="bg-bg-gray px-6 py-8">
+            <a href="https://www.amazon.co.jp/dp/B0GVMW86MN?&linkCode=ll2&tag=frontriver0b-22&linkId=f7bb7943e3d7a61495f83e9f2e956915&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="block bg-bg-gray px-6 py-8 hover:bg-bg-gray/70 transition">
               <div className="flex justify-center">
                 <Image
                   src="/images/book-preview/cover-front.png"
                   alt="近大英語 長文読解ドリル 表紙"
                   width={400}
                   height={566}
-                  className="w-36 md:w-44 h-auto rounded-lg shadow-xl"
+                  className="w-36 md:w-44 h-auto rounded-lg shadow-xl hover:scale-105 transition-transform"
                 />
               </div>
-            </div>
+            </a>
             <div className="p-6 flex flex-col flex-1">
               <div className="flex items-center gap-2 mb-2">
                 <span className="inline-block bg-success/10 text-success text-xs font-bold px-2.5 py-1 rounded-full">
@@ -191,17 +191,17 @@ export default function BooksPage() {
 
           {/* 2冊目: 近大英語 文法・語法ドリル */}
           <div className="bg-white rounded-2xl border border-border shadow-sm overflow-hidden flex flex-col">
-            <div className="bg-bg-gray px-6 py-8">
+            <a href="https://www.amazon.co.jp/dp/B0GVRG65V3?&linkCode=ll2&tag=frontriver0b-22&linkId=2459913aee4afeea5353a161603a4afd&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="block bg-bg-gray px-6 py-8 hover:bg-bg-gray/70 transition">
               <div className="flex justify-center">
                 <Image
                   src="/images/book-preview/cover-bunpou.jpg"
                   alt="近大英語 文法・語法ドリル 表紙"
                   width={400}
                   height={566}
-                  className="w-36 md:w-44 h-auto rounded-lg shadow-xl"
+                  className="w-36 md:w-44 h-auto rounded-lg shadow-xl hover:scale-105 transition-transform"
                 />
               </div>
-            </div>
+            </a>
             <div className="p-6 flex flex-col flex-1">
               <div className="flex items-center gap-2 mb-2">
                 <span className="inline-block bg-success/10 text-success text-xs font-bold px-2.5 py-1 rounded-full">

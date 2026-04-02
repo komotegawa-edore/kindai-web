@@ -272,13 +272,15 @@ export default function QuizResultPage() {
         <div className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-xl border border-border p-6 md:p-8 mb-6">
           {percentage <= 60 ? (
             <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start">
-              <Image
-                src="/images/book-preview/cover-bunpou.jpg"
-                alt="近大英語 文法・語法ドリル 表紙"
-                width={400}
-                height={566}
-                className="w-32 h-auto rounded-lg shadow-xl shrink-0"
-              />
+              <a href="https://www.amazon.co.jp/dp/B0GVRG65V3?&linkCode=ll2&tag=frontriver0b-22&linkId=2459913aee4afeea5353a161603a4afd&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="shrink-0 hover:scale-105 transition-transform">
+                <Image
+                  src="/images/book-preview/cover-bunpou.jpg"
+                  alt="近大英語 文法・語法ドリル 表紙"
+                  width={400}
+                  height={566}
+                  className="w-32 h-auto rounded-lg shadow-xl"
+                />
+              </a>
               <div>
                 <h2 className="text-lg font-bold text-text mb-2">
                   まずは文法・語法で基礎固め！
@@ -290,24 +292,28 @@ export default function QuizResultPage() {
                   過去問ではないオリジナル問題だから、気軽に近大形式の演習を始められます。全20回・全問解説付き。
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <Link
-                    href="/kindai-bunpou"
+                  <a
+                    href="https://www.amazon.co.jp/dp/B0GVRG65V3?&linkCode=ll2&tag=frontriver0b-22&linkId=2459913aee4afeea5353a161603a4afd&ref_=as_li_ss_tl"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-block bg-accent text-white font-bold px-8 py-3 rounded-lg hover:bg-accent-light transition text-center shadow-lg shadow-accent/25"
                   >
-                    文法・語法ドリルを見る
-                  </Link>
+                    Amazonで購入する
+                  </a>
                 </div>
               </div>
             </div>
           ) : (
             <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start">
-              <Image
-                src="/images/book-preview/cover-front.png"
-                alt="近大英語 長文読解ドリル 表紙"
-                width={400}
-                height={566}
-                className="w-32 h-auto rounded-lg shadow-xl shrink-0"
-              />
+              <a href="https://www.amazon.co.jp/dp/B0GVMW86MN?&linkCode=ll2&tag=frontriver0b-22&linkId=f7bb7943e3d7a61495f83e9f2e956915&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="shrink-0 hover:scale-105 transition-transform">
+                <Image
+                  src="/images/book-preview/cover-front.png"
+                  alt="近大英語 長文読解ドリル 表紙"
+                  width={400}
+                  height={566}
+                  className="w-32 h-auto rounded-lg shadow-xl"
+                />
+              </a>
               <div>
                 <h2 className="text-lg font-bold text-text mb-2">
                   基礎力は十分！次は長文読解
@@ -320,12 +326,14 @@ export default function QuizResultPage() {
                   全問解説・全文和訳付き。購入者特典のネイティブ音声でリスニング力も強化できます。
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <Link
-                    href="/kindai"
+                  <a
+                    href="https://www.amazon.co.jp/dp/B0GVMW86MN?&linkCode=ll2&tag=frontriver0b-22&linkId=f7bb7943e3d7a61495f83e9f2e956915&ref_=as_li_ss_tl"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-block bg-primary text-white font-bold px-8 py-3 rounded-lg hover:bg-primary-light transition text-center shadow-lg shadow-primary/25"
                   >
-                    長文読解ドリルを見る
-                  </Link>
+                    Amazonで購入する
+                  </a>
                 </div>
               </div>
             </div>
@@ -336,28 +344,28 @@ export default function QuizResultPage() {
         <div className="bg-white rounded-xl border border-border p-6 mb-6">
           <h2 className="text-lg font-bold text-primary mb-4 text-center">近大英語対策の書籍</h2>
           <div className="grid grid-cols-2 gap-4">
-            <Link href="/kindai" className="group text-center">
+            <a href="https://www.amazon.co.jp/dp/B0GVMW86MN?&linkCode=ll2&tag=frontriver0b-22&linkId=f7bb7943e3d7a61495f83e9f2e956915&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="group text-center">
               <Image
                 src="/images/book-preview/cover-front.png"
                 alt="近大英語 長文読解ドリル"
                 width={400}
                 height={566}
-                className="w-28 h-auto mx-auto rounded-lg shadow-lg group-hover:shadow-xl transition"
+                className="w-28 h-auto mx-auto rounded-lg shadow-lg group-hover:shadow-xl group-hover:scale-105 transition"
               />
               <p className="text-sm font-bold text-text mt-3 group-hover:text-primary transition">長文読解ドリル</p>
               <p className="text-xs text-text-light mt-1">全25回・全問解説付き</p>
-            </Link>
-            <Link href="/kindai-bunpou" className="group text-center">
+            </a>
+            <a href="https://www.amazon.co.jp/dp/B0GVRG65V3?&linkCode=ll2&tag=frontriver0b-22&linkId=2459913aee4afeea5353a161603a4afd&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="group text-center">
               <Image
                 src="/images/book-preview/cover-bunpou.jpg"
                 alt="近大英語 文法・語法ドリル"
                 width={400}
                 height={566}
-                className="w-28 h-auto mx-auto rounded-lg shadow-lg group-hover:shadow-xl transition"
+                className="w-28 h-auto mx-auto rounded-lg shadow-lg group-hover:shadow-xl group-hover:scale-105 transition"
               />
               <p className="text-sm font-bold text-text mt-3 group-hover:text-primary transition">文法・語法ドリル</p>
               <p className="text-xs text-text-light mt-1">全20回・大問III〜VI対応</p>
-            </Link>
+            </a>
           </div>
         </div>
 

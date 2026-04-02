@@ -237,7 +237,7 @@ export default function Home() {
                 </div>
 
                 {/* 表紙（メイン） */}
-                <div className="relative z-10" style={{ perspective: "1000px" }}>
+                <a href="https://www.amazon.co.jp/dp/B0GVMW86MN?&linkCode=ll2&tag=frontriver0b-22&linkId=f7bb7943e3d7a61495f83e9f2e956915&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" className="relative z-10 block hover:scale-105 transition-transform" style={{ perspective: "1000px" }}>
                   <Image
                     src="/images/book-preview/cover-front.png"
                     alt="近大英語 長文読解ドリル 表紙"
@@ -254,7 +254,7 @@ export default function Home() {
                   <div className="absolute -bottom-3 -left-3 bg-primary text-white text-[11px] font-bold px-3 py-1.5 rounded-full shadow-lg">
                     全問解説付き
                   </div>
-                </div>
+                </a>
 
                 {/* 設問ページ（後ろ） */}
                 <div className="hidden md:block relative -ml-12 mb-10 z-0">
