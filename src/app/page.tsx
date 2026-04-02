@@ -321,6 +321,10 @@ export default function DrilleoTopPage() {
                   <span className="text-success font-bold mt-0.5">&#10003;</span>
                   全問解説付き
                 </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-success font-bold mt-0.5">&#10003;</span>
+                  購入者特典：ネイティブ音声付き（長文読解ドリル）
+                </li>
               </ul>
             </div>
 

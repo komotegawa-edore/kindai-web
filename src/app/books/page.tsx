@@ -160,6 +160,10 @@ export default function BooksPage() {
                   <span className="text-success font-bold mt-0.5">&#10003;</span>
                   近畿大学の英語入試に完全特化
                 </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent font-bold mt-0.5">&#9834;</span>
+                  購入者特典：全25回分のネイティブ音声付き
+                </li>
               </ul>
               <div className="text-sm text-text-light mb-5">
                 <p>

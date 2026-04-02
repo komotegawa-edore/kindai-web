@@ -317,7 +317,7 @@ export default function QuizResultPage() {
                   全25回分の長文読解ドリルで実戦力を磨きましょう。
                 </p>
                 <p className="text-sm text-text-light mb-4">
-                  全問解説・全文和訳付きで、独学でもスコアアップ。
+                  全問解説・全文和訳付き。購入者特典のネイティブ音声でリスニング力も強化できます。
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Link

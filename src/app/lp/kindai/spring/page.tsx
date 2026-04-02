@@ -396,7 +396,7 @@ export default function SpringLPPage() {
             <RoadmapCard
               step={3}
               title="長文読解演習"
-              description="書籍『近大英語 長文読解ドリル』で実践的な演習を重ねる。"
+              description="書籍『近大英語 長文読解ドリル』で実践的な演習を重ねる。購入者特典のネイティブ音声でリスニング力も強化。"
             />
             <RoadmapCard
               step={4}

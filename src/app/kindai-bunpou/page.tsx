@@ -319,7 +319,7 @@ export default function KindaiBunpouPage() {
             />
             <ReasonCard
               title="長文読解ドリルとの連携"
-              description="本書で基礎点を固め、長文読解ドリルで配点最大の大問VIIを攻略。セットで使えば近大英語を完全カバー。"
+              description="本書で基礎点を固め、長文読解ドリルで配点最大の大問VIIを攻略。セットで使えば近大英語を完全カバー。長文読解ドリルには購入者特典のネイティブ音声も付いています。"
             />
           </div>
         </div>
