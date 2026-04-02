@@ -397,8 +397,14 @@ export default function DrilleoTopPage() {
               className="group bg-white rounded-xl border border-border shadow-sm hover:shadow-lg hover:border-primary/30 transition-all p-6 block"
             >
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <span className="text-primary font-bold text-lg">近</span>
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center overflow-hidden">
+                  <Image
+                    src="/images/kindai-emblem.jpg"
+                    alt="近畿大学 校章"
+                    width={48}
+                    height={48}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-text group-hover:text-primary transition">
