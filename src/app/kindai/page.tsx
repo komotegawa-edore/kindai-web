@@ -26,7 +26,7 @@ const faqItems = [
   },
   {
     q: "書籍にはどんな問題が収録されていますか？",
-    a: "大問7（長文読解）形式の問題を全25回分。1回あたり約400語の英文＋設問7問。全問に解説・全文和訳・語注付き。",
+    a: "大問7（長文読解）形式の問題を全25回分。1回あたり約400語の英文＋設問7問。段落内容一致/不一致、語句意味推測、全体内容一致など本番と同じ設問パターンを収録。全問に根拠となる段落を明示した詳しい解説・全文和訳付き。",
   },
   {
     q: "問題は過去問ですか？",
@@ -37,8 +37,20 @@ const faqItems = [
     a: "文法・語彙・語法の20問で近大英語の弱点をチェックできる無料診断です。登録不要・約5分で完了し、カテゴリ別のスコアと学習アドバイスが表示されます。",
   },
   {
-    q: "Kindle版とペーパーバック版の違いは？",
-    a: "内容は同じ。Kindle版はスマホ・タブレット、ペーパーバック版は紙の書籍。",
+    q: "書籍はどこで購入できますか？",
+    a: "Amazonでペーパーバック版（紙の書籍）を販売しています。",
+  },
+  {
+    q: "1回あたりどれくらいの時間がかかりますか？",
+    a: "1回あたり約20〜25分で取り組める分量です。",
+  },
+  {
+    q: "書籍の構成はどうなっていますか？",
+    a: "問題編（第1回〜第25回）と解答・解説編（正答一覧・全文和訳・設問解説）の2部構成です。",
+  },
+  {
+    q: "対象レベルはどれくらいですか？",
+    a: "近畿大学志望の受験生が対象です。難易度は共通テスト同等（やや易〜標準）です。",
   },
   {
     q: "他の大問の問題集もありますか？",
@@ -52,7 +64,7 @@ const jsonLd = [
     "@type": "Product",
     name: "近大英語 長文読解ドリル",
     description:
-      "近畿大学の英語入試を徹底分析。本番と同じ形式の長文読解を全25回分収録。",
+      "近畿大学の英語入試（一般入試・全学部統一試験）の大問VII（長文読解）に特化した演習テキスト。約400語の英語長文全25回収録。すべての問題に解答・解説・全文和訳付き。",
     brand: { "@type": "Brand", name: "ドリレオ" },
     image: "https://drilleo.edore-edu.com/images/book-preview/cover-front.png",
     offers: [
@@ -62,6 +74,7 @@ const jsonLd = [
         price: 1580,
         priceCurrency: "JPY",
         availability: "https://schema.org/InStock",
+        url: "https://www.amazon.co.jp/dp/B0GVMW86MN?&linkCode=ll2&tag=frontriver0b-22&linkId=f7bb7943e3d7a61495f83e9f2e956915&ref_=as_li_ss_tl",
         shippingDetails: {
           "@type": "OfferShippingDetails",
           shippingDestination: {
@@ -97,46 +110,6 @@ const jsonLd = [
           merchantReturnDays: 30,
           returnMethod: "https://schema.org/ReturnByMail",
           returnFees: "https://schema.org/FreeReturn",
-        },
-      },
-      {
-        "@type": "Offer",
-        name: "Kindle版",
-        price: 780,
-        priceCurrency: "JPY",
-        availability: "https://schema.org/InStock",
-        shippingDetails: {
-          "@type": "OfferShippingDetails",
-          shippingDestination: {
-            "@type": "DefinedRegion",
-            addressCountry: "JP",
-          },
-          deliveryTime: {
-            "@type": "ShippingDeliveryTime",
-            handlingTime: {
-              "@type": "QuantitativeValue",
-              minValue: 0,
-              maxValue: 0,
-              unitCode: "d",
-            },
-            transitTime: {
-              "@type": "QuantitativeValue",
-              minValue: 0,
-              maxValue: 0,
-              unitCode: "d",
-            },
-          },
-          shippingRate: {
-            "@type": "MonetaryAmount",
-            value: 0,
-            currency: "JPY",
-          },
-        },
-        hasMerchantReturnPolicy: {
-          "@type": "MerchantReturnPolicy",
-          applicableCountry: "JP",
-          returnPolicyCategory:
-            "https://schema.org/MerchantReturnNotPermitted",
         },
       },
     ],
@@ -222,7 +195,9 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
                 <a
-                  href="#"
+                  href="https://www.amazon.co.jp/dp/B0GVMW86MN?&linkCode=ll2&tag=frontriver0b-22&linkId=f7bb7943e3d7a61495f83e9f2e956915&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary text-white font-bold px-8 py-3.5 rounded-lg hover:bg-primary-light transition text-center shadow-lg shadow-primary/25"
                 >
                   Amazonで購入
@@ -557,16 +532,16 @@ export default function Home() {
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">書籍を購入する</h2>
           <p className="text-lg text-white/80 mb-8">
-            Amazonで好評発売中。Kindle版・ペーパーバック版をお選びいただけます。
+            Amazonで好評発売中。ペーパーバック版（紙の書籍）をお届けします。
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#" className="bg-white text-primary font-bold px-8 py-4 rounded-lg hover:bg-gray-100 transition">
-              Kindle版を購入
-            </a>
-            <a href="#" className="border-2 border-white text-white font-bold px-8 py-4 rounded-lg hover:bg-white/10 transition">
-              ペーパーバック版を購入
-            </a>
-          </div>
+          <a
+            href="https://www.amazon.co.jp/dp/B0GVMW86MN?&linkCode=ll2&tag=frontriver0b-22&linkId=f7bb7943e3d7a61495f83e9f2e956915&ref_=as_li_ss_tl"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-white text-primary font-bold px-8 py-4 rounded-lg hover:bg-gray-100 transition"
+          >
+            Amazonで購入する
+          </a>
         </div>
       </section>
 

@@ -41,8 +41,8 @@ const faqItems = [
     a: "共通テスト同等（やや易〜標準）の難易度です。基礎的な文法知識があれば取り組めます。解説も丁寧なので、復習しながら学力を伸ばせます。",
   },
   {
-    q: "Kindle版とペーパーバック版の違いは？",
-    a: "内容は同じです。Kindle版はスマホ・タブレットで、ペーパーバック版は紙の書籍でお使いいただけます。",
+    q: "書籍はどこで購入できますか？",
+    a: "Amazonでペーパーバック版（紙の書籍）を販売しています。",
   },
   {
     q: "無料の診断テストはありますか？",
@@ -101,46 +101,6 @@ const jsonLd = [
           merchantReturnDays: 30,
           returnMethod: "https://schema.org/ReturnByMail",
           returnFees: "https://schema.org/FreeReturn",
-        },
-      },
-      {
-        "@type": "Offer",
-        name: "Kindle版",
-        price: 780,
-        priceCurrency: "JPY",
-        availability: "https://schema.org/InStock",
-        shippingDetails: {
-          "@type": "OfferShippingDetails",
-          shippingDestination: {
-            "@type": "DefinedRegion",
-            addressCountry: "JP",
-          },
-          deliveryTime: {
-            "@type": "ShippingDeliveryTime",
-            handlingTime: {
-              "@type": "QuantitativeValue",
-              minValue: 0,
-              maxValue: 0,
-              unitCode: "d",
-            },
-            transitTime: {
-              "@type": "QuantitativeValue",
-              minValue: 0,
-              maxValue: 0,
-              unitCode: "d",
-            },
-          },
-          shippingRate: {
-            "@type": "MonetaryAmount",
-            value: 0,
-            currency: "JPY",
-          },
-        },
-        hasMerchantReturnPolicy: {
-          "@type": "MerchantReturnPolicy",
-          applicableCountry: "JP",
-          returnPolicyCategory:
-            "https://schema.org/MerchantReturnNotPermitted",
         },
       },
     ],
@@ -550,16 +510,14 @@ export default function KindaiBunpouPage() {
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">書籍を購入する</h2>
           <p className="text-lg text-white/80 mb-8">
-            Amazonで好評発売中。Kindle版・ペーパーバック版をお選びいただけます。
+            Amazonで好評発売中。ペーパーバック版（紙の書籍）をお届けします。
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#" className="bg-white text-primary font-bold px-8 py-4 rounded-lg hover:bg-gray-100 transition">
-              Kindle版を購入
-            </a>
-            <a href="#" className="border-2 border-white text-white font-bold px-8 py-4 rounded-lg hover:bg-white/10 transition">
-              ペーパーバック版を購入
-            </a>
-          </div>
+          <a
+            href="#"
+            className="inline-block bg-white text-primary font-bold px-8 py-4 rounded-lg hover:bg-gray-100 transition"
+          >
+            Amazonで購入する
+          </a>
           <p className="text-white/60 text-sm mt-6">
             長文読解ドリルとセットで使うとさらに効果的です
           </p>

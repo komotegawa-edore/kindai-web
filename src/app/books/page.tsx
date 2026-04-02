@@ -35,13 +35,6 @@ const jsonLd = [
           offers: [
             {
               "@type": "Offer",
-              name: "Kindle版",
-              price: 780,
-              priceCurrency: "JPY",
-              availability: "https://schema.org/InStock",
-            },
-            {
-              "@type": "Offer",
               name: "ペーパーバック版",
               price: 1580,
               priceCurrency: "JPY",
@@ -62,13 +55,6 @@ const jsonLd = [
           brand: { "@type": "Brand", name: "ドリレオ" },
           url: "https://drilleo.edore-edu.com/kindai-bunpou",
           offers: [
-            {
-              "@type": "Offer",
-              name: "Kindle版",
-              price: 780,
-              priceCurrency: "JPY",
-              availability: "https://schema.org/InStock",
-            },
             {
               "@type": "Offer",
               name: "ペーパーバック版",
@@ -177,23 +163,17 @@ export default function BooksPage() {
               </ul>
               <div className="text-sm text-text-light mb-5">
                 <p>
-                  <span className="font-bold text-text">Kindle版</span> ¥780
-                  <span className="mx-2 text-border">|</span>
                   <span className="font-bold text-text">ペーパーバック版</span> ¥1,580
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3 mt-auto">
                 <a
-                  href="#"
+                  href="https://www.amazon.co.jp/dp/B0GVMW86MN?&linkCode=ll2&tag=frontriver0b-22&linkId=f7bb7943e3d7a61495f83e9f2e956915&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary text-white font-bold text-sm px-6 py-3 rounded-lg hover:bg-primary-light transition text-center shadow-lg shadow-primary/25 flex-1"
                 >
-                  Kindle版を購入
-                </a>
-                <a
-                  href="#"
-                  className="border-2 border-primary text-primary font-bold text-sm px-6 py-3 rounded-lg hover:bg-primary/5 transition text-center flex-1"
-                >
-                  ペーパーバック版を購入
+                  Amazonで購入
                 </a>
               </div>
               <Link
@@ -243,8 +223,6 @@ export default function BooksPage() {
               </ul>
               <div className="text-sm text-text-light mb-5">
                 <p>
-                  <span className="font-bold text-text">Kindle版</span> ¥780
-                  <span className="mx-2 text-border">|</span>
                   <span className="font-bold text-text">ペーパーバック版</span> ¥1,580
                 </p>
               </div>
@@ -253,13 +231,7 @@ export default function BooksPage() {
                   href="#"
                   className="bg-primary text-white font-bold text-sm px-6 py-3 rounded-lg hover:bg-primary-light transition text-center shadow-lg shadow-primary/25 flex-1"
                 >
-                  Kindle版を購入
-                </a>
-                <a
-                  href="#"
-                  className="border-2 border-primary text-primary font-bold text-sm px-6 py-3 rounded-lg hover:bg-primary/5 transition text-center flex-1"
-                >
-                  ペーパーバック版を購入
+                  Amazonで購入
                 </a>
               </div>
               <Link
