@@ -70,7 +70,7 @@ export async function POST(request: Request) {
 
     // Resendでメール送信
     await resend.emails.send({
-      from: "ドリレオ <noreply@drilleo.com>",
+      from: "ドリレオ <noreply@edore-edu.com>",
       to: email,
       subject: `【ドリレオ】認証コード: ${verificationCode}`,
       html: `
