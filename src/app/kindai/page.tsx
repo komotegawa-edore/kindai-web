@@ -527,6 +527,57 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 購入者限定特典 */}
+      <section className="py-16 md:py-24">
+        <div className="max-w-3xl mx-auto px-6">
+          <div className="bg-gradient-to-br from-primary/5 to-accent/5 border border-primary/15 rounded-2xl p-8 md:p-10">
+            <div className="text-center">
+              <div className="inline-flex items-center gap-2 bg-accent/10 text-accent text-xs font-bold px-3 py-1.5 rounded-full mb-4">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                </svg>
+                購入者限定特典
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-text mb-3">
+                ネイティブ音声で<span className="text-primary">リスニング力</span>もアップ
+              </h2>
+              <p className="text-text-light text-sm mb-6 max-w-lg mx-auto">
+                全25回分の長文英文をネイティブスピーカーが朗読。通学中のスキマ学習やシャドーイング練習に最適です。
+              </p>
+              <div className="flex flex-wrap justify-center gap-4 text-sm text-text-light mb-6">
+                <span className="flex items-center gap-1">
+                  <svg className="w-4 h-4 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  全25回分の音声
+                </span>
+                <span className="flex items-center gap-1">
+                  <svg className="w-4 h-4 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  ストリーミング再生
+                </span>
+                <span className="flex items-center gap-1">
+                  <svg className="w-4 h-4 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  ダウンロード可能
+                </span>
+              </div>
+              <Link
+                href="/tokuten"
+                className="inline-block bg-primary text-white font-bold px-8 py-3.5 rounded-lg hover:bg-primary-light transition shadow-lg shadow-primary/25"
+              >
+                音声特典ページへ
+              </Link>
+              <p className="text-xs text-text-light mt-3">
+                書籍に記載のアクセスコードが必要です
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Amazon購入 */}
       <section className="bg-primary text-white py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-6 text-center">

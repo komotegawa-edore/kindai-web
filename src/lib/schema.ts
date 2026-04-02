@@ -24,6 +24,25 @@ export const examSessions = pgTable("exam_sessions", {
   finishedAt: timestamp("finished_at"),
 });
 
+export const tokutenBooks = pgTable("tokuten_books", {
+  id: serial("id").primaryKey(),
+  slug: text("slug").notNull().unique(),
+  name: text("name").notNull(),
+  accessCode: text("access_code").notNull().unique(),
+  audioCount: integer("audio_count").notNull(),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
+});
+
+export const tokutenUsers = pgTable("tokuten_users", {
+  id: serial("id").primaryKey(),
+  email: text("email").notNull(),
+  bookId: integer("book_id")
+    .notNull()
+    .references(() => tokutenBooks.id),
+  verifiedAt: timestamp("verified_at").notNull().defaultNow(),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
+});
+
 export const answers = pgTable("answers", {
   id: serial("id").primaryKey(),
   sessionId: integer("session_id")

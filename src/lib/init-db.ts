@@ -68,4 +68,29 @@ export async function ensureTables() {
       is_correct BOOLEAN NOT NULL DEFAULT false
     )
   `;
+  await sql`
+    CREATE TABLE IF NOT EXISTS tokuten_books (
+      id SERIAL PRIMARY KEY,
+      slug TEXT NOT NULL UNIQUE,
+      name TEXT NOT NULL,
+      access_code TEXT NOT NULL UNIQUE,
+      audio_count INTEGER NOT NULL,
+      created_at TIMESTAMP NOT NULL DEFAULT NOW()
+    )
+  `;
+  await sql`
+    CREATE TABLE IF NOT EXISTS tokuten_users (
+      id SERIAL PRIMARY KEY,
+      email TEXT NOT NULL,
+      book_id INTEGER NOT NULL REFERENCES tokuten_books(id),
+      verified_at TIMESTAMP NOT NULL DEFAULT NOW(),
+      created_at TIMESTAMP NOT NULL DEFAULT NOW()
+    )
+  `;
+  // 初期データ: 近大長文読解ドリル
+  await sql`
+    INSERT INTO tokuten_books (slug, name, access_code, audio_count)
+    VALUES ('kindai-reading', '近大英語 長文読解ドリル', 'KINDAI-READING-2026', 25)
+    ON CONFLICT (slug) DO NOTHING
+  `;
 }
