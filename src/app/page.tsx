@@ -429,8 +429,14 @@ export default function DrilleoTopPage() {
             {/* Coming Soon: 関西大学 */}
             <div className="bg-white/60 rounded-xl border border-border/60 p-6 opacity-60">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-bg-gray rounded-lg flex items-center justify-center">
-                  <span className="text-text-light font-bold text-lg">関</span>
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center overflow-hidden">
+                  <Image
+                    src="/images/kansai-emblem.jpg"
+                    alt="関西大学 校章"
+                    width={48}
+                    height={48}
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-text-light">関西大学</h3>
@@ -448,8 +454,14 @@ export default function DrilleoTopPage() {
             {/* Coming Soon: 立命館大学 */}
             <div className="bg-white/60 rounded-xl border border-border/60 p-6 opacity-60">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-bg-gray rounded-lg flex items-center justify-center">
-                  <span className="text-text-light font-bold text-lg">立</span>
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center overflow-hidden">
+                  <Image
+                    src="/images/ritsumeikan-emblem.jpg"
+                    alt="立命館大学 校章"
+                    width={48}
+                    height={48}
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-text-light">立命館大学</h3>
