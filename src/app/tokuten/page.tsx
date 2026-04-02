@@ -11,7 +11,7 @@ export default function TokutenPage() {
   const [step, setStep] = useState<Step>("input");
   const [code, setCode] = useState("");
   const [email, setEmail] = useState("");
-  const [marketingOptIn, setMarketingOptIn] = useState(false);
+  const [marketingOptIn, setMarketingOptIn] = useState(true);
   const [verificationCode, setVerificationCode] = useState("");
   const [slug, setSlug] = useState("");
   const [bookName, setBookName] = useState("");
@@ -169,7 +169,7 @@ export default function TokutenPage() {
                   type="text"
                   value={code}
                   onChange={(e) => setCode(e.target.value)}
-                  placeholder="例: KINDAI-READING-2026"
+                  placeholder="書籍記載のコードを入力"
                   className="w-full px-4 py-3 border border-border rounded-lg text-text placeholder:text-text-light/50 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary uppercase tracking-wider"
                   required
                 />
