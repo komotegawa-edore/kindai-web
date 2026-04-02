@@ -167,7 +167,7 @@ export default function BooksPage() {
               </ul>
               <div className="text-sm text-text-light mb-5">
                 <p>
-                  <span className="font-bold text-text">ペーパーバック版</span> ¥1,580
+                  <span className="font-bold text-text">ペーパーバック版</span> ¥1,580＋税
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3 mt-auto">
@@ -227,7 +227,7 @@ export default function BooksPage() {
               </ul>
               <div className="text-sm text-text-light mb-5">
                 <p>
-                  <span className="font-bold text-text">ペーパーバック版</span> ¥1,580
+                  <span className="font-bold text-text">ペーパーバック版</span> ¥1,580＋税
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3 mt-auto">

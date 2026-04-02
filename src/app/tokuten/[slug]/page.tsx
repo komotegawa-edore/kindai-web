@@ -17,6 +17,7 @@ interface TrackMeta {
   label: string;
   theme: string;
   src: string;
+  downloadUrl: string;
 }
 
 // 書籍ごとの回テーマ（タグの先頭を使用）
@@ -61,18 +62,44 @@ export default function TokutenSlugPage() {
 
   useEffect(() => {
     const stored = localStorage.getItem(`tokuten_${slug}`);
-    if (stored) {
-      try {
-        setAuth(JSON.parse(stored));
-      } catch {
-        router.push("/tokuten");
-        return;
-      }
-    } else {
+    if (!stored) {
       router.push("/tokuten");
       return;
     }
-    setChecked(true);
+
+    let parsed: TokutenAuth;
+    try {
+      parsed = JSON.parse(stored);
+    } catch {
+      router.push("/tokuten");
+      return;
+    }
+
+    // サーバー側でトークンを検証
+    fetch("/api/tokuten/validate", {
+      headers: { Authorization: `Bearer ${parsed.token}` },
+    })
+      .then((res) => {
+        if (!res.ok) {
+          localStorage.removeItem(`tokuten_${slug}`);
+          router.push("/tokuten");
+          return;
+        }
+        return res.json();
+      })
+      .then((data) => {
+        if (data?.valid) {
+          setAuth({
+            ...parsed,
+            bookName: data.bookName,
+            audioCount: data.audioCount,
+          });
+          setChecked(true);
+        }
+      })
+      .catch(() => {
+        router.push("/tokuten");
+      });
   }, [slug, router]);
 
   if (!checked || !auth) {
@@ -87,11 +114,13 @@ export default function TokutenSlugPage() {
   const tracks: TrackMeta[] = Array.from({ length: auth.audioCount }, (_, i) => {
     const num = i + 1;
     const padded = String(num).padStart(3, "0");
+    const audioUrl = `/api/tokuten/audio/${slug}/${padded}.mp3?token=${auth.token}`;
     return {
       number: num,
       label: `第${num}回`,
       theme: themes[i] || "",
-      src: `/audio/${slug}/${padded}.mp3`,
+      src: audioUrl,
+      downloadUrl: audioUrl,
     };
   });
 
@@ -234,7 +263,7 @@ function AudioTrack({
 
         {/* ダウンロード */}
         <a
-          href={track.src}
+          href={track.downloadUrl}
           download={`${track.label}.mp3`}
           className="shrink-0 w-9 h-9 flex items-center justify-center rounded-lg border border-border hover:bg-bg-gray transition"
           title="ダウンロード"

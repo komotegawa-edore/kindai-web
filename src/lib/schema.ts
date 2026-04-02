@@ -1,4 +1,4 @@
-import { pgTable, serial, text, integer, boolean, timestamp } from "drizzle-orm/pg-core";
+import { pgTable, serial, text, integer, boolean, timestamp, uniqueIndex } from "drizzle-orm/pg-core";
 
 export const users = pgTable("users", {
   id: serial("id").primaryKey(),
@@ -39,8 +39,36 @@ export const tokutenUsers = pgTable("tokuten_users", {
   bookId: integer("book_id")
     .notNull()
     .references(() => tokutenBooks.id),
-  verifiedAt: timestamp("verified_at").notNull().defaultNow(),
+  marketingOptIn: boolean("marketing_opt_in").notNull().default(false),
+  verifiedAt: timestamp("verified_at"),
   createdAt: timestamp("created_at").notNull().defaultNow(),
+}, (table) => [
+  uniqueIndex("idx_tokuten_users_email_book").on(table.email, table.bookId),
+]);
+
+export const tokutenVerificationCodes = pgTable("tokuten_verification_codes", {
+  id: serial("id").primaryKey(),
+  email: text("email").notNull(),
+  bookId: integer("book_id")
+    .notNull()
+    .references(() => tokutenBooks.id),
+  code: text("code").notNull(),
+  expiresAt: timestamp("expires_at").notNull(),
+  verifiedAt: timestamp("verified_at"),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
+});
+
+export const tokutenSessions = pgTable("tokuten_sessions", {
+  id: serial("id").primaryKey(),
+  token: text("token").notNull().unique(),
+  userId: integer("user_id")
+    .notNull()
+    .references(() => tokutenUsers.id),
+  bookId: integer("book_id")
+    .notNull()
+    .references(() => tokutenBooks.id),
+  createdAt: timestamp("created_at").notNull().defaultNow(),
+  expiresAt: timestamp("expires_at").notNull(),
 });
 
 export const answers = pgTable("answers", {

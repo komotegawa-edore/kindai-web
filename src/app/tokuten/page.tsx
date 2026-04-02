@@ -4,14 +4,21 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
+type Step = "input" | "verify";
+
 export default function TokutenPage() {
   const router = useRouter();
+  const [step, setStep] = useState<Step>("input");
   const [code, setCode] = useState("");
   const [email, setEmail] = useState("");
+  const [marketingOptIn, setMarketingOptIn] = useState(false);
+  const [verificationCode, setVerificationCode] = useState("");
+  const [slug, setSlug] = useState("");
+  const [bookName, setBookName] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
-  async function handleSubmit(e: React.FormEvent) {
+  async function handleStep1(e: React.FormEvent) {
     e.preventDefault();
     setError("");
     setLoading(true);
@@ -21,6 +28,40 @@ export default function TokutenPage() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code, email }),
+      });
+      const data = await res.json();
+
+      if (!res.ok) {
+        setError(data.error || "認証に失敗しました");
+        setLoading(false);
+        return;
+      }
+
+      setSlug(data.slug);
+      setBookName(data.bookName);
+      setStep("verify");
+      setLoading(false);
+    } catch {
+      setError("通信エラーが発生しました。しばらくしてからお試しください。");
+      setLoading(false);
+    }
+  }
+
+  async function handleStep2(e: React.FormEvent) {
+    e.preventDefault();
+    setError("");
+    setLoading(true);
+
+    try {
+      const res = await fetch("/api/tokuten/confirm", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email,
+          slug,
+          verificationCode,
+          marketingOptIn,
+        }),
       });
       const data = await res.json();
 
@@ -47,6 +88,27 @@ export default function TokutenPage() {
       setError("通信エラーが発生しました。しばらくしてからお試しください。");
       setLoading(false);
     }
+  }
+
+  async function handleResend() {
+    setError("");
+    setLoading(true);
+    try {
+      const res = await fetch("/api/tokuten/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ code, email }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setError(data.error || "再送に失敗しました");
+      } else {
+        setError("認証コードを再送しました。メールをご確認ください。");
+      }
+    } catch {
+      setError("通信エラーが発生しました。");
+    }
+    setLoading(false);
   }
 
   return (
@@ -77,58 +139,147 @@ export default function TokutenPage() {
             </div>
             <h1 className="text-2xl font-bold text-text mb-2">購入者限定特典</h1>
             <p className="text-text-light text-sm">
-              書籍に記載されたアクセスコードとメールアドレスを入力してください
+              {step === "input"
+                ? "書籍に記載されたアクセスコードとメールアドレスを入力してください"
+                : `${email} に認証コードを送信しました`}
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-5">
-            <div>
-              <label htmlFor="code" className="block text-sm font-bold text-text mb-1.5">
-                アクセスコード
-              </label>
-              <input
-                id="code"
-                type="text"
-                value={code}
-                onChange={(e) => setCode(e.target.value)}
-                placeholder="例: KINDAI-READING-2026"
-                className="w-full px-4 py-3 border border-border rounded-lg text-text placeholder:text-text-light/50 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary uppercase tracking-wider"
-                required
-              />
+          {/* ステップインジケーター */}
+          <div className="flex items-center justify-center gap-3 mb-8">
+            <div className={`flex items-center gap-1.5 text-xs font-bold ${step === "input" ? "text-primary" : "text-text-light"}`}>
+              <span className={`w-6 h-6 rounded-full flex items-center justify-center text-white text-xs ${step === "input" ? "bg-primary" : "bg-text-light/40"}`}>1</span>
+              情報入力
             </div>
-
-            <div>
-              <label htmlFor="email" className="block text-sm font-bold text-text mb-1.5">
-                メールアドレス
-              </label>
-              <input
-                id="email"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="example@email.com"
-                className="w-full px-4 py-3 border border-border rounded-lg text-text placeholder:text-text-light/50 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary"
-                required
-              />
-              <p className="text-xs text-text-light mt-1.5">
-                特典の利用確認にのみ使用します。第三者への提供はありません。
-              </p>
+            <div className="w-8 h-px bg-border" />
+            <div className={`flex items-center gap-1.5 text-xs font-bold ${step === "verify" ? "text-primary" : "text-text-light"}`}>
+              <span className={`w-6 h-6 rounded-full flex items-center justify-center text-white text-xs ${step === "verify" ? "bg-primary" : "bg-text-light/40"}`}>2</span>
+              メール認証
             </div>
+          </div>
 
-            {error && (
-              <div className="bg-error/10 text-error text-sm px-4 py-3 rounded-lg">
-                {error}
+          {step === "input" ? (
+            <form onSubmit={handleStep1} className="space-y-5">
+              <div>
+                <label htmlFor="code" className="block text-sm font-bold text-text mb-1.5">
+                  アクセスコード
+                </label>
+                <input
+                  id="code"
+                  type="text"
+                  value={code}
+                  onChange={(e) => setCode(e.target.value)}
+                  placeholder="例: KINDAI-READING-2026"
+                  className="w-full px-4 py-3 border border-border rounded-lg text-text placeholder:text-text-light/50 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary uppercase tracking-wider"
+                  required
+                />
               </div>
-            )}
 
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full bg-primary text-white font-bold py-3.5 rounded-lg hover:bg-primary-light transition disabled:opacity-50 disabled:cursor-not-allowed"
-            >
-              {loading ? "認証中..." : "特典ページにアクセス"}
-            </button>
-          </form>
+              <div>
+                <label htmlFor="email" className="block text-sm font-bold text-text mb-1.5">
+                  メールアドレス
+                </label>
+                <input
+                  id="email"
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="example@email.com"
+                  className="w-full px-4 py-3 border border-border rounded-lg text-text placeholder:text-text-light/50 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary"
+                  required
+                />
+                <p className="text-xs text-text-light mt-1.5">
+                  認証コードの送信に使用します。
+                </p>
+              </div>
+
+              <div>
+                <label className="flex items-start gap-2.5 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={marketingOptIn}
+                    onChange={(e) => setMarketingOptIn(e.target.checked)}
+                    className="mt-0.5 w-4 h-4 rounded border-border text-primary focus:ring-primary/30"
+                  />
+                  <span className="text-xs text-text-light leading-relaxed">
+                    新刊情報・学習コンテンツなどのお知らせメールを受け取る（任意）
+                  </span>
+                </label>
+              </div>
+
+              {error && (
+                <div className="bg-error/10 text-error text-sm px-4 py-3 rounded-lg">
+                  {error}
+                </div>
+              )}
+
+              <button
+                type="submit"
+                disabled={loading}
+                className="w-full bg-primary text-white font-bold py-3.5 rounded-lg hover:bg-primary-light transition disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {loading ? "送信中..." : "認証コードを送信"}
+              </button>
+            </form>
+          ) : (
+            <form onSubmit={handleStep2} className="space-y-5">
+              <div>
+                <label htmlFor="verificationCode" className="block text-sm font-bold text-text mb-1.5">
+                  認証コード（6桁）
+                </label>
+                <input
+                  id="verificationCode"
+                  type="text"
+                  value={verificationCode}
+                  onChange={(e) => {
+                    const v = e.target.value.replace(/\D/g, "").slice(0, 6);
+                    setVerificationCode(v);
+                  }}
+                  placeholder="123456"
+                  className="w-full px-4 py-3 border border-border rounded-lg text-text text-center text-2xl tracking-[0.5em] font-mono placeholder:text-text-light/30 placeholder:tracking-[0.5em] focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary"
+                  maxLength={6}
+                  inputMode="numeric"
+                  autoFocus
+                  required
+                />
+                <p className="text-xs text-text-light mt-1.5">
+                  メールに届いた6桁の認証コードを入力してください。コードの有効期限は10分です。
+                </p>
+              </div>
+
+              {error && (
+                <div className={`text-sm px-4 py-3 rounded-lg ${error.includes("再送しました") ? "bg-primary/10 text-primary" : "bg-error/10 text-error"}`}>
+                  {error}
+                </div>
+              )}
+
+              <button
+                type="submit"
+                disabled={loading || verificationCode.length !== 6}
+                className="w-full bg-primary text-white font-bold py-3.5 rounded-lg hover:bg-primary-light transition disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {loading ? "認証中..." : "認証して特典ページへ"}
+              </button>
+
+              <div className="flex items-center justify-between text-xs">
+                <button
+                  type="button"
+                  onClick={() => { setStep("input"); setError(""); setVerificationCode(""); }}
+                  className="text-text-light hover:text-text transition"
+                >
+                  入力画面に戻る
+                </button>
+                <button
+                  type="button"
+                  onClick={handleResend}
+                  disabled={loading}
+                  className="text-primary hover:text-primary-light transition disabled:opacity-50"
+                >
+                  コードを再送
+                </button>
+              </div>
+            </form>
+          )}
 
           <p className="text-center text-text-light text-xs mt-8">
             アクセスコードは書籍の巻末に記載されています。

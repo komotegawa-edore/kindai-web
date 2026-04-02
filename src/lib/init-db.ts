@@ -83,8 +83,55 @@ export async function ensureTables() {
       id SERIAL PRIMARY KEY,
       email TEXT NOT NULL,
       book_id INTEGER NOT NULL REFERENCES tokuten_books(id),
-      verified_at TIMESTAMP NOT NULL DEFAULT NOW(),
+      marketing_opt_in BOOLEAN NOT NULL DEFAULT false,
+      verified_at TIMESTAMP,
       created_at TIMESTAMP NOT NULL DEFAULT NOW()
+    )
+  `;
+  // 既存 tokuten_users に marketing_opt_in がなければ追加
+  await sql`
+    DO $$
+    BEGIN
+      IF NOT EXISTS (
+        SELECT 1 FROM information_schema.columns
+        WHERE table_name = 'tokuten_users' AND column_name = 'marketing_opt_in'
+      ) THEN
+        ALTER TABLE tokuten_users ADD COLUMN marketing_opt_in BOOLEAN NOT NULL DEFAULT false;
+      END IF;
+    END $$
+  `;
+  // verified_at を nullable に変更（既存テーブル対応）
+  await sql`
+    ALTER TABLE tokuten_users ALTER COLUMN verified_at DROP NOT NULL
+  `;
+  await sql`
+    ALTER TABLE tokuten_users ALTER COLUMN verified_at DROP DEFAULT
+  `;
+  // email + book_id のユニークインデックス
+  await sql`
+    CREATE UNIQUE INDEX IF NOT EXISTS idx_tokuten_users_email_book ON tokuten_users(email, book_id)
+  `;
+  // 認証コードテーブル
+  await sql`
+    CREATE TABLE IF NOT EXISTS tokuten_verification_codes (
+      id SERIAL PRIMARY KEY,
+      email TEXT NOT NULL,
+      book_id INTEGER NOT NULL REFERENCES tokuten_books(id),
+      code TEXT NOT NULL,
+      expires_at TIMESTAMP NOT NULL,
+      verified_at TIMESTAMP,
+      created_at TIMESTAMP NOT NULL DEFAULT NOW()
+    )
+  `;
+  // セッションテーブル
+  await sql`
+    CREATE TABLE IF NOT EXISTS tokuten_sessions (
+      id SERIAL PRIMARY KEY,
+      token TEXT NOT NULL UNIQUE,
+      user_id INTEGER NOT NULL REFERENCES tokuten_users(id),
+      book_id INTEGER NOT NULL REFERENCES tokuten_books(id),
+      created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+      expires_at TIMESTAMP NOT NULL
     )
   `;
   // 初期データ: 近大長文読解ドリル

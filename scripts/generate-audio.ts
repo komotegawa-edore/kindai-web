@@ -103,7 +103,7 @@ async function main() {
 
   const { slug, voiceId, start, end } = parseArgs();
   const dataDir = getDataDir(slug);
-  const outDir = path.join(process.cwd(), "public", "audio", slug);
+  const outDir = path.join(process.cwd(), "audio-protected", slug);
 
   // 出力ディレクトリ作成
   fs.mkdirSync(outDir, { recursive: true });
