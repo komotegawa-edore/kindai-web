@@ -189,9 +189,15 @@ export default function Home() {
                 出題傾向を徹底分析。本番と同じ形式の長文読解を
                 <span className="font-bold text-text">全25回分</span>収録。
               </p>
-              <p className="text-base md:text-lg text-text-light mb-8 max-w-lg">
+              <p className="text-base md:text-lg text-text-light mb-4 max-w-lg">
                 <span className="font-bold text-text">全問解説・全文和訳付き</span>で
                 独学でも着実にスコアアップ。
+              </p>
+              <p className="flex items-center gap-1.5 text-sm text-accent font-medium mb-8">
+                <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                </svg>
+                購入者特典：全25回分のネイティブ音声付き
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
                 <a
