@@ -228,7 +228,9 @@ export default function BooksPage() {
               </div>
               <div className="flex flex-col sm:flex-row gap-3 mt-auto">
                 <a
-                  href="#"
+                  href="https://www.amazon.co.jp/dp/B0GVRG65V3?&linkCode=ll2&tag=frontriver0b-22&linkId=2459913aee4afeea5353a161603a4afd&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary text-white font-bold text-sm px-6 py-3 rounded-lg hover:bg-primary-light transition text-center shadow-lg shadow-primary/25 flex-1"
                 >
                   Amazonで購入

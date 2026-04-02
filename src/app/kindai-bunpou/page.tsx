@@ -66,6 +66,7 @@ const jsonLd = [
         price: 1580,
         priceCurrency: "JPY",
         availability: "https://schema.org/InStock",
+        url: "https://www.amazon.co.jp/dp/B0GVRG65V3?&linkCode=ll2&tag=frontriver0b-22&linkId=2459913aee4afeea5353a161603a4afd&ref_=as_li_ss_tl",
         shippingDetails: {
           "@type": "OfferShippingDetails",
           shippingDestination: {
@@ -199,7 +200,9 @@ export default function KindaiBunpouPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
                 <a
-                  href="#"
+                  href="https://www.amazon.co.jp/dp/B0GVRG65V3?&linkCode=ll2&tag=frontriver0b-22&linkId=2459913aee4afeea5353a161603a4afd&ref_=as_li_ss_tl"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary text-white font-bold px-8 py-3.5 rounded-lg hover:bg-primary-light transition text-center shadow-lg shadow-primary/25"
                 >
                   Amazonで購入
@@ -513,7 +516,9 @@ export default function KindaiBunpouPage() {
             Amazonで好評発売中。ペーパーバック版（紙の書籍）をお届けします。
           </p>
           <a
-            href="#"
+            href="https://www.amazon.co.jp/dp/B0GVRG65V3?&linkCode=ll2&tag=frontriver0b-22&linkId=2459913aee4afeea5353a161603a4afd&ref_=as_li_ss_tl"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-white text-primary font-bold px-8 py-4 rounded-lg hover:bg-gray-100 transition"
           >
             Amazonで購入する
